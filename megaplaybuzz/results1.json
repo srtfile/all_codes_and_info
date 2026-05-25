@@ -1,0 +1,116 @@
+{
+  "url": "https://gogoanime.me.uk/newplayer.php?id=21?ep=1",
+  "stream_url": "https://megaplay.buzz/stream/s-2/1/sub?autostart=true",
+  "file_id": "42175",
+  "m3u8_urls": [
+    "https://cdn.mewstream.buzz/anime/c4ca4238a0b923820dcc509a6f75849b/14ea8da319985f5731d82d123623f127/master.m3u8"
+  ],
+  "raw_response": {
+    "sources": {
+      "file": "https://cdn.mewstream.buzz/anime/c4ca4238a0b923820dcc509a6f75849b/14ea8da319985f5731d82d123623f127/master.m3u8"
+    },
+    "tracks": [
+      {
+        "file": "https://1oe.lostproject.club/anime/c4ca4238a0b923820dcc509a6f75849b/14ea8da319985f5731d82d123623f127/subtitles/ara-17.vtt",
+        "label": "Arabic - Arabic [Full]",
+        "kind": "captions"
+      },
+      {
+        "file": "https://1oe.lostproject.club/anime/c4ca4238a0b923820dcc509a6f75849b/14ea8da319985f5731d82d123623f127/subtitles/chi-19.vtt",
+        "label": "Chinese - Chinese (Simplified) [Full]",
+        "kind": "captions"
+      },
+      {
+        "file": "https://1oe.lostproject.club/anime/c4ca4238a0b923820dcc509a6f75849b/14ea8da319985f5731d82d123623f127/subtitles/chi-20.vtt",
+        "label": "Chinese - Chinese (Traditional) [Full]",
+        "kind": "captions"
+      },
+      {
+        "file": "https://1oe.lostproject.club/anime/c4ca4238a0b923820dcc509a6f75849b/14ea8da319985f5731d82d123623f127/subtitles/dan-13.vtt",
+        "label": "Danish - Danish [Full]",
+        "kind": "captions"
+      },
+      {
+        "file": "https://1oe.lostproject.club/anime/c4ca4238a0b923820dcc509a6f75849b/14ea8da319985f5731d82d123623f127/subtitles/dut-15.vtt",
+        "label": "Dutch - Dutch [Full]",
+        "kind": "captions"
+      },
+      {
+        "file": "https://1oe.lostproject.club/anime/c4ca4238a0b923820dcc509a6f75849b/14ea8da319985f5731d82d123623f127/subtitles/eng-4.vtt",
+        "label": "English",
+        "kind": "captions",
+        "default": true
+      },
+      {
+        "file": "https://1oe.lostproject.club/anime/c4ca4238a0b923820dcc509a6f75849b/14ea8da319985f5731d82d123623f127/subtitles/fin-14.vtt",
+        "label": "Finnish - Finnish [Full]",
+        "kind": "captions"
+      },
+      {
+        "file": "https://1oe.lostproject.club/anime/c4ca4238a0b923820dcc509a6f75849b/14ea8da319985f5731d82d123623f127/subtitles/ita-7.vtt",
+        "label": "Italian - Italian [Full]",
+        "kind": "captions"
+      },
+      {
+        "file": "https://1oe.lostproject.club/anime/c4ca4238a0b923820dcc509a6f75849b/14ea8da319985f5731d82d123623f127/subtitles/jpn-21.vtt",
+        "label": "Japanese - Japanese [SDH]",
+        "kind": "captions"
+      },
+      {
+        "file": "https://1oe.lostproject.club/anime/c4ca4238a0b923820dcc509a6f75849b/14ea8da319985f5731d82d123623f127/subtitles/kor-18.vtt",
+        "label": "Korean - Korean [Full]",
+        "kind": "captions"
+      },
+      {
+        "file": "https://1oe.lostproject.club/anime/c4ca4238a0b923820dcc509a6f75849b/14ea8da319985f5731d82d123623f127/subtitles/nor-16.vtt",
+        "label": "Norwegian - Norwegian [Full]",
+        "kind": "captions"
+      },
+      {
+        "file": "https://1oe.lostproject.club/anime/c4ca4238a0b923820dcc509a6f75849b/14ea8da319985f5731d82d123623f127/subtitles/pol-10.vtt",
+        "label": "Polish - Polish [Full]",
+        "kind": "captions"
+      },
+      {
+        "file": "https://1oe.lostproject.club/anime/c4ca4238a0b923820dcc509a6f75849b/14ea8da319985f5731d82d123623f127/subtitles/por-9.vtt",
+        "label": "Portuguese - Brazilian Portuguese [Full]",
+        "kind": "captions"
+      },
+      {
+        "file": "https://1oe.lostproject.club/anime/c4ca4238a0b923820dcc509a6f75849b/14ea8da319985f5731d82d123623f127/subtitles/por-8.vtt",
+        "label": "Portuguese - Portuguese [Full]",
+        "kind": "captions"
+      },
+      {
+        "file": "https://1oe.lostproject.club/anime/c4ca4238a0b923820dcc509a6f75849b/14ea8da319985f5731d82d123623f127/subtitles/spa-5.vtt",
+        "label": "Spanish - Castilian [Full]",
+        "kind": "captions"
+      },
+      {
+        "file": "https://1oe.lostproject.club/anime/c4ca4238a0b923820dcc509a6f75849b/14ea8da319985f5731d82d123623f127/subtitles/spa-6.vtt",
+        "label": "Spanish - Spanish [Full]",
+        "kind": "captions"
+      },
+      {
+        "file": "https://1oe.lostproject.club/anime/c4ca4238a0b923820dcc509a6f75849b/14ea8da319985f5731d82d123623f127/subtitles/swe-12.vtt",
+        "label": "Swedish - Swedish [Full]",
+        "kind": "captions"
+      },
+      {
+        "file": "https://1oe.lostproject.club/anime/c4ca4238a0b923820dcc509a6f75849b/14ea8da319985f5731d82d123623f127/subtitles/tur-11.vtt",
+        "label": "Turkish - Turkish [Full]",
+        "kind": "captions"
+      }
+    ],
+    "t": 1,
+    "intro": {
+      "start": 60,
+      "end": 146
+    },
+    "outro": {
+      "start": 1340,
+      "end": 1432
+    },
+    "server": 4
+  }
+}

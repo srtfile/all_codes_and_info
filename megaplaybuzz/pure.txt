@@ -1,0 +1,111 @@
+================================================================
+  pure_extractor.py - Complete Usage Instructions
+================================================================
+
+WHAT IT DOES
+------------
+Extracts the m3u8 stream URL from any gogoanime.me.uk player page.
+No browser needed. No Selenium. Just Python + requests.
+
+
+REQUIREMENTS
+------------
+Python 3.x must be installed.
+
+Install required packages (one time only):
+    pip install requests beautifulsoup4
+
+
+HOW TO RUN
+----------
+Open a terminal / command prompt in the folder:
+    C:\Users\AC\Desktop\megaplaybuzz\
+
+Basic usage (default episode):
+    python pure_extractor.py
+
+Custom URL:
+    python pure_extractor.py --url "https://gogoanime.me.uk/newplayer.php?id=21?ep=1"
+
+Save result to a specific file:
+    python pure_extractor.py --output myresult.json
+
+Both options together:
+    python pure_extractor.py --url "https://gogoanime.me.uk/newplayer.php?id=21?ep=2" --output ep2.json
+
+
+CHANGING EPISODES
+-----------------
+The URL format is:
+    https://gogoanime.me.uk/newplayer.php?id=ANIME_ID?ep=EPISODE_NUMBER
+
+Examples:
+    Episode 1:  --url "https://gogoanime.me.uk/newplayer.php?id=21?ep=1"
+    Episode 2:  --url "https://gogoanime.me.uk/newplayer.php?id=21?ep=2"
+    Episode 5:  --url "https://gogoanime.me.uk/newplayer.php?id=21?ep=5"
+
+Different anime (change the id number):
+    --url "https://gogoanime.me.uk/newplayer.php?id=50?ep=1"
+
+
+WHAT YOU GET
+------------
+The script prints the m3u8 URL in the terminal:
+
+    ✅  1 m3u8 URL(s) found:
+        https://cdn.mewstream.buzz/anime/.../master.m3u8
+
+It also saves a results.json file with full details including:
+    - The m3u8 stream URL
+    - The megaplay stream URL
+    - The internal file ID
+    - The raw API response (includes subtitle tracks too)
+
+
+OUTPUT FILE (results.json) EXAMPLE
+------------------------------------
+{
+  "url": "https://gogoanime.me.uk/newplayer.php?id=21?ep=1",
+  "stream_url": "https://megaplay.buzz/stream/s-2/1/sub?autostart=true",
+  "file_id": "42175",
+  "m3u8_urls": [
+    "https://cdn.mewstream.buzz/anime/.../master.m3u8"
+  ],
+  "raw_response": { ... full API response ... }
+}
+
+
+HOW TO PLAY THE M3U8 URL
+-------------------------
+Copy the m3u8 URL and open it in:
+    - VLC Media Player  →  Media > Open Network Stream > paste URL
+    - MPV Player        →  mpv "https://cdn.mewstream.buzz/..."
+    - Any HLS-compatible player
+
+
+HOW IT WORKS (SIMPLE EXPLANATION)
+-----------------------------------
+Step 1: Fetches the gogoanime page and finds the hidden iframe URL
+Step 2: Fetches the megaplay page and reads the File ID from the title
+Step 3: Calls the megaplay API directly with the right headers
+        → Gets back JSON containing the m3u8 stream URL
+
+
+TROUBLESHOOTING
+---------------
+"No m3u8 found"
+    → The episode may not exist or the anime ID is wrong.
+    → Try a different episode number.
+
+"Could not find file ID"
+    → The stream page returned an error.
+    → The content may have been removed from megaplay.
+
+"Connection error"
+    → Check your internet connection.
+    → The site may be temporarily down.
+
+"ModuleNotFoundError: requests"
+    → Run: pip install requests beautifulsoup4
+
+================================================================
