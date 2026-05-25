@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyRiveStream</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── HEADER ─────────────────────────────────────────────────────────── -->
+  <header class="header">
+    <div class="header-inner">
+      <a class="logo" href="#" onclick="showHome()">
+        <span class="logo-icon">▶</span>
+        <span class="logo-text">MyRiveStream</span>
+      </a>
+      <div class="search-wrap">
+        <input id="searchInput" class="search-input" type="text"
+               placeholder="Search movies &amp; TV shows…" autocomplete="off" />
+        <button class="search-btn" onclick="doSearch()">Search</button>
+      </div>
+      <nav class="nav-tabs">
+        <button class="nav-btn active" onclick="switchTab('movie',this)">Movies</button>
+        <button class="nav-btn"        onclick="switchTab('tv',this)">TV Shows</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ── MAIN ───────────────────────────────────────────────────────────── -->
+  <main id="app">
+
+    <!-- HOME / BROWSE -->
+    <section id="homeSection">
+      <div class="hero" id="heroSection" style="display:none"></div>
+      <div class="section-header">
+        <h2 id="browseTitle">Trending Movies</h2>
+      </div>
+      <div class="grid" id="mediaGrid"></div>
+      <div class="load-more-wrap">
+        <button class="load-more-btn" id="loadMoreBtn" onclick="loadMore()">Load More</button>
+      </div>
+    </section>
+
+    <!-- SEARCH RESULTS -->
+    <section id="searchSection" style="display:none">
+      <div class="section-header">
+        <h2 id="searchTitle">Search Results</h2>
+        <button class="back-btn" onclick="showHome()">← Back</button>
+      </div>
+      <div class="grid" id="searchGrid"></div>
+    </section>
+
+    <!-- PLAYER PAGE -->
+    <section id="playerSection" style="display:none">
+      <div class="player-page">
+
+        <!-- Back -->
+        <button class="back-btn player-back" onclick="showHome()">← Back</button>
+
+        <!-- Media info -->
+        <div class="media-info" id="mediaInfo"></div>
+
+        <!-- Sandbox toggle -->
+        <div class="sandbox-bar">
+          <span class="sandbox-label">
+            🛡️ Sandbox <span id="sandboxStatus" class="badge badge-on">ON</span>
+            — blocks ads &amp; popups
+          </span>
+          <label class="toggle-switch">
+            <input type="checkbox" id="sandboxToggle" onchange="toggleSandbox()" />
+            <span class="slider"></span>
+          </label>
+          <span class="sandbox-hint" id="sandboxHint">Disable if server won't load</span>
+        </div>
+
+        <!-- Player frame -->
+        <div class="player-wrap" id="playerWrap">
+          <div class="player-placeholder" id="playerPlaceholder">
+            <div class="spinner"></div>
+            <p>Loading player…</p>
+          </div>
+          <iframe id="playerFrame" class="player-frame" allowfullscreen
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  referrerpolicy="origin"></iframe>
+        </div>
+
+        <!-- Server list -->
+        <div class="server-section">
+          <h3 class="server-heading">Servers</h3>
+          <div class="server-groups" id="serverGroups"></div>
+        </div>
+
+        <!-- TV episode selector -->
+        <div id="episodeSection" style="display:none">
+          <div class="ep-header">
+            <h3>Episodes</h3>
+            <select id="seasonSelect" onchange="loadEpisodes()"></select>
+          </div>
+          <div class="ep-grid" id="episodeGrid"></div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── TOAST ──────────────────────────────────────────────────────────── -->
+  <div id="toast" class="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

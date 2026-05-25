@@ -1,0 +1,40 @@
+# Embed servers for MOVIE ID=45050
+# IMDB: tt0114786
+
+VidSrc.me: https://vidsrc.me/embed/movie/45050
+VidSrc.pro: https://vidsrc.pro/embed/movie/45050?theme=00c1db
+VidSrc.cc: https://vidsrc.cc/v2/embed/movie/45050
+VidSrc.vip: https://vidsrc.vip/embed/movie/45050
+VidSrc.rip: https://vidsrc.rip/embed/movie/45050
+VidSrc.nl: https://player.vidsrc.nl/embed/movie/45050
+VidSrc.su: https://vidsrc.su/embed/movie/45050
+MultiEmbed: https://multiembed.mov/directstream.php?video_id=45050&tmdb=1
+MultiEmbed2: https://multiembed.mov/?video_id=45050&tmdb=1&server=2
+2Embed: https://www.2embed.cc/embed/45050
+123Embed: https://play2.123embed.net/movie/45050
+VidLink: https://vidlink.pro/movie/45050
+VidFast: https://vidfast.pro/embed/movie/45050
+VidJoy: https://vidjoy.pro/embed/movie/45050?adFree=true
+VidZee: https://player.vidzee.wtf/embed/movie/45050
+Vidora: https://vidora.su/embed/movie/45050
+AutoEmbed: https://player.autoembed.cc/embed/movie/45050
+AnyEmbed: https://anyembed.xyz/embed/movie/45050
+SuperFlixAPI: https://superflixapi.digital/movie/45050
+SmashyStream: https://embed.smashystream.com/playere.php?tmdb=45050?btPosition=10
+WarezCDN: https://embed.warezcdn.com/movie/45050
+FrEmbed: https://frembed.club/api/movie?id=45050
+MoviesAPI: https://moviesapi.club/movie/45050
+Filmku: https://filmku.stream/embed/45050
+111Movies: https://111movies.com/embed/movie/45050
+StreamSito: https://streamsito.com/embed/movie/45050
+PStream: https://iframe.pstream.mov/embed/movie/45050
+Videasy: https://player.videasy.net/movie/45050
+PrimeSrc: https://primesrc.me/embed/movie/45050
+GoDrive: https://godriveplayer.com/player.php?tmdb=45050
+TurboVid: https://turbovid.eu/embed/movie/45050
+Mapple: https://mapple.uk/embed/movie/45050
+TechNeo: https://vid.techneo.fun/embed/movie/45050
+InsertUnit: https://api.insertunit.ws/embed/movie/45050
+RGShows: https://rgshows.ru/player/movie/45050
+Torrent: /embed/torrent?type=movie&id=45050
+Aggregator: /embed/agg?type=movie&id=45050

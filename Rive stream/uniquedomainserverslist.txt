@@ -1,0 +1,42 @@
+# Unique embed server domains — 35 total
+# Generated: 2026-05-21 15:15:46
+
+111Movies               111movies.com                           https://111movies.com/embed/movie/19995
+2Embed                  2embed.cc                               https://www.2embed.cc/embed/19995
+AnyEmbed                anyembed.xyz                            https://anyembed.xyz/embed/movie/19995
+AutoEmbed               autoembed.cc                            https://player.autoembed.cc/embed/movie/19995
+Filmku                  filmku.stream                           https://filmku.stream/embed/19995
+FrEmbed                 frembed.club                            https://frembed.club/api/movie?id=19995
+GoDrive                 godriveplayer.com                       https://godriveplayer.com/player.php?tmdb=19995
+InsertUnit              insertunit.ws                           https://api.insertunit.ws/embed/movie/19995
+Mapple                  mapple.uk                               https://mapple.uk/embed/movie/19995
+MoviesAPI               moviesapi.club                          https://moviesapi.club/movie/19995
+MultiEmbed              multiembed.mov                          https://multiembed.mov/directstream.php?video_id=19995&tmdb=1
+123Embed                play2.123embed.net                      https://play2.123embed.net/movie/19995
+PrimeSrc                primesrc.me                             https://primesrc.me/embed/movie/19995
+PStream                 pstream.mov                             https://iframe.pstream.mov/embed/movie/19995
+RGShows                 rgshows.ru                              https://rgshows.ru/player/movie/19995
+Torrent                 rivestream.ru                           https://rivestream.ru/embed/torrent?type=movie&id=19995
+SmashyStream            smashystream.com                        https://embed.smashystream.com/playere.php?tmdb=19995?btPosition=10
+StreamSito              streamsito.com                          https://streamsito.com/embed/movie/19995
+SuperFlixAPI            superflixapi.digital                    https://superflixapi.digital/movie/19995
+TurboVid                turbovid.eu                             https://turbovid.eu/embed/movie/19995
+TechNeo                 vid.techneo.fun                         https://vid.techneo.fun/embed/movie/19995
+Videasy                 videasy.net                             https://player.videasy.net/movie/19995
+VidFast                 vidfast.pro                             https://vidfast.pro/embed/movie/19995
+VidJoy                  vidjoy.pro                              https://vidjoy.pro/embed/movie/19995?adFree=true
+VidLink                 vidlink.pro                             https://vidlink.pro/movie/19995
+Vidora                  vidora.su                               https://vidbinge.to/movie/533533
+VidSrc.cc               vidsrc.cc                               https://vidsrc.cc/v2/embed/movie/19995
+VidSrc.me               vidsrc.me                               https://vidsrc.me/embed/movie/19995
+VidSrc.nl               vidsrc.nl                               https://player.vidsrc.nl/embed/movie/19995
+VidSrc.pro              vidsrc.pro                              https://vidsrc.pro/embed/movie/19995?theme=00c1db
+VidSrc.rip              vidsrc.rip                              https://vidsrc.rip/embed/movie/19995
+VidSrc.su               vidsrc.su                               https://vidsrc.su/embed/movie/19995
+VidSrc.vip              vidsrc.vip                              https://vidsrc.vip/embed/movie/19995
+VidZee                  vidzee.wtf                              https://player.vidzee.wtf/embed/movie/19995
+WarezCDN                warezcdn.com                            https://embed.warezcdn.com/movie/19995
+
+
+
+https://gemma416okl.com/play/tt14113634  hindi tamil etc 

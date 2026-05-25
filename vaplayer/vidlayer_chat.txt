@@ -1,0 +1,158 @@
+================================================================
+  VAPLAYER M3U8 EXTRACTOR — FULL SESSION NOTES
+  Saved from chat session (May 2026)
+================================================================
+
+This file contains the full summary of everything discussed,
+discovered, and built during this session.
+
+----------------------------------------------------------------
+GOAL
+----------------------------------------------------------------
+Extract M3U8 / HLS stream URLs from:
+  https://vaplayer.ru/embed/movie/tt2948356
+Without using a browser if possible.
+
+----------------------------------------------------------------
+WHAT WAS BUILT
+----------------------------------------------------------------
+
+1. vidlayer_network_analyser.py
+   - Browser-based extractor using selenium + Firefox headless
+   - Injects JS interceptor into every frame to hook:
+       fetch(), XHR, WebSocket, setAttribute,
+       HLS.js, JWPlayer, Video.js, Clappr, Plyr, MediaSource
+   - Captures Origin, Referer, and all request headers per URL
+   - Visits each iframe URL directly
+   - Parses every m3u8 found (master + variants + segments)
+   - Stores headers needed to replay each stream
+   - Usage:
+       python vidlayer_network_analyser.py --url "https://vaplayer.ru/embed/movie/tt2948356" --wait 8
+       python vidlayer_network_analyser.py --show-browser
+
+2. direct_testing.py
+   - Pure Python, no browser, no selenium
+   - Calls the discovered API directly
+   - Parses master/media playlists with stdlib only
+   - Outputs VLC and ffmpeg ready-to-use commands
+   - Usage:
+       python direct_testing.py --imdb tt2948356 --type movie
+       python direct_testing.py --imdb tt0944947 --type tv --season 1 --episode 1
+
+----------------------------------------------------------------
+DISCOVERY PROCESS (step by step)
+----------------------------------------------------------------
+
+STEP 1 — First run of vidlayer_network_analyser.py
+  Result: SUCCESS
+  Found 1 m3u8 URL via browser JS interception:
+    https://dataanalyticsacademy.site/wdBhIFoPu0kWoTrSCH7.../0f9b7u8
+  4 iframes detected, 8 scripts listed
+  Phase 3 showed 0 segments because m3u8 lib was not installed
+
+STEP 2 — direct_testing.py (first version)
+  Result: 0 m3u8 found
+  Reason: vaplayer.ru generates stream URLs via JavaScript at runtime
+  Plain HTTP only gets the HTML shell — no stream URL in source
+
+STEP 3 — Probe script (_probe.py)
+  Fetched brightpathsignals.com/embed/movie/tt2948356 with headers:
+    Referer: https://vaplayer.ru/
+    Origin:  https://vaplayer.ru
+  Found in player.min.js:
+    - https://streamdata.vaplayer.ru/api.php   <-- REAL API
+    - /embed/source-api.php
+    - /hls-proxy.php
+
+STEP 4 — API testing
+  GET https://streamdata.vaplayer.ru/api.php?imdb=tt2948356&type=movie
+  Headers:
+    Referer: https://brightpathsignals.com/embed/movie/tt2948356
+    Origin:  https://brightpathsignals.com
+  Response: 200 OK — JSON with stream_urls[] array
+  Result: 4 stream URLs returned instantly, no browser needed
+
+STEP 5 — direct_testing.py (final version)
+  Calls the API, parses all playlists, prints full report
+  Result: SUCCESS
+    - 4 stream URLs from API
+    - 3 master playlists each with 3 quality levels:
+        1920x800  — 4,282,368 bps  (1080p)
+        1280x534  — 2,448,712 bps  (720p)
+        640x266   —   669,179 bps  (360p)
+    - 1 media playlist: 651 segments, 108.5 minutes
+
+----------------------------------------------------------------
+KEY FINDINGS
+----------------------------------------------------------------
+
+Site structure:
+  vaplayer.ru/embed/movie/tt2948356
+    └── iframe: brightpathsignals.com/embed/movie/tt2948356
+          └── player.min.js calls streamdata.vaplayer.ru/api.php
+                └── returns stream_urls[] with m3u8 URLs
+                      └── served from dataanalyticsacademy.site (CDN)
+
+Real stream API:
+  https://streamdata.vaplayer.ru/api.php
+  Params: imdb, type, season (TV), episode (TV)
+
+Required headers to use the API:
+  Referer: https://brightpathsignals.com/embed/movie/
+  Origin:  https://brightpathsignals.com
+
+Required headers to replay streams:
+  Referer: https://brightpathsignals.com/embed/movie/
+
+----------------------------------------------------------------
+PLAY / DOWNLOAD COMMANDS
+----------------------------------------------------------------
+
+VLC:
+  vlc --http-referrer="https://brightpathsignals.com/embed/movie/" "<m3u8_url>"
+
+ffmpeg:
+  ffmpeg -headers "Referer: https://brightpathsignals.com/embed/movie/" -i "<m3u8_url>" -c copy output.mp4
+
+----------------------------------------------------------------
+GITHUB REPOSITORY
+----------------------------------------------------------------
+
+  https://github.com/andruilsyestems-wq/vaplayer-m3u8-extractor
+
+Files pushed:
+  - vidlayer_network_analyser.py
+  - direct_testing.py
+  - README.md
+
+----------------------------------------------------------------
+DEPENDENCIES
+----------------------------------------------------------------
+
+  pip install requests selenium m3u8
+
+For vidlayer_network_analyser.py:
+  Firefox + geckodriver also required
+
+----------------------------------------------------------------
+CODING TIPS DISCUSSED
+----------------------------------------------------------------
+
+Skills already demonstrated in this session:
+  - Reverse engineering network requests
+  - Understanding HTTP headers (Referer, Origin, Authorization)
+  - Tracing API calls through iframes
+  - Writing Python scripts that solve real problems
+  - Debugging step by step
+
+To get job-ready:
+  1. Clean code style — variable names, docstrings, small functions
+  2. Learn Flask or FastAPI — turn scripts into API endpoints
+  3. Put every project on GitHub with commits
+  4. Practice on LeetCode but more importantly build real things
+  5. Solidify: decorators, async/await, error handling, context managers
+  6. Target: junior Python developer / web scraping / automation roles
+
+================================================================
+END OF SESSION NOTES
+================================================================
