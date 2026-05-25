@@ -1,0 +1,119 @@
+[
+  {
+    "attributes": {
+      "data-wpel-link": "internal",
+      "href": "javascript:document.getElementById('113240').submit();"
+    },
+    "class_name": "",
+    "full_xpath": "/html[1]/body[1]/div[1]/div[2]/div[3]/div[2]/div[6]/div[2]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/a[1]",
+    "href": "javascript:document.getElementById('113240').submit();",
+    "html_element": "<a href=\"javascript:document.getElementById('113240').submit();\" data-wpel-link=\"internal\"></a>",
+    "id": "",
+    "page_title": "Raja Shivaji (2026) Hindi PRE-HD 480p, 720p & 1080p | GDRive | MLWBD.COM",
+    "page_url": "https://fojik.com/movie/raja-shivaji-2026/",
+    "tag": "a",
+    "text": "Download",
+    "timestamp": "2026-05-03T19:04:37.453Z",
+    "xpath": "/html[1]/body[1]/div[1]/div[2]/div[3]/div[2]/div[6]/div[2]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/a[1]",
+    "category": "LINK",
+    "screenshot": "C:\\Users\\AC\\Desktop\\RAJA_SAVITRI\\2_screenshots\\click_0001_1777835077.png"
+  },
+  {
+    "attributes": {
+      "class": "myButton",
+      "type": "submit"
+    },
+    "class_name": "myButton",
+    "full_xpath": "/html[1]/body[1]/center[1]/form[1]/button[1]",
+    "href": "",
+    "html_element": "<button type=\"submit\" class=\"myButton\"></button>",
+    "id": "",
+    "page_title": "",
+    "page_url": "https://sharelink-1.shop/dld.php?i=d1BtTkZ3TDRKcmxNQjAvNWFMRGQ3ZkZOWHd2SFRxSjBEd01KWTNZN1RhT2haaGFxdk8xVDhldC9YcG02TTZvaGttR2J6YTRqUDFPYWFobnI0OHRNMTUvQUJnMG1ob3k2cUhnWFJuY2RpNnV4bGFJQ2xYWXhKWkR2RlBlSGJOOGREU24zRHZKNFhvMit3ZEY0OVc3REphYlZyblhNUGhMYzREZSt2S3ZxWFJDWiszVDBFNS9jSldmREFwUnFpaGxZY21tSkc5aDlrLzB2VmQ5dU9iTzVBVWVVOTBBQ1NJNTk3RDJ0MG4vcnE3WURraDFwUER6WTQ3M0hMS2U5b2VoRW5CcGh4eGtNTjlWTWtVRmdQbHduSE9KQjVkQnpYRkdHanYxNzkvdTUyd0w0YlF2YnFOaU9UYTRxa0NsRFM3UE5yWlVXdGdWMGRTN3VOMlF2c2E1S1JnPT0=",
+    "tag": "button",
+    "text": "Download",
+    "timestamp": "2026-05-03T19:04:43.637Z",
+    "xpath": "//button[contains(@class,\"myButton\")]",
+    "category": "BUTTON",
+    "screenshot": "C:\\Users\\AC\\Desktop\\RAJA_SAVITRI\\2_screenshots\\click_0002_1777835084.png"
+  },
+  {
+    "attributes": {
+      "class": "download-text",
+      "style": "display: inline-block;"
+    },
+    "class_name": "download-text",
+    "full_xpath": "/html[1]/body[1]/div[2]/span[1]/a[1]/span[2]",
+    "href": "javascript:void(0)",
+    "html_element": "<span class=\"download-text\" style=\"display: inline-block;\"></span>",
+    "id": "",
+    "page_title": "",
+    "page_url": "https://freethemesy.com/dld.php",
+    "tag": "span",
+    "text": "Download",
+    "timestamp": "2026-05-03T19:04:47.686Z",
+    "xpath": "//span[contains(@class,\"download-text\")]",
+    "category": "LINK",
+    "screenshot": "C:\\Users\\AC\\Desktop\\RAJA_SAVITRI\\2_screenshots\\click_0003_1777835087.png"
+  },
+  {
+    "attributes": {
+      "href": "https://en.technews24.site/go.php?i=bUFQdjhvaEpYWVJFSWl1Q2dDK2E0WjBrRDdVUkprcVZpbkd5cGQvUWVaSDRhb2ZoY3pOYWRST2R3V1Z5QkkvVmF3NTgwZExUVzJoSWxXQmE3cUVsSHQwNW5zd2UvUE9IVDdWVmJoK05FNjlNYm15WW4xK0d2clBnSWE2T016ejVQSWtjYkhobFZnSEMraFIrTndsZUpT&hash=ekVGS0U1ZnZFMVAwZkNtTjdDc1kySUVJRUxUWDAySlJCRUkxUXowTGhRMSszRTdCbXc4U3k0L3lZZVBFNE1uR2tYbkEzSHU2WUFYMktDVnFmQWEvYUNDaC9lMTFabE9jMlR4c1d5dzcwcTdhTVlLeDgyOFpBUnRrNkFPMDNFVVRPME9DTVcrN0dsM3VCVE5Gc3NhZEE9",
+      "target": "_blank"
+    },
+    "class_name": "",
+    "full_xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/article[1]/div[2]/div[1]/p[3]/strong[2]/a[1]",
+    "href": "https://en.technews24.site/go.php?i=bUFQdjhvaEpYWVJFSWl1Q2dDK2E0WjBrRDdVUkprcVZpbkd5cGQvUWVaSDRhb2ZoY3pOYWRST2R3V1Z5QkkvVmF3NTgwZExUVzJoSWxXQmE3cUVsSHQwNW5zd2UvUE9IVDdWVmJoK05FNjlNYm15WW4xK0d2clBnSWE2T016ejVQSWtjYkhobFZnSEMraFIrTndsZUpT&hash=ekVGS0U1ZnZFMVAwZkNtTjdDc1kySUVJRUxUWDAySlJCRUkxUXowTGhRMSszRTdCbXc4U3k0L3lZZVBFNE1uR2tYbkEzSHU2WUFYMktDVnFmQWEvYUNDaC9lMTFabE9jMlR4c1d5dzcwcTdhTVlLeDgyOFpBUnRrNkFPMDNFVVRPME9DTVcrN0dsM3VCVE5Gc3NhZEE9",
+    "html_element": "<a target=\"_blank\" href=\"https://en.technews24.site/go.php?i=bUFQdjhvaEpYWVJFSWl1Q2dDK2E0WjBrRDdVUkprcVZpbkd5cGQvUWVaSDRhb2ZoY3pOYWRST2R3V1Z5QkkvVmF3NTgwZExUVzJoSWxXQmE3cUVsSHQwNW5zd2UvUE9IVDdWVmJoK05FNjlNYm15WW4xK0d2clBnSWE2T016ejVQSWtjYkhobFZnSEMraFIrTndsZUpT&amp;hash=ekVGS0U1ZnZFMVAwZkNtTjdDc1kySUVJRUxUWDAySlJCRUkxUXowTGhRMSszRTdCbXc4U3k0L3lZZVBFNE1uR2tYbkEzSHU2WUFYMktDVnFmQWEvYUNDaC9lMTFabE9jMlR4c1d5dzcwcTdhTVlLeDgyOFpBUnRrNkFPMDNFVVRPME9DTVcrN0dsM3VCVE5Gc3NhZEE9\"></a>",
+    "id": "",
+    "page_title": "Raja Shivaji (2026) Hindi PRE-HD",
+    "page_url": "https://technews24.site/links/Qmt3T0kzNmMwQUdDREZJZlQxS0YvZEFGcUpReE1zTzJOend4cGE5TXl0MzhQcjNiWHkyMmZMeUNlVG5sVjNyYw==",
+    "tag": "a",
+    "text": "GDrive",
+    "timestamp": "2026-05-03T19:05:07.364Z",
+    "xpath": "/html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/article[1]/div[2]/div[1]/p[3]/strong[2]/a[1]",
+    "category": "LINK",
+    "screenshot": "C:\\Users\\AC\\Desktop\\RAJA_SAVITRI\\2_screenshots\\click_0004_1777835107.png"
+  },
+  {
+    "attributes": {
+      "class": "butt btn 69f79c64e36ca",
+      "href": "javascript:void(0)",
+      "onclick": "generateDownloadLink(event);",
+      "rel": "noreferrer noopener",
+      "style": "display:inline;"
+    },
+    "class_name": "butt btn 69f79c64e36ca",
+    "full_xpath": "/html[1]/body[1]/div[2]/a[1]",
+    "href": "javascript:void(0)",
+    "html_element": "<a href=\"javascript:void(0)\" rel=\"noreferrer noopener\" style=\"display:inline;\" onclick=\"generateDownloadLink(event);\" class=\"butt btn 69f79c64e36ca\"></a>",
+    "id": "",
+    "page_title": "READWEB",
+    "page_url": "https://sharelink-3.shop/blog/",
+    "tag": "a",
+    "text": "DOWNLOAD LINK",
+    "timestamp": "2026-05-03T19:05:12.133Z",
+    "xpath": "//a[contains(@class,\"butt\")]",
+    "category": "LINK",
+    "screenshot": "C:\\Users\\AC\\Desktop\\RAJA_SAVITRI\\2_screenshots\\click_0005_1777835112.png"
+  },
+  {
+    "attributes": {
+      "class": "btn btn-download",
+      "id": "openBtn"
+    },
+    "class_name": "btn btn-download",
+    "full_xpath": "/html[1]/body[1]/main[1]/div[1]/button[1]",
+    "href": "",
+    "html_element": "<button id=\"openBtn\" class=\"btn btn-download\"></button>",
+    "id": "openBtn",
+    "page_title": "CDN | Fojik",
+    "page_url": "https://cdn.cdn-hub.xyz/url?photo=RElSMWU3blRtbStaOFFvYlBhRWxQSEUweVlzbXM5SExoZlVmNXpzYndjempHWmV0MStqZStQYitRbGhIWEpwczF1cnRSQ1JQZkVyYkV0MkM4QlZvRmNXRVZSZGlLUzlZbHVRTGE4b2Q0ZUE9",
+    "tag": "button",
+    "text": "Download Now",
+    "timestamp": "2026-05-03T19:05:17.103Z",
+    "xpath": "//*[@id=\"openBtn\"]",
+    "category": "BUTTON",
+    "screenshot": "C:\\Users\\AC\\Desktop\\RAJA_SAVITRI\\2_screenshots\\click_0006_1777835117.png"
+  }
+]

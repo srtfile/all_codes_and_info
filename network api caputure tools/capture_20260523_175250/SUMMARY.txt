@@ -1,0 +1,57 @@
+========================================================================
+  DEVTOOLS CAPTURE SUMMARY  v5.0
+========================================================================
+  URL          : https://vidrock.ru/embed/movie/1318447
+  Captured     : 2026-05-23T18:00:39.560987
+  Injection    : ✗ NOT ACTIVE
+  Players      : DPlayer, hls.js
+  Scripts      : 8
+  XHR          : 0
+  Fetch        : 0
+  Resources    : 0
+  Console      : 0
+  WebSocket    : 0
+  Videos       : 0
+  Iframes      : 0
+  Blob URLs    : 0
+  Tokens       : 16
+  Embed URLs   : 0
+  Stream URLs  : 0
+  Live Streams : 0
+  API Endpts   : 12
+  API Tried    : 0
+  Decrypted    : 0
+
+── TOKENS / AUTH ────────────────────────────────────────────────
+  54e00466a09676df57ba51c4ca30b1a6
+  access_token
+  d.accessToken
+  e.access_token
+  e.options.captchaToken
+  e.refresh_token
+  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRwbnd1ZXVrbmpwamlydWprY3hnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTU1Mjc2NjcsImV4cCI6MjA3MTEwMzY2N30.gHklHLfPjmufs4Lw9HH9oZyzB9YywbyCv5N6JW_pkAI
+  r.accessToken
+  s.autoRefreshToken
+  t.captchaToken
+  t.params.apikey
+  this._getAccessToken.bind
+  this.socket.accessTokenValue
+  this.socket.apiKey
+  this.supabaseKey
+  verification.
+
+── API ENDPOINTS ────────────────────────────────────────────────
+  ${Xl}/find/${r}?api_key=54e00466a09676df57ba51c4ca30b1a6&external_source=imdb_id
+  ${Xl}/tv/${d}/season/${f}?api_key=${D0}
+  ${ZN}/${e===
+  /API/LockManager/request
+  /api/broadcast
+  /embed/tv/${r}/${p}/${h}${v}
+  https://developer.mozilla.org/en-US/docs/Web/API/LockManager/request
+  https://s.vdrk.site/csub.html?id=${t}
+  https://s.vdrk.site/csubtv.html?id=${s}&s=${e}&e=${t}
+  https://stats.vidrock.ru/movie/${r}
+  https://stats.vidrock.ru/tv/${r}/${e}/${t}
+  https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1
+
+========================================================================

@@ -1,0 +1,20 @@
+[2026-05-23 17:56:47] safe_exec: Message: SyntaxError: missing ) after argument list
+Stacktrace:
+@https://vidrock.ru/embed/movie/1318447:27:43
+
+[2026-05-23 18:00:15] drill_iframes find: Message: Failed to decode response from marionette
+
+[2026-05-23 18:00:15] build_session cookies: Message: Tried to run command without establishing a connection
+
+[2026-05-23 18:00:22] extract_vidsrc [https://vidsrc.xyz/embed/movie/1318447]: HTTPSConnectionPool(host='vidsrc.xyz', port=443): Max retries exceeded with url: /embed/movie/1318447 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002325CF74F70>: Failed to resolve 'vidsrc.xyz' (Name or service not known: vidsrc.xyz using 1 resolver(s))"))
+[2026-05-23 18:00:26] extract_2embed [https://2embed.to/embed/tmdb/movie?id=1318447]: HTTPSConnectionPool(host='2embed.to', port=443): Max retries exceeded with url: /embed/tmdb/movie?id=1318447 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:997)')))
+[2026-05-23 18:00:30] extract_superembed [https://smashystream.com/playere.php?id=1318447]: HTTPSConnectionPool(host='smashystream.com', port=443): Max retries exceeded with url: /playere.php?id=1318447 (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'smashystream.com'. (_ssl.c:997)")))
+[2026-05-23 18:00:30] extract_superembed [https://autoembed.cc/embed/movie/1318447]: HTTPSConnectionPool(host='autoembed.cc', port=443): Max retries exceeded with url: /embed/movie/1318447 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002325CF624A0>: Failed to resolve 'autoembed.cc' (Name or service not known: autoembed.cc using 1 resolver(s))"))
+[2026-05-23 18:00:39] safe_exec: Message: Tried to run command without establishing a connection
+
+[2026-05-23 18:00:39] safe_exec: Message: Tried to run command without establishing a connection
+
+[2026-05-23 18:00:39] extract_cookies_detailed: Message: Tried to run command without establishing a connection
+
+[2026-05-23 18:00:39] save_page_source: Message: Tried to run command without establishing a connection
+

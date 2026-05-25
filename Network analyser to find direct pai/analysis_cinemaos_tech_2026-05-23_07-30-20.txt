@@ -1,0 +1,2617 @@
+
+══════════════════════════════════════════════════════════════════════
+  NETWORK INTELLIGENCE REPORT v4.0 — Firefox Edition
+══════════════════════════════════════════════════════════════════════
+  Target    : https://cinemaos.tech/player/1318447 
+  Timestamp : 2026-05-23 07:30:20
+  Title     : 
+  UserAgent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+
+──────────────────────────────────────────────────────────────────────
+  STREAMS — M3U8 / HLS / DASH (2)
+──────────────────────────────────────────────────────────────────────
+  https://storrrrrrm.site/stream/d42f649481170d33/master.m3u8
+  https://storrrrrrm.site/stream/d42f649481170d33/1080p.m3u8
+
+──────────────────────────────────────────────────────────────────────
+  CONSOLE LOGS (0 entries)
+──────────────────────────────────────────────────────────────────────
+  Breakdown: {}
+
+
+──────────────────────────────────────────────────────────────────────
+  BROWSER ERRORS / WARNINGS (3 entries)
+──────────────────────────────────────────────────────────────────────
+  [ns-error] NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]","message":null,"code":null,"errno":null}
+  [cert-issue] certificate errors will be ignored for this session
+  [media-log] media resource was aborted by the user agent at the user's request.
+
+──────────────────────────────────────────────────────────────────────
+  NETWORK TIMING — PerformanceResourceTiming (0 entries)
+──────────────────────────────────────────────────────────────────────
+
+  Resource Timing (top 50 by duration):
+
+──────────────────────────────────────────────────────────────────────
+  PROXY NETWORK TIMING (0 entries)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  TLS / CERTIFICATE INFO (0 domains)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  WEBSOCKET FRAMES — mitmproxy (0 frames)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  BINARY MEDIA SEGMENTS (5 captured)
+──────────────────────────────────────────────────────────────────────
+  URL  : https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozill
+  Type : binary/octet-stream  Size: 5307B
+  Info : fMP4 box=-BEG size=757935405 | boxes=['-BEG'] | hex=2d2d2d2d2d424547494e204345525449
+
+  URL  : https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozill
+  Type : binary/octet-stream  Size: 5303B
+  Info : fMP4 box=-BEG size=757935405 | boxes=['-BEG'] | hex=2d2d2d2d2d424547494e204345525449
+
+  URL  : https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozill
+  Type : binary/octet-stream  Size: 5307B
+  Info : fMP4 box=-BEG size=757935405 | boxes=['-BEG'] | hex=2d2d2d2d2d424547494e204345525449
+
+  URL  : https://storrrrrrm.site/stream/d42f649481170d33/master.m3u8
+  Type : application/vnd.apple.mpegurl  Size: 106B
+  Info : fMP4 box=M3U
+ size=591747156 | boxes=['M3U\n'] | hex=234558544d33550a234558542d582d53
+
+  URL  : https://storrrrrrm.site/stream/d42f649481170d33/1080p.m3u8
+  Type : application/vnd.apple.mpegurl  Size: 286436B
+  Info : fMP4 box=M3U
+ size=591747156 | boxes=['M3U\n'] | hex=234558544d33550a234558542d582d54
+
+
+──────────────────────────────────────────────────────────────────────
+  INDEXEDDB (0 stores)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  CACHE API ENTRIES (0 entries)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  DOM SNAPSHOT (1 page(s))
+──────────────────────────────────────────────────────────────────────
+
+  URL: https://cinemaos.tech/player/1318447
+  DOM (first 2000 chars):
+  {"tag":"HTML","attrs":{"id":"__next_error__"},"children":[{"tag":"HEAD","attrs":{},"children":[{"tag":"META","attrs":{"charset":"utf-8"},"children":[]},{"tag":"META","attrs":{"name":"viewport","content":"width=device-width, initial-scale=1"},"children":[]},{"tag":"LINK","attrs":{"rel":"preload","as":"script","fetchpriority":"low","href":"/_next/static/chunks/webpack-709472111e27f78e.js"},"children":[]},{"tag":"SCRIPT","attrs":{"src":"/_next/static/chunks/4bd1b696-ca8d38673d306ac5.js","async":""},"children":[]},{"tag":"SCRIPT","attrs":{"src":"/_next/static/chunks/1517-b65c951c1bd265bc.js","async":""},"children":[]},{"tag":"SCRIPT","attrs":{"src":"/_next/static/chunks/main-app-d0d0f32c1f849445.js","async":""},"children":[]},{"tag":"META","attrs":{"name":"robots","content":"noindex"},"children":[]},{"tag":"META","attrs":{"name":"next-size-adjust","content":""},"children":[]},{"tag":"TITLE","attrs":{},"children":[{"tag":"#3","attrs":{},"children":[],"text":"Cinemaos"}]},{"tag":"META","attrs":{"name":"description","content":"Beautifully designed website where you can watch anime, drama, movies and read mangas for free. Built with Next.JS and shadcn/ui."},"children":[]},{"tag":"META","attrs":{"name":"theme-color","media":"(prefers-color-scheme: light)","content":"white"},"children":[]},{"tag":"META","attrs":{"name":"theme-color","media":"(prefers-color-scheme: dark)","content":"black"},"children":[]},{"tag":"SCRIPT","attrs":{"src":"/_next/static/chunks/polyfills-42372ed130431b0a.js","nomodule":""},"children":[]}]},{"tag":"BODY","attrs":{},"children":[{"tag":"SCRIPT","attrs":{"src":"/_next/static/chunks/webpack-709472111e27f78e.js","async":""},"children":[]},{"tag":"SCRIPT","attrs":{},"children":[{"tag":"#3","attrs":{},"children":[],"text":"(self.__next_f=self.__next_f||[]).push([0])"}]},{"tag":"SCRIPT","attrs":{},"children":[{"tag":"#3","attrs":{},"children":[],"text":"self.__next_f.push([1,\"1:\\\"$Sreact.fragment\\\"\\n2:I[60766,[\\\"1181\\\",\\\"static/chunks/1181-f6ec
+
+──────────────────────────────────────────────────────────────────────
+  COMPUTED STYLES — media/player elements (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  PLAYLIST ANALYSIS (4 parsed)
+──────────────────────────────────────────────────────────────────────
+
+  URL  : https://storrrrrrm.site/stream/d42f649481170d33/master.m3u8
+  Type : master
+  Variants (2):
+    1280x720 @ bps  codecs=
+    1920x1080 @ bps  codecs=
+  Segments: 0
+
+  URL  : https://storrrrrrm.site/stream/d42f649481170d33/1080p.m3u8
+  Type : media
+  Segments: 79
+
+  URL  : https://storrrrrrm.site/stream/d42f649481170d33/master.m3u8
+  Type : master
+  Variants (2):
+    1280x720 @ bps  codecs=
+    1920x1080 @ bps  codecs=
+  Segments: 0
+
+  URL  : https://storrrrrrm.site/stream/d42f649481170d33/1080p.m3u8
+  Type : media
+  Segments: 2863
+
+──────────────────────────────────────────────────────────────────────
+  RAW PROXY FLOWS — mitmproxy (131 total)
+──────────────────────────────────────────────────────────────────────
+  Requests : 66
+  Responses: 65
+
+
+  ──  (2 flows) ──
+  ← 502 raw.githubusercontent.com:443  []  204B
+  ← 502 ublockorigin.github.io:443  []  201B
+
+  ── api.theintrodb.org (4 flows) ──
+  → GET https://api.theintrodb.org/v2/media?tmdb_id=1318447
+  ← 404 https://api.theintrodb.org/v2/media?tmdb_id=1318447  [application/json]  27B
+    body: {"error":"media not found"}
+  → GET https://api.theintrodb.org/v2/media?tmdb_id=1318447
+  ← 404 https://api.theintrodb.org/v2/media?tmdb_id=1318447  [application/json]  27B
+    body: {"error":"media not found"}
+
+  ── cinemaos.tech (58 flows) ──
+  → GET https://cinemaos.tech/player/1318447
+  ← 500 https://cinemaos.tech/player/1318447  [text/html; charset=utf-8]  107909B
+    body: <!DOCTYPE html><html id="__next_error__"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-709472111e27f78e.js"/><script src="/_next/static/chunks/4bd1b696-ca8d38673d306ac5.js" async=""></script><script src="/_next/static/chunks/1517-b65c951c1bd265bc.js" async=""><
+  → GET https://cinemaos.tech/_next/static/media/36966cca54120369-s.p.woff2
+  ← 200 https://cinemaos.tech/_next/static/media/36966cca54120369-s.p.woff2  [font/woff2]  22320B
+  → GET https://cinemaos.tech/_next/static/chunks/main-app-d0d0f32c1f849445.js
+  → GET https://cinemaos.tech/_next/static/css/13748814dceb7d96.css
+  → GET https://cinemaos.tech/_next/static/css/eccf2229dbd1c0fb.css
+  → GET https://cinemaos.tech/_next/static/chunks/webpack-709472111e27f78e.js
+  → GET https://cinemaos.tech/_next/static/chunks/4bd1b696-ca8d38673d306ac5.js
+  ← 200 https://cinemaos.tech/_next/static/chunks/main-app-d0d0f32c1f849445.js  [application/javascript; charset=UTF-8]  476B
+    body: (self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[7358],{97783:(e,s,n)=>{Promise.resolve().then(n.t.bind(n,57033,23)),Promise.resolve().then(n.t.bind(n,14547,23)),Promise.resolve().then(n.t.bind(n,34835,23)),Promise.resolve().then(n.t.bind(n,52328,23)),Promise.resolve().then(n.t.bind(n,15244,23)),Promise.resolve().then(n.t.bind(n,43866,23)),Promise.resolve().then(n.t.bind(n,86213,23))}},e=>
+  ← 200 https://cinemaos.tech/_next/static/css/13748814dceb7d96.css  [text/css; charset=UTF-8]  1244B
+    body: @font-face{font-family:Space Grotesk;font-style:normal;font-weight:300 700;font-display:swap;src:url(/_next/static/media/e1aab0933260df4d-s.woff2) format("woff2");unicode-range:u+0102-0103,u+0110-0111,u+0128-0129,u+0168-0169,u+01a0-01a1,u+01af-01b0,u+0300-0301,u+0303-0304,u+0308-0309,u+0323,u+0329,u+1ea0-1ef9,u+20ab}@font-face{font-family:Space Grotesk;font-style:normal;font-weight:300 700;font-di
+  ← 200 https://cinemaos.tech/_next/static/chunks/webpack-709472111e27f78e.js  [application/javascript; charset=UTF-8]  3892B
+    body: (()=>{"use strict";var e={},t={};function r(o){var n=t[o];if(void 0!==n)return n.exports;var a=t[o]={exports:{}},i=!0;try{e[o].call(a.exports,a,a.exports,r),i=!1}finally{i&&delete t[o]}return a.exports}r.m=e,(()=>{var e=[];r.O=(t,o,n,a)=>{if(o){a=a||0;for(var i=e.length;i>0&&e[i-1][2]>a;i--)e[i]=e[i-1];e[i]=[o,n,a];return}for(var c=1/0,i=0;i<e.length;i++){for(var[o,n,a]=e[i],f=!0,u=0;u<o.length;u+
+  → GET https://cinemaos.tech/_next/static/chunks/1517-b65c951c1bd265bc.js
+  ← 200 https://cinemaos.tech/_next/static/css/eccf2229dbd1c0fb.css  [text/css; charset=UTF-8]  216784B
+    body: *,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: 
+  ← 200 https://cinemaos.tech/_next/static/chunks/4bd1b696-ca8d38673d306ac5.js  [application/javascript; charset=UTF-8]  167096B
+    body: "use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[8441],{59248:(e,n,t)=>{var r,l,a=t(87358),o=t(31507),i=t(12115),u=t(47650);function s(e){var n="https://react.dev/errors/"+e;if(1<arguments.length){n+="?args[]="+encodeURIComponent(arguments[1]);for(var t=2;t<arguments.length;t++)n+="&args[]="+encodeURIComponent(arguments[t])}return"Minified React error #"+e+"; visit "+n+" for t
+  → GET https://cinemaos.tech/favicon.ico
+  ← 200 https://cinemaos.tech/favicon.ico  [image/x-icon]  15086B
+  ← 200 https://cinemaos.tech/_next/static/chunks/1517-b65c951c1bd265bc.js  [application/javascript; charset=UTF-8]  200832B
+    body: (self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[1517],{15851:(e,t)=>{"use strict";function r(){return""}Object.defineProperty(t,"__esModule",{value:!0}),Object.defineProperty(t,"getDeploymentIdQueryOrEmptyString",{enumerable:!0,get:function(){return r}})},80497:()=>{"trimStart"in String.prototype||(String.prototype.trimStart=String.prototype.trimLeft),"trimEnd"in String.prototype||(String
+  → GET https://cinemaos.tech/_next/static/chunks/1181-f6ec003211356e7e.js
+  → GET https://cinemaos.tech/_next/static/chunks/2484-4d2a7c32acc3cd9f.js
+  → GET https://cinemaos.tech/_next/static/chunks/661-daf81c728210bdd4.js
+  → GET https://cinemaos.tech/_next/static/chunks/app/layout-a9085efd45a0a170.js
+  → GET https://cinemaos.tech/_next/static/chunks/app/(player)/layout-53da92191e596500.js
+  → GET https://cinemaos.tech/_next/static/chunks/app/(player)/player/%5Bid%5D/layout-63591e9236f80689.js
+  ← 200 https://cinemaos.tech/_next/static/chunks/app/(player)/layout-53da92191e596500.js  [application/javascript; charset=UTF-8]  487B
+    body: (self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[268],{87245:(e,l,s)=>{Promise.resolve().then(s.bind(s,24430))},24430:(e,l,s)=>{"use strict";s.r(l),s.d(l,{default:()=>r});var n=s(95155);function r(e){let{children:l}=e;return(0,n.jsx)(n.Fragment,{children:(0,n.jsx)("div",{className:"h-screen w-full overflow-hidden bg-black",children:(0,n.jsx)("main",{className:"h-full w-full",children:l})})
+  ← 200 https://cinemaos.tech/_next/static/chunks/2484-4d2a7c32acc3cd9f.js  [application/javascript; charset=UTF-8]  28651B
+    body: "use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[2484],{92484:(e,t,i)=>{var n,a,o,r,s,c,l,d,p,u,h;function g(e,t,i,n){return new(i||(i=Promise))(function(a,o){function r(e){try{c(n.next(e))}catch(e){o(e)}}function s(e){try{c(n.throw(e))}catch(e){o(e)}}function c(e){var t;e.done?a(e.value):((t=e.value)instanceof i?t:new i(function(e){e(t)})).then(r,s)}c((n=n.apply(e,t||[])).nex
+  ← 200 https://cinemaos.tech/_next/static/chunks/661-daf81c728210bdd4.js  [application/javascript; charset=UTF-8]  7633B
+    body: (self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[661],{67401:(e,t,r)=>{"use strict";r.d(t,{A:()=>s});var n=r(12115);let a=e=>e.replace(/([a-z0-9])([A-Z])/g,"$1-$2").toLowerCase(),i=function(){for(var e=arguments.length,t=Array(e),r=0;r<e;r++)t[r]=arguments[r];return t.filter((e,t,r)=>!!e&&""!==e.trim()&&r.indexOf(e)===t).join(" ").trim()};var o={xmlns:"http://www.w3.org/2000/svg",width:24,
+  ← 200 https://cinemaos.tech/_next/static/chunks/1181-f6ec003211356e7e.js  [application/javascript; charset=UTF-8]  20165B
+    body: "use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[1181],{43463:(e,r,o)=>{o.d(r,{$:()=>t});function t(){for(var e,r,o=0,t="",n=arguments.length;o<n;o++)(e=arguments[o])&&(r=function e(r){var o,t,n="";if("string"==typeof r||"number"==typeof r)n+=r;else if("object"==typeof r){if(Array.isArray(r)){var l=r.length;for(o=0;o<l;o++)r[o]&&(t=e(r[o]))&&(n&&(n+=" "),n+=t)}else for(t in r)
+  → GET https://cinemaos.tech/_next/static/chunks/aaea2bcf-4b7d5c47edf9795e.js
+  → GET https://cinemaos.tech/_next/static/chunks/a4634e51-eaf6c3d6b6e58119.js
+  ← 200 https://cinemaos.tech/_next/static/chunks/app/(player)/player/%5Bid%5D/layout-63591e9236f80689.js  [application/javascript; charset=UTF-8]  6106B
+    body: (self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[8594],{14101:(e,t,n)=>{Promise.resolve().then(n.bind(n,72940))},72940:(e,t,n)=>{"use strict";n.r(t),n.d(t,{default:()=>l});var r=n(95155),a=n(54203);function l(e){let{children:t}=e;return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(a.default,{"data-cfasync":"false",async:!0,type:"text/javascript",src:"//wz.afgodscarpe.com/ryRZVErvkj1gAr/126965
+  ← 200 https://cinemaos.tech/_next/static/chunks/app/layout-a9085efd45a0a170.js  [application/javascript; charset=UTF-8]  23228B
+    body: (self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[7177],{96476:(e,t,n)=>{Promise.resolve().then(n.bind(n,14627)),Promise.resolve().then(n.bind(n,26679)),Promise.resolve().then(n.bind(n,35901)),Promise.resolve().then(n.bind(n,39497)),Promise.resolve().then(n.bind(n,68533)),Promise.resolve().then(n.bind(n,60766)),Promise.resolve().then(n.bind(n,80096)),Promise.resolve().then(n.bind(n,53479)),
+  → GET https://cinemaos.tech/_next/static/chunks/9219-823ba16db21159e8.js
+  → GET https://cinemaos.tech/_next/static/chunks/5463-386931798cd2c3eb.js
+  → GET https://cinemaos.tech/_next/static/chunks/9453-08e0dc08540a303a.js
+  → GET https://cinemaos.tech/_next/static/chunks/1386-e5251734b568f7de.js
+  ← 200 https://cinemaos.tech/_next/static/chunks/5463-386931798cd2c3eb.js  [application/javascript; charset=UTF-8]  106080B
+    body: (self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[5463],{60429:t=>{"use strict";var e,r="object"==typeof Reflect?Reflect:null,n=r&&"function"==typeof r.apply?r.apply:function(t,e,r){return Function.prototype.apply.call(t,e,r)};function o(t){console&&console.warn&&console.warn(t)}e=r&&"function"==typeof r.ownKeys?r.ownKeys:Object.getOwnPropertySymbols?function(t){return Object.getOwnProperty
+  → GET https://cinemaos.tech/_next/static/chunks/6282-6ec9290c43848574.js
+  ← 200 https://cinemaos.tech/_next/static/chunks/9219-823ba16db21159e8.js  [application/javascript; charset=UTF-8]  113987B
+    body: "use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[9219],{85087:(t,e,i)=>{i.d(e,{xQ:()=>r});var s=i(12115),n=i(39656);function r(t=!0){let e=(0,s.useContext)(n.t);if(null===e)return[!0,null];let{isPresent:i,onExitComplete:o,register:a}=e,l=(0,s.useId)();(0,s.useEffect)(()=>{t&&a(l)},[t]);let u=(0,s.useCallback)(()=>t&&o&&o(l),[l,o,t]);return!i&&o?[!1,u]:[!0]}},64710:(t,e,i)=>{i.
+  ← 200 https://cinemaos.tech/_next/static/chunks/1386-e5251734b568f7de.js  [application/javascript; charset=UTF-8]  173805B
+    body: "use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[1386,6469],{15716:(e,t,a)=>{a.d(t,{x:()=>S});var s=a(95155),n=a(12115),r=a(25683),o=a(99219),i=a(6452),l=a(99271),c=a(40767),d=a(61594),m=a(29191),u=a(57517),x=a(92823),h=a(91902),p=a(28283),g=a(96644),b=a(98867),f=a(23920),w=a(22725),y=a(66889),v=a(20994),j=a(65236),N=a(71319);let k=e=>{let[t,a]=(0,n.useState)(null),[s,r]=(0,n.
+  → GET https://cinemaos.tech/_next/static/chunks/app/(player)/player/%5Bid%5D/page-8c5601c5dd0d8f86.js
+  ← 200 https://cinemaos.tech/_next/static/chunks/9453-08e0dc08540a303a.js  [application/javascript; charset=UTF-8]  193370B
+    body: (self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[9453],{97663:function(t){var e;e=function(){"use strict";function t(e){return(t="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t})(e)}function e(t,e){if(!(t instanceof e))throw TypeError("Can
+  ← 200 https://cinemaos.tech/_next/static/chunks/6282-6ec9290c43848574.js  [application/javascript; charset=UTF-8]  51708B
+    body: (self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[6282],{49357:(e,t,r)=>{Promise.resolve().then(r.bind(r,95651))},95651:(e,t,r)=>{"use strict";r.d(t,{default:()=>C});var n=r(95155),a=r(58803),s=r.n(a),i=r(12115),l=r(35610),o=r(25683),c=r(99219),u=r(15716),d=r(1101),p=r(66471),m=r(97333),f=r(20572),v=r(34170),h=r(78398),g=r(74652),b=r(17724),y=r(54172),w=r(66357),k=r(86077),x=r(46469),E=r(87
+  ← 200 https://cinemaos.tech/_next/static/chunks/app/(player)/player/%5Bid%5D/page-8c5601c5dd0d8f86.js  [application/javascript; charset=UTF-8]  174B
+    body: (self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[9297],{},_=>{var e=e=>_(_.s=e);_.O(0,[9268,9910,9219,5463,9453,1386,6282,8441,1517,7358],()=>e(49357)),_N_E=_.O()}]);
+  ← 200 https://cinemaos.tech/_next/static/chunks/aaea2bcf-4b7d5c47edf9795e.js  [application/javascript; charset=UTF-8]  325448B
+    body: (self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[9268],{74496:(t,e,r)=>{var i=r(95714).Buffer,n=r(87358);!function(){var e,f,a,o,s,h,c,d={7160:function(t,e,r){e.bignum=r(711),e.define=r(495).define,e.base=r(853),e.constants=r(7335),e.decoders=r(6701),e.encoders=r(3418)},495:function(t,e,r){var i=r(7160),n=r(3782);function f(t,e){this.name=t,this.body=e,this.decoders={},this.encoders={}}e.d
+  ← 200 https://cinemaos.tech/_next/static/chunks/a4634e51-eaf6c3d6b6e58119.js  [application/javascript; charset=UTF-8]  511584B
+    body: "use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[9910],{35610:(e,t,i)=>{let r;i.d(t,{Ay:()=>aZ});let s=Number.isFinite||function(e){return"number"==typeof e&&isFinite(e)},a=Number.isSafeInteger||function(e){return"number"==typeof e&&Math.abs(e)<=n},n=Number.MAX_SAFE_INTEGER||0x1fffffffffffff,l=function(e){return e.NETWORK_ERROR="networkError",e.MEDIA_ERROR="mediaError",e.KEY_S
+  → GET https://cinemaos.tech/api/providerv4?type=movie&tmdbId=1318447&imdbId=tt16431404&t=Apex&ry=2026&secret=d4475c101f7236651d09c6ec4f52e1c84b1bfac087dd537aa0f2850d97224729&_rk=2549b22d9bf0d91847a2811baac98d0079e02dba592aea94
+  ← 200 https://cinemaos.tech/api/providerv4?type=movie&tmdbId=1318447&imdbId=tt16431404&t=Apex&ry=2026&secret=d4475c101f7236651d09c6ec4f52e1c84b1bfac087dd537aa0f2850d97224729&_rk=2549b22d9bf0d91847a2811baac98d0079e02dba592aea94  [application/json]  57192B
+    body: {"data":{"encrypted":"dd32cf05b5659e931c99705d9198ced519dc9493aee504df506fabec10b086c08020175538b4a672b88ae23df763ae0d2f0d4f60abfcc5003d24cdc2b9a8246dab9f85a0dcd290eb19efcd527cc3299ae108a7239ecca1ba80cf449df71edd07e60d072f5025b83eac5eca450987f1a9f244df0ad79fed8d90e1b57e0938c63cbdb0e7b0e1b5ada0156238cf69efc6f7a83a947de247d90a7dfe1aef8ce8bc8dee49f9a71961f92493c9684a7cea2ffb2d6cd596de8bf8760a7d2eef4b
+  → GET https://cinemaos.tech/apple-touch-icon.png
+  → GET https://cinemaos.tech/favicon-16x16.png
+
+  ── content-signature-2.cdn.mozilla.net (6 flows) ──
+  → GET https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-05-27-11-40-34.chain
+  → GET https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-06-16-11-43-46.chain
+  → GET https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-05-27-11-40-34.chain
+  ← 200 https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-05-27-11-40-34.chain  [binary/octet-stream]  5307B
+    body: fMP4 box=-BEG size=757935405 | boxes=['-BEG'] | hex=2d2d2d2d2d424547494e204345525449
+  ← 200 https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-06-16-11-43-46.chain  [binary/octet-stream]  5303B
+    body: fMP4 box=-BEG size=757935405 | boxes=['-BEG'] | hex=2d2d2d2d2d424547494e204345525449
+  ← 200 https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-05-27-11-40-34.chain  [binary/octet-stream]  5307B
+    body: fMP4 box=-BEG size=757935405 | boxes=['-BEG'] | hex=2d2d2d2d2d424547494e204345525449
+
+  ── detectportal.firefox.com (4 flows) ──
+  → GET http://detectportal.firefox.com/canonical.html
+  ← 200 http://detectportal.firefox.com/canonical.html  [text/html]  90B
+    body: <meta http-equiv="refresh" content="0;url=https://support.mozilla.org/kb/captive-portal"/>
+  → GET http://detectportal.firefox.com/canonical.html
+  → GET http://detectportal.firefox.com/canonical.html
+
+  ── firefox-settings-attachments.cdn.mozilla.net (32 flows) ──
+  → GET https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/4a82bc3c-64bf-4d46-991a-e45661ce0cd7
+  ← 200 https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/4a82bc3c-64bf-4d46-991a-e45661ce0cd7  [text/plain]  86454B
+    body: a:1777511403:32:86432
+�#�S9���w�>V����.��aN��dx����1�qޥ5�	V�� N黟��:)�Uh�,WB�q���/s�:Dz����U�b�mn�0��d:|xv�0�ud�Q��Hˍz�qO��[��2q�0��x��/�����@-�Ɣݡok.�r��G9�^�*7�1�C_�w��#W�6DG��;��6��݇�Wd"j��y3��]C&A���+&���oy�ȳo��gǷ騪�_?Mj���&$*4�%$���������d��;�m#��P]��?��i��hTȡmH߾�nhR��DKW��(�vz0�s�$��G����^n�i��[�e�����U S�����XN��'�:�=�~�_�X�P7S�\]���](�18�d���k�\���Ӷ�q> -
+  → GET https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/c8bd1459-b49c-41c3-b732-e602823ee894
+  ← 200 https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/c8bd1459-b49c-41c3-b732-e602823ee894  [text/plain]  1749B
+    body: a:1777511403:32:1728
+�&Fia�3��������^�؞��mNQ���DX/Ը_W��fD���y���&嬛�92GJ^j��̫�"Nv�~��c�)=*ɣ�NN�BBna0C���v�bC�MFLQ�?�H��Y٣^<9<"�JN�������LR�1lZ��w�j���X!/A���[q���K�w����7�z�$��'�Rr�ni����c�D���Z�İ�
+�z'��g���6([j2������~�BM��H/�[��O~��?���$˦�7�����a����s�����2zƦ왙U����rO�O�A��9��=�wT)xG1��'T	�Y�}�%��Du�A��˙9PH/X�re��m��TvR�x{�F0�e#��c�@˄ˋ���eԖ)�n�U@�U�9
+  → GET https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/363567ed-b164-44f1-92e4-f57a1a6771a1
+  ← 200 https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/363567ed-b164-44f1-92e4-f57a1a6771a1  [text/plain]  16534B
+    body: a:1777511403:32:16512
+�� 3
+Rnn����3Fz�_AC��3U����1F�����:R����ܐw̿���#�GR��o���%�X^T@�z������ڝ�����^l���� qm{�l^��7����r<��gKE�́,NFQ�1-���H20�J�m#�<�����jR����Z�+t�hq�l�i��wXO�U���.Z	E�N[����:yz���cQ�Z=���Y�~K���E�rO�T�PSH,���<ϸ������=@h���L������wכ���� �� �"\Z?ǣ����M��XzZs����/��W��6X^ ��4�]�8��$@������W���4�ڸ��b=iRy�zX1�sy�g�Y%_�R:;��Q�{���ǋ��h�
+  → GET https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/dbc181ab-54a5-4c34-8341-37d136340e04
+  ← 200 https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/dbc181ab-54a5-4c34-8341-37d136340e04  [text/plain]  12086B
+    body: a:1777511403:32:12064
+%�;��چŷM^�T $6����Ԃ6Շ�z2�Wf�E�d�"j�e�T�_Qgg`S��S�U͍��A�������#1�������y�M�ooP�i�t��D���H(
+=8���=���{`��������قmP��RQ���;e��ԥ\8�ڊflZl0nc���ލ-�����������ߛap�JƤ���B
+D=��Ew�·�Yzx����Oc�t��)#�-z(���5�ٷ�������'��4j�]��L�#9�����HJ6�#�^���Th׆��A�[Rg��s�	˲���Y�� 2�.��#p�[���P�����c#�g>�'iS'���집;2��(�3�� x�Q�o��vUg<��k4����Z�.d��1��V�I�$?�
+  → GET https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/48ec8b42-d5a2-4ee5-bba2-aec5f6c770ac
+  ← 200 https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/48ec8b42-d5a2-4ee5-bba2-aec5f6c770ac  [text/plain]  771575B
+    body: a:1779153005:32:771552
+,�D���:�̡�I��'r�˥1��Q�Ƣ�!L���$P��'��b�m�ӢK���4�f��-��><������j��/��.O�	fu>{j��5�.�U���Aס�֒���M}��T6��2Qe*���l����.��!���r�m#5���+<��c:��ȵc�U�1���g'���B��rf����s����I���QQO���#Ɂ�{�&'@e/�Co�Q̔��8	y�2!=r�{���XG��My;�p]>���kD:C]D 3�xko��a�$� HT��<V�[:r��1��v�z�������\�<�X���E	;gO�V����8����bK�X�lĠ����K���/�5ľ�_���٢w�D�Kv{�+�
+  → GET https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/9039eb8a-e074-4477-9b63-97fcab4ecc63
+  ← 200 https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/9039eb8a-e074-4477-9b63-97fcab4ecc63  [text/plain]  1470360B
+    body: a:1777511403:32:1470336
+͔L{���}Ҩ��I�F9�	5nQ���p�Hs�E�r���*�֓�9�@o?�rC��޺qPGl�4G�����.I͟?�����[V��a�c����O� ����k�MX�D��h�hg�#u�np��t���!�����9�ʝ�Wp^�1j�����n�A=�LJ���Z�����P�2��G������܂��Y����Ż��]���z�V+�������̍y*L���`�(��3� �����6��D��}Ã�����ģ������-�3<F��ᄫ?��*�/Q���Jc�����W�M?J����q��"K��F���)�(聊�������d~�?a��ȓ��җE�2m�!l��^b_�n�$W�&Fϟ�̲��Nldt�0P���
+  → GET https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/f3f10b5d-846f-477e-96b2-738ab8840925
+  ← 200 https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/f3f10b5d-846f-477e-96b2-738ab8840925  [text/plain]  5685B
+    body: a:1777511403:32:5664
+!g���$;��KDnܚ�m��o�H�h�=Iq��?�a_-~�C}�C����p�9���l �Gq���/s�:Dz����U�b�mn�0��d:|xv���d��;�m#��P]��?��i��hTȡmH�T
+�3G�0�4��u����8/���4���.�I�IQ/�{�_�7/|��,L���d'j���j@A�Z�tn�H5�.S�!
+jGz��T��ڇo�' R�qxrO�;'@Ѣ��.�?dب�v�����bO���6$+v�"��#^��A&NB��5��'��x�8�o�<A?���R���ޔ����w9�#í�I0SM{&�g:���?��K�4��o�L!}��nr��犇eJ�q�W��g�<z ������
+  → GET https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/9b99fb62-83e2-4206-870d-70ed3bce82c5
+  ← 200 https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/9b99fb62-83e2-4206-870d-70ed3bce82c5  [text/plain]  1141B
+    body: a:1777511403:32:1120
+]I$�]Ja(>+
+��B;/��9Z�
+�;`UI�9nH�}�a�Z��&�Uu�-�D���"�\]����J�����vy06�I��ty^I���W�A�tv���DE�k"��5\72�~�,�� ���"�Jr�}p@A�_�>���fG'P�������]���񩞎>a��_��4剞J�az�u�Io>d�vG��E(���F�J�]�gPYS�W�s�]���BF���|=�v��}x��;B�%��s7��Q��g��+�	���zC���lt��X������L�~]|17���U�i��!�N^%�D�(�\���-p"����{
+]+%z�k62�O���t8{���6�B�^&U� kō�"0�aX
+����I�*%��Ag
+  → GET https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/9bda7395-4944-4322-8588-760c2e3cf96c
+  ← 200 https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/9bda7395-4944-4322-8588-760c2e3cf96c  [text/plain]  468B
+    body: a:1777511403:32:448
+G���[{�ܬ�?WK �s��}����Y٭���L]qҪ��ש7�S0���9��57�v��L ��5nﴉ'�Rr�ni����c�D���Z�İ�
+�z'���2�,�8���ai�Y��jx��;��@���5�2fے��(�ŨLq����Y�Mk��oS"9����h#����^Jk���h���	�E���R�X�_�����Kr�6J�qtu�C]�q���S6��tEj�RR�s� �P��{��(���8���ۇ���Q��#z {�땫�38B�#���l��P���m^��Z{����qq��E�1
+�R�1j�^�qvh�7�۔�>2�n�Ff�p�^���a�yȩ�w�.�.%�c
+%h�!=���,�'s�D'�u�ͼ]��36�ρ
+  → GET https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/c15a95f3-b8d7-41ac-8be4-530fefc0ceb6
+  ← 200 https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/c15a95f3-b8d7-41ac-8be4-530fefc0ceb6  [text/plain]  148B
+    body: a:1777511403:32:128
+�p�-�,��v��"���V�f_4եQ ��l@�,d�й�kx���A��`�U��Ցn/U�w�e@=��!`�xH�1c�ʝ����u��bz־���%����⓯J�"]�y�M0���=19YF
+  → GET https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/bbb9a5ff-11d9-4780-b9b2-6ef4d64da140
+  ← 200 https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/bbb9a5ff-11d9-4780-b9b2-6ef4d64da140  [text/plain]  276B
+    body: a:1777511403:32:256
+�-Z��a�F�sl��!(!p�<&#/�:<������-��a���)��q��)����P�˙.��nU�����wq5W�j����I�yc��BuD��u8�D=Dy���+f({1��`j�ZkO| 2l���h��YV[�A� a�ERNu�l�}Yݒ�0v%�����F��Zq�����R�q���Hq^F�zVnB��Mm�����=R�DV�kcC0q�/�'��	�qY�2o���Tt�&���FV3�:��6�
+  → GET https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/4f4d6310-5663-4b7e-a1e1-cd5340c9607c
+  ← 200 https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/4f4d6310-5663-4b7e-a1e1-cd5340c9607c  [text/plain]  6901B
+    body: a:1777511403:32:6880
+2��U4�����3���<r��Z��4�.WmN9��lE-���::X�A��D?�9�㈑�+�� j�и���h���W-��PT�����jP�4�=�~�_�X�P7S�\]���](�18�d���k�\�Ǎ%�=�qַF��{�/�.�thڎОQ�\�yg7 KI�YĜ��$-{Χw��B>��1;a�O�#���G�:̽�cx/M)���� 1aVBm��1 m r��w�mX>]4��Ŧ�E��麭�����T��,�pq���A����
+%�����z��v�0�b��rċeOޅ���̱pK�ڪ���(�4���� l�wxA.���l �MYhdF�L��_��x� f2�y�P��[��t��
+�������� r4�az
+  → GET https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/8fbc9d46-738d-4c9d-98d5-d1cec71f62d7
+  ← 200 https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/8fbc9d46-738d-4c9d-98d5-d1cec71f62d7  [text/plain]  8629B
+    body: a:1777511403:32:8608
+$�<,��XV��Q�	� Ut	Iō��ZM�W��t��e��}���"'����B�ܩ�е�<-����®��� 釩�J%��dJ�\¤�Poir:Y'I��������ܣ��Kڱf=]��;r�DZ �?Og޷�ﳋ���+�LM��e�����b6�b
+���P��_TAJ1w�9]Q��Dk����ۤ����&cSw3JX[W�)g��ْK�C"g�wѯ�ʽr}kpM�>�L׻؆�1�/G�̅���+�&T�A��[���[��a':۵"���5Y�T�RX���#l�G�t4Wng,�3F��'�����D��ਖzy�C�7�i|.�����]���P�i�t��D���H(
+=8���=���{`���<�����E��d������
+  → GET https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/1caba515-e142-4581-aee0-edf330117750
+  ← 200 https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/1caba515-e142-4581-aee0-edf330117750  [text/plain]  532B
+    body: a:1777511403:32:512
+��X!'��S|�W�?�0�I(��"��GP���8���n	-�ۙ���PW7�t�-uM*�E8�����Ҁ5�z�h�׾<�gv">Cz7���V�8K������n�\�Zfu�@�ڑ���WA>�͌��t�x�����ICrNVd�V�5Z�>�Kc�
+�3�3Z���ya����u���_�r��UC(m��ڈ��/Μ⟮n�DI�@�I����cH�Dm^v�̛��~��qF�ܞ��?@"�81�faˋJ_O˼��5��@"������6�Q+ }�d�~l�ܪX�V9�c��䭄12�U�ܐ�[�C�L����{�aw�wt
+�BW@<�h��/�prs��N�����b�����YkuGt��W6&��pf�r}8S����&~)
+  → GET https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/e85bf0b5-fff4-4ad9-8070-354eeede5308
+  ← 200 https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/e85bf0b5-fff4-4ad9-8070-354eeede5308  [text/plain]  948B
+    body: a:1777511403:32:928
+%5ԻӇ�%��2��]�/Da�͟Q7��#|c¬,
+�Y�g_�/�Y �i�Ы� �4��ލ&�֓^�#��ڦ�K�U���&������.+�46d���jsd�����d���>n�E�ޠ[�o��5��V��)b����#���腈��-8�3�W~x��k�@�-�"��&\y�{ oLQh��t\�B<���]҂f��;�IpGӬ���̂��E����t<mӕTA-o��.V��vÅ�>��LUdU������@p�e�A ҇i�1�B,4��ώ�J!^�CiU7OF�1��e.�UU[Sr�h�̠�s5���M���30o��y���u�YE��m��"�~�%_�dXP?M�C�v�G���.k�W�xBtyFW&�a���d�7,|�s�'
+  → GET https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/3982dfad-24e8-4ee8-96d2-5378f293d9f5
+  ← 200 https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/3982dfad-24e8-4ee8-96d2-5378f293d9f5  [text/plain]  1813B
+    body: a:1776933854:32:1792
+�۟O%�*R�b2�Bz�s�(wf�!Z���UI��2��w�#(�t��~�	&a���-8Ƈ�-���ys�i�B����&�D������/A�a�舦n [#�֢�.��qQ0�ĊUc�`��7��^'�m�r��DSJ�L������س터w�5yM��˳���ݶ�r?'�b��=�<��<c�Z��	<v��`oZ0Tض�e�K������ U.6l;KZ�i���-�x��c�_;�)���<Uo��y��fisu&����p'0���r��r�P�\�epgc��@
+�
+z�L����VZ �kx��?q�*��M�Fvo�#G;�������6Ú����E�`;2�T�돖*F�'R�9���oBJ�'� ܛ)@@P3��Ő�?�Ҝ��&[�KN�
+
+  ── firefox.settings.services.mozilla.com (2 flows) ──
+  → GET https://firefox.settings.services.mozilla.com/v1/
+  ← 200 https://firefox.settings.services.mozilla.com/v1/  [application/json]  1228B
+    body: {"project_name":"Remote Settings PROD","project_version":"26.1.0","http_api_version":"1.23","project_docs":"https://remote-settings.readthedocs.io","url":"https://firefox.settings.services.mozilla.com/v1/","config":{"path":"/etc/kinto.ini","hash":"1084ee44bbb44f3b7f7f559eaae11aae50b86d2626fabd2674f2b4ecb08423fa","modified":"2026-05-20T23:25:15.267316"},"settings":{"readonly":true,"batch_max_reques
+
+  ── hole.cert.pl (2 flows) ──
+  → GET https://hole.cert.pl/domains/v2/domains_ublock.txt
+  ← 200 https://hole.cert.pl/domains/v2/domains_ublock.txt  [text/plain]  427833B
+    body: ! Title: CERT.PL's Warning List
+! Version: 202605230130
+! Expires: 1 hours
+! Homepage: https://cert.pl/lista-ostrzezen/
+saveo-vip.ru.com
+swift-fresh.com
+colbygrey.shop
+ol-xpaczka.pacwazzlotts24.sbs
+atpeacecremation.com
+scureflix.masterchefpakistanaudition.com
+mangosale-pl.shop
+3tara5.wiki
+carolinebiss-zirac.shop
+ca.easyw-acconuts.com
+pladfinancejoaurnal.com
+semtesmakine.com
+receitasfederais.mom
+ap
+
+  ── image.tmdb.org (5 flows) ──
+  → GET https://image.tmdb.org/t/p/w342/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg
+  → GET https://image.tmdb.org/t/p/w342/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg
+  ← 200 https://image.tmdb.org/t/p/w342/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg  [image/webp]  27412B
+  → GET https://image.tmdb.org/t/p/original//oTE4lNs4PSG5iIWjqaTdCIFJ4Bs.jpg
+  ← 200 https://image.tmdb.org/t/p/original//oTE4lNs4PSG5iIWjqaTdCIFJ4Bs.jpg  [image/webp]  115908B
+
+  ── nyc.cloud.appwrite.io (6 flows) ──
+  → OPTIONS https://nyc.cloud.appwrite.io/v1/account
+  ← 204 https://nyc.cloud.appwrite.io/v1/account  [text/html]  0B
+  → GET https://nyc.cloud.appwrite.io/v1/account
+  ← 401 https://nyc.cloud.appwrite.io/v1/account  [application/json; charset=UTF-8]  129B
+    body: {"message":"User (role: guests) missing scopes ([\"account\"])","code":401,"type":"general_unauthorized_scope","version":"1.9.5"}
+  → GET https://nyc.cloud.appwrite.io/v1/account
+  ← 401 https://nyc.cloud.appwrite.io/v1/account  [application/json; charset=UTF-8]  129B
+    body: {"message":"User (role: guests) missing scopes ([\"account\"])","code":401,"type":"general_unauthorized_scope","version":"1.9.5"}
+
+  ── p16-sg.tiktokcdn.com (2 flows) ──
+  → GET https://p16-sg.tiktokcdn.com/obj/tos-alisg-avt-0068/fd7b98d9970181cd42e38a237d0d2fce
+  ← 200 https://p16-sg.tiktokcdn.com/obj/tos-alisg-avt-0068/fd7b98d9970181cd42e38a237d0d2fce  [image/png]  39600B
+
+  ── storrrrrrm.site (4 flows) ──
+  → GET https://storrrrrrm.site/stream/d42f649481170d33/master.m3u8
+  ← 200 https://storrrrrrm.site/stream/d42f649481170d33/master.m3u8  [application/vnd.apple.mpegurl]  106B
+    body: fMP4 box=M3U
+ size=591747156 | boxes=['M3U\n'] | hex=234558544d33550a234558542d582d53
+  → GET https://storrrrrrm.site/stream/d42f649481170d33/1080p.m3u8
+  ← 200 https://storrrrrrm.site/stream/d42f649481170d33/1080p.m3u8  [application/vnd.apple.mpegurl]  286436B
+    body: fMP4 box=M3U
+ size=591747156 | boxes=['M3U\n'] | hex=234558544d33550a234558542d582d54
+
+  ── sub.vdrk.site (4 flows) ──
+  → GET https://sub.vdrk.site/v1/movie/1318447
+  ← 200 https://sub.vdrk.site/v1/movie/1318447  [application/json; charset=utf-8]  357B
+    body: [{"label":"English Hi3","file":"https://cache.vdrk.site/v1/vtt/movie/1318447/English Hi3.vtt"},{"label":"English","file":"https://cache.vdrk.site/v1/vtt/movie/1318447/English.vtt"},{"label":"English2","file":"https://cache.vdrk.site/v1/vtt/movie/1318447/English2.vtt"},{"label":"English4","file":"https://cache.vdrk.site/v1/vtt/movie/1318447/English4.vtt"}]
+  → GET https://sub.vdrk.site/v1/movie/1318447
+  ← 304 https://sub.vdrk.site/v1/movie/1318447  []  0B
+
+──────────────────────────────────────────────────────────────────────
+  DRM DETECTION (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  MEDIASOURCE / MSE EVENTS (6)
+──────────────────────────────────────────────────────────────────────
+  addSourceBuffer  mimeType=audio/mp4;codecs=mp4a.40.2  size=0
+  addSourceBuffer  mimeType=video/mp4;codecs=avc1.640028  size=0
+  appendBuffer  mimeType=audio/mp4;codecs=mp4a.40.2  size=628
+    firstBytes: 00 00 00 18 66 74 79 70 69 73 6f 6d 00 00 00 01
+  appendBuffer  mimeType=video/mp4;codecs=avc1.640028  size=730
+    firstBytes: 00 00 00 18 66 74 79 70 69 73 6f 6d 00 00 00 01
+  appendBuffer  mimeType=audio/mp4;codecs=mp4a.40.2  size=20406
+    firstBytes: 00 00 06 a2 6d 6f 6f 66 00 00 00 10 6d 66 68 64
+  appendBuffer  mimeType=video/mp4;codecs=avc1.640028  size=11397
+    firstBytes: 00 00 03 94 6d 6f 6f 66 00 00 00 10 6d 66 68 64
+
+──────────────────────────────────────────────────────────────────────
+  BLOB URLS (1)
+──────────────────────────────────────────────────────────────────────
+  blob:https://cinemaos.tech/cdcac0c8-5e61-4d7c-884d-a0eaf46d60c4  type=unknown  size=0
+
+──────────────────────────────────────────────────────────────────────
+  WASM MODULES (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  RUNTIME DEOBFUSCATION (0 events)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  SERVICE WORKERS (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  WEBSOCKET MESSAGES (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  SIGNED URL INTELLIGENCE (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  CSP POLICIES (11)
+──────────────────────────────────────────────────────────────────────
+  URL: https://cinemaos.tech/player/1318447 
+  full: frame-ancestors *
+  URL: https://cinemaos.tech/v8zOcynvSd6IW3FzZrvst2HJ53s.jpg\
+  full: frame-ancestors *
+  URL: https://firefox.settings.services.mozilla.com/v1/
+    default-src: 'none'
+  full: default-src 'none'; frame-ancestors 'none'; base-uri 'none';
+  URL: https://cinemaos.tech/player/1318447
+  full: frame-ancestors *
+  URL: https://cinemaos.tech/favicon.ico
+  full: frame-ancestors *
+  URL: https://cinemaos.tech/api/providerv4?type=movie&tmdbId=1318447&imdbId=tt16431404
+  full: frame-ancestors *
+  URL: https://cinemaos.tech/apple-touch-icon.png
+  full: frame-ancestors *
+  URL: https://cinemaos.tech/favicon-16x16.png
+  full: frame-ancestors *
+  URL: https://cinemaos.tech/player/1318447
+  full: frame-ancestors *
+  URL: https://cinemaos.tech/api/providerv4?type=movie&tmdbId=1318447&imdbId=tt16431404
+  full: frame-ancestors *
+  URL: https://cinemaos.tech/player/1318447
+  full: frame-ancestors *
+
+──────────────────────────────────────────────────────────────────────
+  CORS HEADERS (12)
+──────────────────────────────────────────────────────────────────────
+  https://cache.vdrk.site/v2/movie/1318447/English.vtt  allow_origin=*
+  https://firefox.settings.services.mozilla.com/v1/  allow_origin=*
+  https://api.theintrodb.org/v2/media?tmdb_id=1318447  allow_origin=https://cinemaos.tech
+  https://nyc.cloud.appwrite.io/v1/account  allow_origin=https://cinemaos.tech
+  https://sub.vdrk.site/v1/movie/1318447  allow_origin=*
+  https://nyc.cloud.appwrite.io/v1/account  allow_origin=https://cinemaos.tech
+  https://storrrrrrm.site/stream/d42f649481170d33/master.m3u8  allow_origin=*
+  https://storrrrrrm.site/stream/d42f649481170d33/1080p.m3u8  allow_origin=*
+  https://p16-sg.tiktokcdn.com/obj/tos-alisg-avt-0068/fd7b98d9970181cd42e38a237d0d  allow_origin=*
+  https://api.theintrodb.org/v2/media?tmdb_id=1318447  allow_origin=https://cinemaos.tech
+  https://nyc.cloud.appwrite.io/v1/account  allow_origin=https://cinemaos.tech
+  https://sub.vdrk.site/v1/movie/1318447  allow_origin=*
+
+──────────────────────────────────────────────────────────────────────
+  SUBTITLE / TRACK URLS (3)
+──────────────────────────────────────────────────────────────────────
+  https://cache.vdrk.site/v1/vtt/movie/1318447/English.vtt  lang=
+  https://cache.vdrk.site/v1/vtt/movie/1318447/English2.vtt  lang=
+  https://cache.vdrk.site/v1/vtt/movie/1318447/English4.vtt  lang=
+
+──────────────────────────────────────────────────────────────────────
+  FRAMEWORK STATE (React/Vue/Redux)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  API ENDPOINTS (12)
+──────────────────────────────────────────────────────────────────────
+  https://cinemaos.tech/v8zOcynvSd6IW3FzZrvst2HJ53s.jpg\
+  responseURL
+  https://cache.vdrk.site/v2/movie/1318447/English.vtt
+  https://firefox.settings.services.mozilla.com/v1/
+  https://cloud.appwrite.io/v1
+  +e);return this.config.endpoint=e,this.config.endpointRealtime=e.replace(
+  +e);return this.config.endpointRealtime=e,this}setProject(e){return this.headers[
+  https://cinemaos.tech/api/watch-history?userId=
+  https://cache.vdrk.site/v1/vtt/movie/1318447/English
+  https://cache.vdrk.site/v1/vtt/movie/1318447/English.vtt
+  https://cache.vdrk.site/v1/vtt/movie/1318447/English2.vtt
+  https://cache.vdrk.site/v1/vtt/movie/1318447/English4.vtt
+
+──────────────────────────────────────────────────────────────────────
+  API ENDPOINTS FROM JS FILES (1)
+──────────────────────────────────────────────────────────────────────
+  JS: https://cinemaos.tech/_next/static/chunks/polyfills-42372ed130431b0a.js
+  EP: responseURL
+
+
+──────────────────────────────────────────────────────────────────────
+  WEBSOCKET URLS (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  COOKIES (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  SERVER SET-COOKIE DETAILS (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  IFRAMES (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  EXTERNAL JS FILES (7) — saved to js_files/ folder
+──────────────────────────────────────────────────────────────────────
+  https://cinemaos.tech/_next/static/chunks/4bd1b696-ca8d38673d306ac5.js
+  https://cinemaos.tech/_next/static/chunks/1517-b65c951c1bd265bc.js
+  https://cinemaos.tech/_next/static/chunks/main-app-d0d0f32c1f849445.js
+  https://cinemaos.tech/_next/static/chunks/polyfills-42372ed130431b0a.js
+  https://cinemaos.tech/_next/static/chunks/webpack-709472111e27f78e.js
+  https://www.googletagmanager.com/gtag/js?id=G-TNVSTQRC12
+  https://wz.afgodscarpe.com/ryRZVErvkj1gAr/126965
+
+──────────────────────────────────────────────────────────────────────
+  RESPONSE HEADERS
+──────────────────────────────────────────────────────────────────────
+
+  URL: https://cinemaos.tech/player/1318447 
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:31:10 GMT
+    Content-Type: text/html; charset=utf-8
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff, nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding
+    link: </_next/static/media/36966cca54120369-s.p.woff2>; rel=preload; as="font"; crossorigin=""; type="font/woff2", </_next/static/css/13748814dceb7d96.css>; rel=preload; as="style", </_next/static/css/eccf2229dbd1c0fb.css>; rel=preload; as="style"
+    X-Powered-By: Next.js
+    Cache-Control: private, no-cache, no-store, max-age=0, must-revalidate
+    Content-Encoding: gzip
+    X-Frame-Options: ALLOWALL
+    Content-Security-Policy: frame-ancestors *
+
+  URL: http://detectportal.firefox.com/canonical.html
+    Server: nginx
+    Content-Length: 90
+    Via: 1.1 google
+    Date: Fri, 22 May 2026 18:04:03 GMT
+    Age: 26865
+    Content-Type: text/html
+    Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+
+  URL: https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-05-27-11-40-34.chain
+    x-amz-id-2: vvOSgky9ZOrZlVCMbmaJKXeILY8eQt9kNhUCsBgH8D45yMkMubwzcnzaJJg5VNpAVXv3d+nq1DI=
+    x-amz-request-id: AAQAPJE01WA44PVN
+    x-amz-server-side-encryption: AES256
+    content-disposition: attachment
+    accept-ranges: bytes
+    content-length: 5307
+    server: AmazonS3
+    via: 1.1 google
+    date: Sat, 23 May 2026 00:38:13 GMT
+    age: 3215
+    last-modified: Tue, 07 Apr 2026 11:40:35 GMT
+    etag: "59adf4d80becc24371002c95a5e0165c"
+    content-type: binary/octet-stream
+    cache-control: public,max-age=3600
+    alt-svc: clear
+
+  URL: https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-06-16-11-43-46.chain
+    x-amz-id-2: qySEyy2UiWxnCxUWjTmRBEKhmiNw8YWuBMn6Dsi8/YDUyl3wFLIaHqwgbXvFGwLrAXZWT7UTBpw=
+    x-amz-request-id: 6W6CBN330EWWA91G
+    x-amz-server-side-encryption: AES256
+    content-disposition: attachment
+    accept-ranges: bytes
+    content-length: 5303
+    server: AmazonS3
+    via: 1.1 google
+    date: Sat, 23 May 2026 01:31:26 GMT
+    age: 22
+    last-modified: Mon, 27 Apr 2026 11:43:47 GMT
+    etag: "f5b6a695755c500093e9cc6bba4e6bd6"
+    content-type: binary/octet-stream
+    cache-control: public,max-age=3600
+    alt-svc: clear
+
+  URL: https://firefox.settings.services.mozilla.com/v1/
+    access-control-expose-headers: Content-Type, Alert, Retry-After, Backoff, Content-Length
+    server: nginx
+    x-content-type-options: nosniff
+    content-security-policy: default-src 'none'; frame-ancestors 'none'; base-uri 'none';
+    cache-control: max-age=3600
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    strict-transport-security: max-age=31536000
+    access-control-allow-origin: *
+    content-type: application/json
+    expires: Sat, 23 May 2026 01:24:49 GMT
+    content-encoding: br
+    accept-ranges: bytes
+    date: Sat, 23 May 2026 01:31:48 GMT
+    age: 464
+    x-served-by: cache-bfi-kbfi7400095-BFI, cache-bfi-kbfi7400095-BFI, cache-bfi-kbfi7400095-BFI, cache-bom-vanm7210060-BOM
+    x-cache: MISS, HIT, HIT
+    x-cache-hits: 0, 9, 107
+    x-timer: S1779499909.704554,VS0,VE0
+    vary: Accept-Encoding
+    content-length: 563
+
+  URL: https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/4a82bc3c-64bf-4d46-991a-e45661ce0cd7
+    content-type: text/plain
+    x-guploader-uploadid: AAVLpEh5HYOW7TnUuLm0g29SvrT9UHvuEMzlf3C-IHLXKzbYzTKgWeNuarf14czR6qNQwBk
+    expires: Wed, 06 May 2026 15:01:25 GMT
+    last-modified: Thu, 30 Apr 2026 01:16:39 GMT
+    etag: "554844ebb146f4a92b99f0f7ef6a40ed"
+    x-goog-generation: 1777511799614070
+    x-goog-metageneration: 1
+    x-goog-stored-content-encoding: identity
+    x-goog-stored-content-length: 86454
+    x-goog-hash: crc32c=6FsISg==, md5=VUhE67FG9KkrmfD372pA7Q==
+    x-goog-storage-class: STANDARD
+    server: UploadServer
+    content-encoding: br
+    via: 1.1 varnish, 1.1 varnish
+    accept-ranges: bytes
+    date: Sat, 23 May 2026 01:31:49 GMT
+    age: 1423823
+    x-served-by: cache-bfi-krnt7300105-BFI, cache-sin-wsat1880087-SIN
+    x-cache: HIT, HIT
+    x-cache-hits: 23, 9212
+    x-timer: S1779499909.224240,VS0,VE0
+    vary: Accept-Encoding
+    cache-control: public, max-age=31536000, immutable
+    content-length: 86459
+
+  URL: https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/c8bd1459-b49c-41c3-b732-e602823ee894
+    content-type: text/plain
+    x-guploader-uploadid: AAVLpEinzX8BBazvwU0Y5zdHkZO-BvAlC88BF02XXx232cWs4oEvXlZRIl9pu-biYTdgeFXa
+    expires: Wed, 06 May 2026 15:01:32 GMT
+    last-modified: Thu, 30 Apr 2026 01:16:44 GMT
+    etag: "0afd45a1164c78ab50b485e7fa30678b"
+    x-goog-generation: 1777511804047825
+    x-goog-metageneration: 1
+    x-goog-stored-content-encoding: identity
+    x-goog-stored-content-length: 1749
+    x-goog-hash: crc32c=yO1FIg==, md5=Cv1FoRZMeKtQtIXn+jBniw==
+    x-goog-storage-class: STANDARD
+    server: UploadServer
+    content-encoding: br
+    via: 1.1 varnish, 1.1 varnish
+    accept-ranges: bytes
+    date: Sat, 23 May 2026 01:31:49 GMT
+    age: 358733
+    x-served-by: cache-bfi-kbfi7400044-BFI, cache-sin-wsat1880087-SIN
+    x-cache: HIT, HIT
+    x-cache-hits: 19, 9132
+    x-timer: S1779499910.529208,VS0,VE0
+    vary: Accept-Encoding
+    cache-control: public, max-age=31536000, immutable
+    content-length: 1754
+
+  URL: https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/363567ed-b164-44f1-92e4-f57a1a6771a1
+    content-type: text/plain
+    x-guploader-uploadid: AAVLpEiDlxAoFDdw27_iMv2JSeSa1U00ABqN4Eq948vfF-lJOFdl8o4OqlOSygSHGLzT8U2B
+    expires: Wed, 06 May 2026 15:01:25 GMT
+    last-modified: Thu, 30 Apr 2026 01:16:41 GMT
+    etag: "1fbd6e54f0653fbc58dfbe9cf2904944"
+    x-goog-generation: 1777511801828022
+    x-goog-metageneration: 1
+    x-goog-stored-content-encoding: identity
+    x-goog-stored-content-length: 16534
+    x-goog-hash: crc32c=6IEOuw==, md5=H71uVPBlP7xY376c8pBJRA==
+    x-goog-storage-class: STANDARD
+    server: UploadServer
+    content-encoding: br
+    via: 1.1 varnish, 1.1 varnish
+    accept-ranges: bytes
+    date: Sat, 23 May 2026 01:31:49 GMT
+    age: 1423824
+    x-served-by: cache-bfi-krnt7300056-BFI, cache-sin-wsat1880087-SIN
+    x-cache: HIT, HIT
+    x-cache-hits: 23, 9154
+    x-timer: S1779499910.757483,VS0,VE0
+    vary: Accept-Encoding
+    cache-control: public, max-age=31536000, immutable
+    content-length: 16539
+
+  URL: https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/dbc181ab-54a5-4c34-8341-37d136340e04
+    content-type: text/plain
+    x-guploader-uploadid: AAVLpEi1JzZlkM35kK6Vr6ROM_JblTAufk2SiCG1Q9cigCMaFUNX0PKSHSv9tNkC_8i6El49
+    expires: Wed, 06 May 2026 15:01:31 GMT
+    last-modified: Thu, 30 Apr 2026 01:16:37 GMT
+    etag: "0a2a80ce78a674164e0a39e049b8b89f"
+    x-goog-generation: 1777511797231617
+    x-goog-metageneration: 1
+    x-goog-stored-content-encoding: identity
+    x-goog-stored-content-length: 12086
+    x-goog-hash: crc32c=U/JaDw==, md5=CiqAznimdBZOCjngSbi4nw==
+    x-goog-storage-class: STANDARD
+    server: UploadServer
+    content-encoding: br
+    via: 1.1 varnish, 1.1 varnish
+    accept-ranges: bytes
+    date: Sat, 23 May 2026 01:31:49 GMT
+    age: 1423818
+    x-served-by: cache-bfi-kbfi7400067-BFI, cache-sin-wsat1880087-SIN
+    x-cache: HIT, HIT
+    x-cache-hits: 18, 9139
+    x-timer: S1779499910.841788,VS0,VE0
+    vary: Accept-Encoding
+    cache-control: public, max-age=31536000, immutable
+    content-length: 12091
+
+  URL: https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/48ec8b42-d5a2-4ee5-bba2-aec5f6c770ac
+    content-type: text/plain
+    x-guploader-uploadid: AAVLpEhyVIpcXd-i9y9KXOyRN39emKWUNqtPubLDvIEgYkFexPuGCmzkT3vCgO76zhjCKmgmZhuqXoc
+    expires: Tue, 19 May 2026 09:19:46 GMT
+    last-modified: Tue, 19 May 2026 01:16:04 GMT
+    etag: "6001571985796889b06e577a57c5d1cf"
+    x-goog-generation: 1779153364661636
+    x-goog-metageneration: 1
+    x-goog-stored-content-encoding: identity
+    x-goog-stored-content-length: 771575
+    x-goog-hash: crc32c=3XB5Rg==, md5=YAFXGYV5aImwbld6V8XRzw==
+    x-goog-storage-class: STANDARD
+    server: UploadServer
+    content-encoding: br
+    via: 1.1 varnish, 1.1 varnish
+    accept-ranges: bytes
+    date: Sat, 23 May 2026 01:31:49 GMT
+    age: 321123
+    x-served-by: cache-bfi-krnt7300094-BFI, cache-sin-wsat1880087-SIN
+    x-cache: HIT, HIT
+    x-cache-hits: 2, 7092
+    x-timer: S1779499910.976253,VS0,VE0
+    vary: Accept-Encoding
+    cache-control: public, max-age=31536000, immutable
+    content-length: 771583
+
+  URL: https://cinemaos.tech/player/1318447
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:33:49 GMT
+    Content-Type: text/html; charset=utf-8
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff, nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding
+    link: </_next/static/media/36966cca54120369-s.p.woff2>; rel=preload; as="font"; crossorigin=""; type="font/woff2", </_next/static/css/13748814dceb7d96.css>; rel=preload; as="style", </_next/static/css/eccf2229dbd1c0fb.css>; rel=preload; as="style"
+    X-Powered-By: Next.js
+    Cache-Control: private, no-cache, no-store, max-age=0, must-revalidate
+    Content-Encoding: gzip
+    X-Frame-Options: ALLOWALL
+    Content-Security-Policy: frame-ancestors *
+
+  URL: https://cinemaos.tech/_next/static/media/36966cca54120369-s.p.woff2
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:31:52 GMT
+    Content-Type: font/woff2
+    Content-Length: 22320
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Cache-Control: public, max-age=31536000, immutable, public, max-age=31536000, immutable
+    Accept-Ranges: bytes
+    Last-Modified: Thu, 21 May 2026 17:45:17 GMT
+    ETag: W/"5730-19e4ba445ad"
+
+  URL: https://cinemaos.tech/_next/static/chunks/main-app-d0d0f32c1f849445.js
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:31:53 GMT
+    Content-Type: application/javascript; charset=UTF-8
+    Content-Length: 476
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Cache-Control: public, max-age=31536000, immutable, public, max-age=31536000, immutable
+    Accept-Ranges: bytes
+    Last-Modified: Thu, 21 May 2026 17:45:17 GMT
+    ETag: W/"1dc-19e4ba445ad"
+    Vary: Accept-Encoding
+
+  URL: https://cinemaos.tech/_next/static/css/13748814dceb7d96.css
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:31:53 GMT
+    Content-Type: text/css; charset=UTF-8
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Cache-Control: public, max-age=31536000, immutable, public, max-age=31536000, immutable
+    Accept-Ranges: bytes
+    Last-Modified: Thu, 21 May 2026 17:45:17 GMT
+    ETag: W/"4dc-19e4ba44609"
+    Vary: Accept-Encoding
+    Content-Encoding: gzip
+
+  URL: https://cinemaos.tech/_next/static/chunks/webpack-709472111e27f78e.js
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:31:53 GMT
+    Content-Type: application/javascript; charset=UTF-8
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Cache-Control: public, max-age=31536000, immutable, public, max-age=31536000, immutable
+    Accept-Ranges: bytes
+    Last-Modified: Thu, 21 May 2026 17:45:17 GMT
+    ETag: W/"f34-19e4ba445d9"
+    Vary: Accept-Encoding
+    Content-Encoding: gzip
+
+  URL: https://cinemaos.tech/_next/static/css/eccf2229dbd1c0fb.css
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:31:53 GMT
+    Content-Type: text/css; charset=UTF-8
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Cache-Control: public, max-age=31536000, immutable, public, max-age=31536000, immutable
+    Accept-Ranges: bytes
+    Last-Modified: Thu, 21 May 2026 17:45:17 GMT
+    ETag: W/"34ed0-19e4ba44609"
+    Vary: Accept-Encoding
+    Content-Encoding: gzip
+
+  URL: https://cinemaos.tech/_next/static/chunks/4bd1b696-ca8d38673d306ac5.js
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:31:53 GMT
+    Content-Type: application/javascript; charset=UTF-8
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Cache-Control: public, max-age=31536000, immutable, public, max-age=31536000, immutable
+    Accept-Ranges: bytes
+    Last-Modified: Thu, 21 May 2026 17:45:17 GMT
+    ETag: W/"28cb8-19e4ba445da"
+    Vary: Accept-Encoding
+    Content-Encoding: gzip
+
+  URL: https://cinemaos.tech/favicon.ico
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:31:54 GMT
+    Content-Type: image/x-icon
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff, nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Accept-Ranges: bytes
+    Cache-Control: public, max-age=0
+    Last-Modified: Thu, 14 May 2026 18:20:07 GMT
+    ETag: W/"3aee-19e27b7a634"
+    Vary: Accept-Encoding
+    Content-Encoding: gzip
+    X-Frame-Options: ALLOWALL
+    Content-Security-Policy: frame-ancestors *
+
+  URL: https://cinemaos.tech/_next/static/chunks/1517-b65c951c1bd265bc.js
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:31:54 GMT
+    Content-Type: application/javascript; charset=UTF-8
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Cache-Control: public, max-age=31536000, immutable, public, max-age=31536000, immutable
+    Accept-Ranges: bytes
+    Last-Modified: Thu, 21 May 2026 17:45:17 GMT
+    ETag: W/"31080-19e4ba445e8"
+    Vary: Accept-Encoding
+    Content-Encoding: gzip
+
+  URL: https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/9039eb8a-e074-4477-9b63-97fcab4ecc63
+    content-type: text/plain
+    x-guploader-uploadid: AAVLpEiQSfFKJkFbyQcIsZYO41EHEwcZefUf8Vd_EJs356JNCD8SvcqKMoePGtK4hqhp2JS8
+    expires: Wed, 06 May 2026 15:01:26 GMT
+    last-modified: Thu, 30 Apr 2026 01:16:59 GMT
+    etag: "3a5dee1c0e90b901cb3359e29c011242"
+    x-goog-generation: 1777511819491892
+    x-goog-metageneration: 1
+    x-goog-stored-content-encoding: identity
+    x-goog-stored-content-length: 1470360
+    x-goog-hash: crc32c=O4Q5EQ==, md5=Ol3uHA6QuQHLM1ninAESQg==
+    x-goog-storage-class: STANDARD
+    server: UploadServer
+    content-encoding: br
+    via: 1.1 varnish, 1.1 varnish
+    accept-ranges: bytes
+    date: Sat, 23 May 2026 01:31:51 GMT
+    age: 1423825
+    x-served-by: cache-bfi-krnt7300073-BFI, cache-sin-wsat1880087-SIN
+    x-cache: HIT, HIT
+    x-cache-hits: 19, 7178
+    x-timer: S1779499912.614030,VS0,VE0
+    vary: Accept-Encoding
+    cache-control: public, max-age=31536000, immutable
+    content-length: 1470368
+
+  URL: https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/f3f10b5d-846f-477e-96b2-738ab8840925
+    content-type: text/plain
+    x-guploader-uploadid: AAVLpEgUtwT4sxZ7MeAkLJpZdexGdf3tIK-tQXkACIku68RJefTjZkouwPwXUgXi5O83lANg
+    expires: Wed, 06 May 2026 15:01:30 GMT
+    last-modified: Thu, 30 Apr 2026 01:17:01 GMT
+    etag: "1968c65232d8ad9bf7efdc2112e7aefc"
+    x-goog-generation: 1777511821690405
+    x-goog-metageneration: 1
+    x-goog-stored-content-encoding: identity
+    x-goog-stored-content-length: 5685
+    x-goog-hash: crc32c=BdE1Xg==, md5=GWjGUjLYrZv379whEueu/A==
+    x-goog-storage-class: STANDARD
+    server: UploadServer
+    content-encoding: br
+    via: 1.1 varnish, 1.1 varnish
+    accept-ranges: bytes
+    date: Sat, 23 May 2026 01:31:55 GMT
+    age: 1423824
+    x-served-by: cache-bfi-kbfi7400046-BFI, cache-sin-wsat1880087-SIN
+    x-cache: HIT, HIT
+    x-cache-hits: 22, 9092
+    x-timer: S1779499915.321180,VS0,VE0
+    vary: Accept-Encoding
+    cache-control: public, max-age=31536000, immutable
+    content-length: 5690
+
+  URL: https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/9b99fb62-83e2-4206-870d-70ed3bce82c5
+    content-type: text/plain
+    x-guploader-uploadid: AAVLpEi94OqbcrKeivgmQQdoEGuQMCWKLStOiOycWyZihAGCHp5YEVfUWoUTo-2DTypoft61
+    expires: Wed, 06 May 2026 15:01:30 GMT
+    last-modified: Thu, 30 Apr 2026 01:17:06 GMT
+    etag: "29f6edb65adf5d6cf4a42eee99934212"
+    x-goog-generation: 1777511826366131
+    x-goog-metageneration: 1
+    x-goog-stored-content-encoding: identity
+    x-goog-stored-content-length: 1141
+    x-goog-hash: crc32c=Sb4oMw==, md5=KfbttlrfXWz0pC7umZNCEg==
+    x-goog-storage-class: STANDARD
+    server: UploadServer
+    content-encoding: br
+    via: 1.1 varnish, 1.1 varnish
+    accept-ranges: bytes
+    date: Sat, 23 May 2026 01:31:55 GMT
+    age: 1423824
+    x-served-by: cache-bfi-krnt7300114-BFI, cache-sin-wsat1880087-SIN
+    x-cache: HIT, HIT
+    x-cache-hits: 22, 9084
+    x-timer: S1779499915.422679,VS0,VE0
+    vary: Accept-Encoding
+    cache-control: public, max-age=31536000, immutable
+    content-length: 1146
+
+  URL: https://cinemaos.tech/_next/static/chunks/app/(player)/layout-53da92191e596500.js
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:31:55 GMT
+    Content-Type: application/javascript; charset=UTF-8
+    Content-Length: 487
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Cache-Control: public, max-age=31536000, immutable, public, max-age=31536000, immutable
+    Accept-Ranges: bytes
+    Last-Modified: Thu, 21 May 2026 17:45:17 GMT
+    ETag: W/"1e7-19e4ba445cf"
+    Vary: Accept-Encoding
+
+  URL: https://cinemaos.tech/_next/static/chunks/2484-4d2a7c32acc3cd9f.js
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:31:55 GMT
+    Content-Type: application/javascript; charset=UTF-8
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Cache-Control: public, max-age=31536000, immutable, public, max-age=31536000, immutable
+    Accept-Ranges: bytes
+    Last-Modified: Thu, 21 May 2026 17:45:17 GMT
+    ETag: W/"6feb-19e4ba445dc"
+    Vary: Accept-Encoding
+    Content-Encoding: gzip
+
+  URL: https://cinemaos.tech/_next/static/chunks/661-daf81c728210bdd4.js
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:31:55 GMT
+    Content-Type: application/javascript; charset=UTF-8
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Cache-Control: public, max-age=31536000, immutable, public, max-age=31536000, immutable
+    Accept-Ranges: bytes
+    Last-Modified: Thu, 21 May 2026 17:45:17 GMT
+    ETag: W/"1dd1-19e4ba445e8"
+    Vary: Accept-Encoding
+    Content-Encoding: gzip
+
+  URL: https://cinemaos.tech/_next/static/chunks/1181-f6ec003211356e7e.js
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:31:55 GMT
+    Content-Type: application/javascript; charset=UTF-8
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Cache-Control: public, max-age=31536000, immutable, public, max-age=31536000, immutable
+    Accept-Ranges: bytes
+    Last-Modified: Thu, 21 May 2026 17:45:17 GMT
+    ETag: W/"4ec5-19e4ba445db"
+    Vary: Accept-Encoding
+    Content-Encoding: gzip
+
+  URL: https://cinemaos.tech/_next/static/chunks/app/(player)/player/%5Bid%5D/layout-63591e9236f80689.js
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:31:55 GMT
+    Content-Type: application/javascript; charset=UTF-8
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Cache-Control: public, max-age=31536000, immutable, public, max-age=31536000, immutable
+    Accept-Ranges: bytes
+    Last-Modified: Thu, 21 May 2026 17:45:17 GMT
+    ETag: W/"17da-19e4ba445da"
+    Vary: Accept-Encoding
+    Content-Encoding: gzip
+
+  URL: https://cinemaos.tech/_next/static/chunks/app/layout-a9085efd45a0a170.js
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:31:55 GMT
+    Content-Type: application/javascript; charset=UTF-8
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Cache-Control: public, max-age=31536000, immutable, public, max-age=31536000, immutable
+    Accept-Ranges: bytes
+    Last-Modified: Thu, 21 May 2026 17:45:17 GMT
+    ETag: W/"5abc-19e4ba445c0"
+    Vary: Accept-Encoding
+    Content-Encoding: gzip
+
+  URL: https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/9bda7395-4944-4322-8588-760c2e3cf96c
+    content-type: text/plain
+    x-guploader-uploadid: AAVLpEgBLwMngAorjzuUPOjpxegEqIY25i1Yb8ncZFsulPpDJThU_d_fxu6q1lgOCGuofwuA5obBNRU
+    expires: Thu, 30 Apr 2026 13:57:38 GMT
+    last-modified: Thu, 30 Apr 2026 01:16:48 GMT
+    etag: "795057d35dec3b9e404ed95282c85d99"
+    x-goog-generation: 1777511808421891
+    x-goog-metageneration: 1
+    x-goog-stored-content-encoding: identity
+    x-goog-stored-content-length: 468
+    x-goog-hash: crc32c=c9bK9w==, md5=eVBX013sO55ATtlSgshdmQ==
+    x-goog-storage-class: STANDARD
+    server: UploadServer
+    content-encoding: br
+    via: 1.1 varnish, 1.1 varnish
+    accept-ranges: bytes
+    date: Sat, 23 May 2026 01:31:55 GMT
+    age: 1423823
+    x-served-by: cache-bfi-kbfi7400069-BFI, cache-sin-wsat1880087-SIN
+    x-cache: HIT, HIT
+    x-cache-hits: 21, 9030
+    x-timer: S1779499916.507431,VS0,VE0
+    vary: Accept-Encoding
+    cache-control: public, max-age=31536000, immutable
+    content-length: 473
+
+  URL: https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/c15a95f3-b8d7-41ac-8be4-530fefc0ceb6
+    content-type: text/plain
+    x-guploader-uploadid: AAVLpEjCabA5r7rIkpIj71Ba9wEJvrULDMvl2rMlnsqvGBwoWu-4SWmInEu5RQlxJUCSjyxIkxSdWwI
+    expires: Wed, 06 May 2026 15:01:28 GMT
+    last-modified: Thu, 30 Apr 2026 01:16:52 GMT
+    etag: "1c5962c13be80f826db737621802a23a"
+    x-goog-generation: 1777511812865866
+    x-goog-metageneration: 1
+    x-goog-stored-content-encoding: identity
+    x-goog-stored-content-length: 148
+    x-goog-hash: crc32c=ed6vSA==, md5=HFliwTvoD4JttzdiGAKiOg==
+    x-goog-storage-class: STANDARD
+    server: UploadServer
+    content-encoding: br
+    via: 1.1 varnish, 1.1 varnish
+    accept-ranges: bytes
+    date: Sat, 23 May 2026 01:31:55 GMT
+    age: 1423827
+    x-served-by: cache-bfi-krnt7300040-BFI, cache-sin-wsat1880087-SIN
+    x-cache: HIT, HIT
+    x-cache-hits: 21, 9023
+    x-timer: S1779499916.681516,VS0,VE0
+    vary: Accept-Encoding
+    cache-control: public, max-age=31536000, immutable
+    content-length: 153
+
+  URL: https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/bbb9a5ff-11d9-4780-b9b2-6ef4d64da140
+    content-type: text/plain
+    x-guploader-uploadid: AAVLpEi9JOUUu0sdG-DxR0h9FJMmWtyLm5ESPVs4-C0XLFr_e0Zm3g74Iemo4DLIX7kzPCiV
+    expires: Wed, 06 May 2026 15:01:32 GMT
+    last-modified: Thu, 30 Apr 2026 01:16:50 GMT
+    etag: "127034d2544947e92f313bc1a91685b0"
+    x-goog-generation: 1777511810647334
+    x-goog-metageneration: 1
+    x-goog-stored-content-encoding: identity
+    x-goog-stored-content-length: 276
+    x-goog-hash: crc32c=VFuaEQ==, md5=EnA00lRJR+kvMTvBqRaFsA==
+    x-goog-storage-class: STANDARD
+    server: UploadServer
+    content-encoding: br
+    via: 1.1 varnish, 1.1 varnish
+    accept-ranges: bytes
+    date: Sat, 23 May 2026 01:31:55 GMT
+    age: 287740
+    x-served-by: cache-bfi-kbfi7400051-BFI, cache-sin-wsat1880087-SIN
+    x-cache: HIT, HIT
+    x-cache-hits: 18, 9027
+    x-timer: S1779499916.765454,VS0,VE0
+    vary: Accept-Encoding
+    cache-control: public, max-age=31536000, immutable
+    content-length: 281
+
+  URL: https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/4f4d6310-5663-4b7e-a1e1-cd5340c9607c
+    content-type: text/plain
+    x-guploader-uploadid: AAVLpEjBfTTQxTToFKVhDm-3mzK1Qx_J8rde3mQf9_n7k32szTnBjDzf6DQwPORET8P8AtDaEBMZ02M
+    expires: Wed, 06 May 2026 15:01:30 GMT
+    last-modified: Thu, 30 Apr 2026 01:17:12 GMT
+    etag: "11528ae7cb05d1ffacd43c46ad4ceb16"
+    x-goog-generation: 1777511832814378
+    x-goog-metageneration: 1
+    x-goog-stored-content-encoding: identity
+    x-goog-stored-content-length: 6901
+    x-goog-hash: crc32c=OL1uNw==, md5=EVKK58sF0f+s1DxGrUzrFg==
+    x-goog-storage-class: STANDARD
+    server: UploadServer
+    content-encoding: br
+    via: 1.1 varnish, 1.1 varnish
+    accept-ranges: bytes
+    date: Sat, 23 May 2026 01:31:55 GMT
+    age: 1423826
+    x-served-by: cache-bfi-krnt7300115-BFI, cache-sin-wsat1880087-SIN
+    x-cache: HIT, HIT
+    x-cache-hits: 23, 9075
+    x-timer: S1779499916.849143,VS0,VE0
+    vary: Accept-Encoding
+    cache-control: public, max-age=31536000, immutable
+    content-length: 6906
+
+  URL: https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/8fbc9d46-738d-4c9d-98d5-d1cec71f62d7
+    content-type: text/plain
+    x-guploader-uploadid: AAVLpEiWY70lw5QtXsEcuGN7B01XamFx1FZxVHubbemcuUzGQL3-D7IoTX8Th6UoeL3A1zaB
+    expires: Wed, 06 May 2026 15:01:31 GMT
+    last-modified: Thu, 30 Apr 2026 01:17:15 GMT
+    etag: "c769d0b1a244f148871d99d13fd48f8d"
+    x-goog-generation: 1777511835002138
+    x-goog-metageneration: 1
+    x-goog-stored-content-encoding: identity
+    x-goog-stored-content-length: 8629
+    x-goog-hash: crc32c=u2tz+A==, md5=x2nQsaJE8UiHHZnRP9SPjQ==
+    x-goog-storage-class: STANDARD
+    server: UploadServer
+    content-encoding: br
+    via: 1.1 varnish, 1.1 varnish
+    accept-ranges: bytes
+    date: Sat, 23 May 2026 01:31:55 GMT
+    age: 1423824
+    x-served-by: cache-bfi-krnt7300074-BFI, cache-sin-wsat1880087-SIN
+    x-cache: HIT, HIT
+    x-cache-hits: 18, 9066
+    x-timer: S1779499916.932250,VS0,VE0
+    vary: Accept-Encoding
+    cache-control: public, max-age=31536000, immutable
+    content-length: 8634
+
+  URL: https://cinemaos.tech/_next/static/chunks/5463-386931798cd2c3eb.js
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:31:55 GMT
+    Content-Type: application/javascript; charset=UTF-8
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Cache-Control: public, max-age=31536000, immutable, public, max-age=31536000, immutable
+    Accept-Ranges: bytes
+    Last-Modified: Thu, 21 May 2026 17:45:17 GMT
+    ETag: W/"19e60-19e4ba445e0"
+    Vary: Accept-Encoding
+    Content-Encoding: gzip
+
+  URL: https://cinemaos.tech/_next/static/chunks/9219-823ba16db21159e8.js
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:31:55 GMT
+    Content-Type: application/javascript; charset=UTF-8
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Cache-Control: public, max-age=31536000, immutable, public, max-age=31536000, immutable
+    Accept-Ranges: bytes
+    Last-Modified: Thu, 21 May 2026 17:45:17 GMT
+    ETag: W/"1bd43-19e4ba445dc"
+    Vary: Accept-Encoding
+    Content-Encoding: gzip
+
+  URL: https://cinemaos.tech/_next/static/chunks/1386-e5251734b568f7de.js
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:31:55 GMT
+    Content-Type: application/javascript; charset=UTF-8
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Cache-Control: public, max-age=31536000, immutable, public, max-age=31536000, immutable
+    Accept-Ranges: bytes
+    Last-Modified: Thu, 21 May 2026 17:45:17 GMT
+    ETag: W/"2a6ed-19e4ba445ec"
+    Vary: Accept-Encoding
+    Content-Encoding: gzip
+
+  URL: https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/1caba515-e142-4581-aee0-edf330117750
+    content-type: text/plain
+    x-guploader-uploadid: AAVLpEhH2eN18X1CAdEZN1wcO-DtQ5r-IXI9Fb2PqoVAymwoW3Cf1fgkjrZ1raiJpj4P3tBP
+    expires: Wed, 06 May 2026 15:01:31 GMT
+    last-modified: Thu, 30 Apr 2026 01:17:17 GMT
+    etag: "e87e5e65f0d14629b812fba28d2d5c0d"
+    x-goog-generation: 1777511837212259
+    x-goog-metageneration: 1
+    x-goog-stored-content-encoding: identity
+    x-goog-stored-content-length: 532
+    x-goog-hash: crc32c=04IoSQ==, md5=6H5eZfDRRim4EvuijS1cDQ==
+    x-goog-storage-class: STANDARD
+    server: UploadServer
+    content-encoding: br
+    via: 1.1 varnish, 1.1 varnish
+    accept-ranges: bytes
+    date: Sat, 23 May 2026 01:31:56 GMT
+    age: 1423825
+    x-served-by: cache-bfi-kbfi7400110-BFI, cache-sin-wsat1880087-SIN
+    x-cache: HIT, HIT
+    x-cache-hits: 23, 9074
+    x-timer: S1779499916.063714,VS0,VE0
+    vary: Accept-Encoding
+    cache-control: public, max-age=31536000, immutable
+    content-length: 537
+
+  URL: https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/e85bf0b5-fff4-4ad9-8070-354eeede5308
+    content-type: text/plain
+    x-guploader-uploadid: AAVLpEgl3nVOMc8CbVzMs6kQ0mxo7F6m6UtMCfV4UT47nJ3rXewwCk4RG7_K7ZyWJxO-J_oEq-eCxwE
+    expires: Wed, 06 May 2026 15:01:30 GMT
+    last-modified: Thu, 30 Apr 2026 01:17:19 GMT
+    etag: "a9ca4f85d439e8689cd978e56b2505f7"
+    x-goog-generation: 1777511839431398
+    x-goog-metageneration: 1
+    x-goog-stored-content-encoding: identity
+    x-goog-stored-content-length: 948
+    x-goog-hash: crc32c=IP/EwQ==, md5=qcpPhdQ56Gic2XjlayUF9w==
+    x-goog-storage-class: STANDARD
+    server: UploadServer
+    content-encoding: br
+    via: 1.1 varnish, 1.1 varnish
+    accept-ranges: bytes
+    date: Sat, 23 May 2026 01:31:56 GMT
+    age: 790283
+    x-served-by: cache-bfi-kbfi7400056-BFI, cache-sin-wsat1880087-SIN
+    x-cache: HIT, HIT
+    x-cache-hits: 22, 9072
+    x-timer: S1779499916.144329,VS0,VE0
+    vary: Accept-Encoding
+    cache-control: public, max-age=31536000, immutable
+    content-length: 953
+
+  URL: https://cinemaos.tech/_next/static/chunks/9453-08e0dc08540a303a.js
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:31:55 GMT
+    Content-Type: application/javascript; charset=UTF-8
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Cache-Control: public, max-age=31536000, immutable, public, max-age=31536000, immutable
+    Accept-Ranges: bytes
+    Last-Modified: Thu, 21 May 2026 17:45:17 GMT
+    ETag: W/"2f35a-19e4ba445e2"
+    Vary: Accept-Encoding
+    Content-Encoding: gzip
+
+  URL: https://cinemaos.tech/_next/static/chunks/6282-6ec9290c43848574.js
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:31:56 GMT
+    Content-Type: application/javascript; charset=UTF-8
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Cache-Control: public, max-age=31536000, immutable, public, max-age=31536000, immutable
+    Accept-Ranges: bytes
+    Last-Modified: Thu, 21 May 2026 17:45:17 GMT
+    ETag: W/"c9fc-19e4ba445ee"
+    Vary: Accept-Encoding
+    Content-Encoding: gzip
+
+  URL: https://cinemaos.tech/_next/static/chunks/app/(player)/player/%5Bid%5D/page-8c5601c5dd0d8f86.js
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:31:56 GMT
+    Content-Type: application/javascript; charset=UTF-8
+    Content-Length: 174
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Cache-Control: public, max-age=31536000, immutable, public, max-age=31536000, immutable
+    Accept-Ranges: bytes
+    Last-Modified: Thu, 21 May 2026 17:45:17 GMT
+    ETag: W/"ae-19e4ba445da"
+    Vary: Accept-Encoding
+
+  URL: https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/3982dfad-24e8-4ee8-96d2-5378f293d9f5
+    content-type: text/plain
+    x-guploader-uploadid: AMNfjG1Nz1hb0nCJsW4eHhtGAES6rkPoeIWSb47EAOq82C_VfxzXJPpMcW8OZtiNFWSYzcKgXE-Hur4
+    expires: Thu, 23 Apr 2026 13:40:10 GMT
+    last-modified: Thu, 23 Apr 2026 08:44:57 GMT
+    etag: "d6db599fc559f844749d12ecbb35178d"
+    x-goog-generation: 1776933897395068
+    x-goog-metageneration: 1
+    x-goog-stored-content-encoding: identity
+    x-goog-stored-content-length: 1813
+    x-goog-hash: crc32c=P976/A==, md5=1ttZn8VZ+ER0nRLsuzUXjQ==
+    x-goog-storage-class: STANDARD
+    server: UploadServer
+    content-encoding: br
+    via: 1.1 varnish, 1.1 varnish
+    accept-ranges: bytes
+    date: Sat, 23 May 2026 01:31:56 GMT
+    age: 184888
+    x-served-by: cache-bfi-kbfi7400058-BFI, cache-sin-wsat1880087-SIN
+    x-cache: HIT, HIT
+    x-cache-hits: 12, 3
+    x-timer: S1779499916.228978,VS0,VE0
+    vary: Accept-Encoding
+    cache-control: public, max-age=31536000, immutable
+    content-length: 1818
+
+  URL: https://cinemaos.tech/_next/static/chunks/aaea2bcf-4b7d5c47edf9795e.js
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:31:55 GMT
+    Content-Type: application/javascript; charset=UTF-8
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Cache-Control: public, max-age=31536000, immutable, public, max-age=31536000, immutable
+    Accept-Ranges: bytes
+    Last-Modified: Thu, 21 May 2026 17:45:17 GMT
+    ETag: W/"4f748-19e4ba445da"
+    Vary: Accept-Encoding
+    Content-Encoding: gzip
+
+  URL: https://cinemaos.tech/_next/static/chunks/a4634e51-eaf6c3d6b6e58119.js
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:31:55 GMT
+    Content-Type: application/javascript; charset=UTF-8
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Cache-Control: public, max-age=31536000, immutable, public, max-age=31536000, immutable
+    Accept-Ranges: bytes
+    Last-Modified: Thu, 21 May 2026 17:45:17 GMT
+    ETag: W/"7ce60-19e4ba445da"
+    Vary: Accept-Encoding
+    Content-Encoding: gzip
+
+  URL: https://image.tmdb.org/t/p/w342/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg
+    date: Sat, 23 May 2026 01:31:57 GMT
+    content-type: image/webp
+    content-length: 27412
+    server: BunnyCDN-SG1-1091
+    cdn-pullzone: 775336
+    cdn-requestcountrycode: BD
+    cache-control: public, max-age=31919000
+    last-modified: Sat, 25 Apr 2026 00:00:22 GMT
+    x-bo-version: 1.0.68
+    x-bo-server: LA-293
+    x-downloadsize: 54848
+    x-bo-origindownloadtime: 233
+    x-bo-processingtime: 11
+    x-bo-compressionratio: 50.02%
+    cdn-proxyver: 1.51
+    cdn-requestpullcode: 200
+    cdn-requestpullsuccess: True
+    cdn-edgestorageid: 1094
+    cdn-cachedat: 04/25/2026 00:00:22
+    cdn-status: 200
+    cdn-requesttime: 0
+    cdn-requestid: ea2a566bd3502eee25d67ad513a5745b
+    cdn-cache: HIT
+    accept-ranges: bytes
+
+  URL: https://image.tmdb.org/t/p/original//oTE4lNs4PSG5iIWjqaTdCIFJ4Bs.jpg
+    date: Sat, 23 May 2026 01:31:57 GMT
+    content-type: image/webp
+    content-length: 115908
+    server: BunnyCDN-SG1-1091
+    cdn-pullzone: 775336
+    cdn-requestcountrycode: BD
+    cache-control: public, max-age=31919000
+    last-modified: Fri, 15 May 2026 08:12:20 GMT
+    x-bo-version: 1.0.71
+    x-bo-server: LA-289
+    x-downloadsize: 249994
+    x-bo-origindownloadtime: 153
+    x-bo-processingtime: 55
+    x-bo-compressionratio: 53.64%
+    cdn-proxyver: 1.53
+    cdn-requestpullcode: 200
+    cdn-requestpullsuccess: True
+    cdn-edgestorageid: 1030
+    cdn-cachedat: 05/15/2026 08:12:20
+    cdn-status: 200
+    cdn-requesttime: 0
+    cdn-requestid: 805e460729db336fa23d40c0576e7c48
+    cdn-cache: HIT
+    accept-ranges: bytes
+
+  URL: https://cinemaos.tech/api/providerv4?type=movie&tmdbId=1318447&imdbId=tt16431404&t=Apex&ry=2026&secret=d4475c101f7236651d09c6ec4f52e1c84b1bfac087dd537aa0f2850d97224729&_rk=2549b22d9bf0d91847a2811baac98d0079e02dba592aea94
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:32:52 GMT
+    Content-Type: application/json
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    x-content-type-options: nosniff, nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    referrer-policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    x-frame-options: SAMEORIGIN, ALLOWALL
+    vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+    Content-Security-Policy: frame-ancestors *
+
+  URL: https://api.theintrodb.org/v2/media?tmdb_id=1318447
+    date: Sat, 23 May 2026 01:32:52 GMT
+    content-type: application/json
+    content-length: 27
+    access-control-allow-credentials: true
+    access-control-allow-headers: Origin, Content-Type, Accept, Authorization
+    access-control-allow-methods: GET, POST, PUT, DELETE, PATCH, OPTIONS
+    access-control-allow-origin: https://cinemaos.tech
+    alt-svc: h3=":443"; ma=86400
+    vary: Accept-Encoding
+    x-ratelimit-limit: 30
+    x-ratelimit-remaining: 29
+    x-ratelimit-reset: 10
+    x-usagelimit-limit: 200
+    x-usagelimit-remaining: 195
+    x-usagelimit-reset: 0
+    x-usagelimit-specificmedia-limit: 1000
+    x-usagelimit-specificmedia-remaining: 995
+    x-usagelimit-specificmedia-reset: 0
+    cf-cache-status: DYNAMIC
+    nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+    report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=1gB6ItmeH7Q9Mjxl%2FhhXtXaszlqkzUCoTarNlLiZ%2B9u0r76Ok1aNbXQvwyPLVFrw4pfVPWTh7aQ%2F1wb3IbDAvin9M%2B8rZ4Hns5yToF46bdJerE3m%2BE2yhkLlVPttd3ywOLlxggQ%3D"}]}
+    server: cloudflare
+    cf-ray: a0004f2a4f845aca-DAC
+
+  URL: https://nyc.cloud.appwrite.io/v1/account
+    access-control-allow-credentials: true
+    access-control-allow-headers: Accept, Origin, Cookie, Set-Cookie, Content-Type, Content-Range, X-Appwrite-Project, X-Appwrite-Key, X-Appwrite-Dev-Key, X-Appwrite-Locale, X-Appwrite-Mode, X-Appwrite-JWT, X-Appwrite-Response-Format, X-Appwrite-Timeout, X-Appwrite-ID, X-Appwrite-Timestamp, X-Appwrite-Session, X-Appwrite-Platform, X-Appwrite-Impersonate-User-Id, X-Appwrite-Impersonate-User-Email, X-Appwrite-Impersonate-User-Phone, X-SDK-Version, X-SDK-Name, X-SDK-Language, X-SDK-Platform, X-SDK-GraphQL, X-SDK-Profile, Range, Cache-Control, Expires, Pragma, X-Fallback-Cookies, X-Requested-With, X-Forwarded-For, X-Forwarded-User-Agent, X-Appwrite-Console-Fingerprint
+    access-control-allow-methods: GET, POST, PUT, PATCH, DELETE
+    access-control-allow-origin: https://cinemaos.tech
+    access-control-expose-headers: X-Appwrite-Session, X-Fallback-Cookies
+    access-control-max-age: 86400
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=UTF-8
+    expires: 0
+    pragma: no-cache
+    server: Appwrite
+    strict-transport-security: max-age=10886400
+    x-content-type-options: nosniff
+    x-debug-fallback: false, true
+    x-debug-speed: 0.085858821868896
+    accept-ranges: bytes
+    via: 1.1 varnish, 1.1 varnish
+    date: Sat, 23 May 2026 01:32:52 GMT
+    x-served-by: cache-lga21956-LGA, cache-bom-vanm7210027-BOM
+    x-cache: MISS, MISS
+    x-cache-hits: 0, 0
+    x-timer: S1779499972.223203,VS0,VE282
+    content-length: 129
+
+  URL: https://sub.vdrk.site/v1/movie/1318447
+    date: Sat, 23 May 2026 01:32:52 GMT
+    server: cloudflare
+    x-powered-by: Express
+    etag: W/"165-ahQngh+2GEleXS6h4nWHBYOiULU"
+    access-control-allow-origin: *
+    cf-cache-status: DYNAMIC
+    report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=trvZ73z7ZZwIdyIn243YctetoQWRpfyktsZ9Zn2DVf85B7UAxtXUId%2BtUjFM1d8NnnvRmMILn0Bv%2BAR8VY8EoKrIBQCVlr9QufKEgANAdtHbcZzz5v4f41EiJ9XGkYit"}]}
+    nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+    cf-ray: a0004f2a4fbcb6db-DAC
+    alt-svc: h3=":443"; ma=86400
+
+  URL: https://cinemaos.tech/apple-touch-icon.png
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:31:59 GMT
+    Content-Type: image/png
+    Content-Length: 2985
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff, nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Accept-Ranges: bytes
+    Cache-Control: public, max-age=0
+    Last-Modified: Thu, 14 May 2026 18:20:07 GMT
+    ETag: W/"ba9-19e27b7a629"
+    X-Frame-Options: ALLOWALL
+    Content-Security-Policy: frame-ancestors *
+
+  URL: https://cinemaos.tech/favicon-16x16.png
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 01:31:59 GMT
+    Content-Type: image/png
+    Content-Length: 647
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff, nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Accept-Ranges: bytes
+    Cache-Control: public, max-age=0
+    Last-Modified: Thu, 14 May 2026 18:20:07 GMT
+    ETag: W/"287-19e27b7a634"
+    X-Frame-Options: ALLOWALL
+    Content-Security-Policy: frame-ancestors *
+
+  URL: https://storrrrrrm.site/stream/d42f649481170d33/master.m3u8
+    date: Sat, 23 May 2026 01:32:09 GMT
+    content-type: application/vnd.apple.mpegurl
+    server: cloudflare
+    x-powered-by: Express
+    report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=3dpPkm3cEMtFkMDGvdB0DoOfBmYLj05MPARtlo8lX3ohug42VCJWNRvbAQpYYA8xMD1lwhtv77Ofh9MpXKNb87u7WH22BqlH4pxkPMTk8jTxMBBHWH2Amc%2FwPMAcu6pu%2Bp0%3D"}]}
+    cache-control: public, max-age=0
+    last-modified: Sun, 17 May 2026 07:52:07 GMT
+    etag: W/"6a-19e34ebc7e8"
+    access-control-allow-origin: *
+    access-control-allow-methods: GET, POST, PUT, DELETE, OPTIONS
+    access-control-allow-headers: *
+    cf-cache-status: DYNAMIC
+    nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+    content-encoding: zstd
+    cf-ray: a0004e190e59dd0d-DAC
+    alt-svc: h3=":443"; ma=86400
+
+  URL: https://storrrrrrm.site/stream/d42f649481170d33/1080p.m3u8
+    date: Sat, 23 May 2026 01:32:10 GMT
+    content-type: application/vnd.apple.mpegurl
+    server: cloudflare
+    x-powered-by: Express
+    report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=WOHe84Oaa90Srhp7jmH%2FreY1ZGsx7EopU%2BnPjPzHCYQswN%2FU%2B6jJC4kU5UTMpDjE4q1R7oGiLoXo8%2BVnwAE8TmCDUPM8uAaL5QE8DP8oxUa7ZUPWKLibtLCQMIadQfKCxXA%3D"}]}
+    cache-control: public, max-age=0
+    last-modified: Sun, 17 May 2026 07:52:07 GMT
+    etag: W/"45ee4-19e34ebc7e7"
+    access-control-allow-origin: *
+    access-control-allow-methods: GET, POST, PUT, DELETE, OPTIONS
+    access-control-allow-headers: *
+    cf-cache-status: DYNAMIC
+    nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+    content-encoding: zstd
+    cf-ray: a0004e23ee2cdd0d-DAC
+    alt-svc: h3=":443"; ma=86400
+
+  URL: https://p16-sg.tiktokcdn.com/obj/tos-alisg-avt-0068/fd7b98d9970181cd42e38a237d0d2fce
+    content-type: image/png
+    content-length: 39600
+    imagex-fmt: png2png
+    last-modified: Fri, 24 Apr 2026 09:12:45 GMT
+    nw-session-id: 202604241712455C9A5BB15DBC4460C610q4q2714tt
+    nw-session-trace: 2026-04-24T09:12:45.250795325Z 45
+    x-bdcdn-cache-status: TCP_MISS
+    x-length: 39600
+    x-powered-by: ImageX
+    x-response-date: Fri, 24 Apr 2026 09:12:45 GMT
+    x-tt-logid: 202604241712455C9A5BB15DBC4460C610
+    x-request-ip: fdbd:dc53:28:810::58
+    x-response-cinfo: fdbd:dc53:28:810::58
+    x-response-cache: miss
+    x-tt-trace-host: 01d3f0bf5f227a9cc5ff3f4842b6859945315985faaa61135d410388be56809ed4746c34be6c2ed9fad1de6f106d522c943d396b15763e86980717f25340e54caba516d07841f0ae6ab381166e497b9d68bd33b905861d44e1f9e78b8c96eb315298defb18e91f12152570f6708c7f4e94c958f5a994d5cdd8b3393d3acf5adb31
+    x-tt-trace-id: 00-2604241712455C9A5BB15DBC4460C610-3889466A5A7B6184-00
+    server: TLB
+    x-parent-response-time: 2,96.7.180.132, 5,23.3.14.246
+    cache-control: max-age=31534959
+    date: Sat, 23 May 2026 01:32:11 GMT
+    akamai-mon-iucid-del: 1085617
+    x-tt-trace-tag: id=16;cdn-cache=hit;type=static
+    server-timing: cdn-cache; desc=HIT, edge; dur=6, origin; dur=0, inner; dur=48
+    timing-allow-origin: *
+    access-control-allow-origin: *
+    x-m-cache: Miss
+
+  URL: raw.githubusercontent.com:443
+    content-length: 204
+
+  URL: ublockorigin.github.io:443
+    content-length: 201
+
+  URL: https://hole.cert.pl/domains/v2/domains_ublock.txt
+    server: nginx
+    date: Sat, 23 May 2026 01:33:49 GMT
+    content-type: text/plain
+    last-modified: Sat, 23 May 2026 01:30:25 GMT
+    etag: W/"6a110331-68739"
+    accept-ranges: bytes
+    cache-control: no-cache, max-age=10
+    transfer-encoding: chunked
+    vary: Accept-Encoding
+    content-encoding: gzip
+
+──────────────────────────────────────────────────────────────────────
+  REDIRECT CHAIN (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  ALL INTERCEPTED REQUESTS (135)
+──────────────────────────────────────────────────────────────────────
+  [stream] xhr              GET    https://storrrrrrm.site/stream/d42f649481170d33/master.m3u8
+           Origin  : https://cinemaos.tech
+           Referer : https://cinemaos.tech/player/1318447
+  [stream] xhr              GET    https://storrrrrrm.site/stream/d42f649481170d33/1080p.m3u8
+           Origin  : https://cinemaos.tech
+           Referer : https://cinemaos.tech/player/1318447
+  [api]    fetch            GET    https://cache.vdrk.site/v2/movie/1318447/English.vtt
+           Origin  : https://cinemaos.tech
+           Referer : https://cinemaos.tech/player/1318447
+  [      ] xhr              GET    https://p16-sg.tiktokcdn.com/obj/tos-alisg-avt-0068/fd7b98d9970181cd42e38a237d0d2fce
+           Origin  : https://cinemaos.tech
+           Referer : https://cinemaos.tech/player/1318447
+  [      ] proxy-request    GET    http://detectportal.firefox.com/canonical.html
+           Host: detectportal.firefox.com
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate
+           Cache-Control: no-cache
+           Pragma: no-cache
+           Connection: keep-alive
+  [      ] proxy-request    GET    https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-05-27-11-40-34.chain
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           te: trailers
+  [      ] proxy-request    GET    https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-06-16-11-43-46.chain
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           te: trailers
+  [      ] proxy-response   GET    http://detectportal.firefox.com/canonical.html
+           Body    : <meta http-equiv="refresh" content="0;url=https://support.mozilla.org/kb/captive-portal"/>
+  [api]    proxy-request    GET    https://firefox.settings.services.mozilla.com/v1/
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           te: trailers
+  [      ] proxy-request    GET    https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-05-27-11-40-34.chain
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           te: trailers
+  [      ] proxy-response   GET    https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-05-27-11-40-34.chain
+           Body    : fMP4 box=-BEG size=757935405 | boxes=['-BEG'] | hex=2d2d2d2d2d424547494e204345525449
+  [      ] proxy-response   GET    https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-06-16-11-43-46.chain
+           Body    : fMP4 box=-BEG size=757935405 | boxes=['-BEG'] | hex=2d2d2d2d2d424547494e204345525449
+  [api]    proxy-response   GET    https://firefox.settings.services.mozilla.com/v1/
+           Body    : {"project_name":"Remote Settings PROD","project_version":"26.1.0","http_api_version":"1.23","project_docs":"https://remote-settings.readthedocs.io","url":"https://firefox.settings.services.mozilla.com
+  [      ] proxy-response   GET    https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-05-27-11-40-34.chain
+           Body    : fMP4 box=-BEG size=757935405 | boxes=['-BEG'] | hex=2d2d2d2d2d424547494e204345525449
+  [      ] proxy-request    GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/4a82bc3c-64bf-4d46-991a-e45661ce0cd7
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           te: trailers
+  [      ] proxy-response   GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/4a82bc3c-64bf-4d46-991a-e45661ce0cd7
+           Body    : a:1777511403:32:86432
+�#�S9���w�>V����.��aN��dx����1�qޥ5�	V�� N黟��:)�Uh�,WB�q���/s�:Dz����U�b�mn�0��d:|xv�0�ud�Q��Hˍz�qO��[��2q�0��x��/�����@-�Ɣݡok.�r��G9�^�*7�1�C_�w��#W�6DG��;��6
+  [      ] proxy-request    GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/c8bd1459-b49c-41c3-b732-e602823ee894
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           te: trailers
+  [      ] proxy-response   GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/c8bd1459-b49c-41c3-b732-e602823ee894
+           Body    : a:1777511403:32:1728
+�&Fia�3��������^�؞��mNQ���DX/Ը_W��fD���y���&嬛�92GJ^j��̫�"Nv�~��c�)=*ɣ�NN�BBna0C���v�bC�MFLQ�?�H��Y٣^<9<"�JN�������LR�1lZ��w�j���X!/A���[q���K�w����7�z�$��'
+  [      ] proxy-request    GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/363567ed-b164-44f1-92e4-f57a1a6771a1
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           te: trailers
+  [      ] proxy-response   GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/363567ed-b164-44f1-92e4-f57a1a6771a1
+           Body    : a:1777511403:32:16512
+�� 3
+Rnn����3Fz�_AC��3U����1F�����:R����ܐw̿���#�GR��o���%�X^T@�z������ڝ�����^l���� qm{�l^��7����r<��gKE�́,NFQ�1-���H20�J�m#�<�����jR����Z�+t�hq�l�i��wXO
+  [      ] proxy-request    GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/dbc181ab-54a5-4c34-8341-37d136340e04
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           te: trailers
+  [      ] proxy-response   GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/dbc181ab-54a5-4c34-8341-37d136340e04
+           Body    : a:1777511403:32:12064
+%�;��چŷM^�T $6����Ԃ6Շ�z2�Wf�E�d�"j�e�T�_Qgg`S��S�U͍��A�������#1�������y�M�ooP�i�t��D���H(
+=8���=���{`��������قmP��RQ���;e��ԥ\8�ڊflZl0nc���ލ-����
+  [      ] proxy-request    GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/48ec8b42-d5a2-4ee5-bba2-aec5f6c770ac
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           te: trailers
+  [      ] proxy-response   GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/48ec8b42-d5a2-4ee5-bba2-aec5f6c770ac
+           Body    : a:1779153005:32:771552
+,�D���:�̡�I��'r�˥1��Q�Ƣ�!L���$P��'��b�m�ӢK���4�f��-��><������j��/��.O�	fu>{j��5�.�U���Aס�֒���M}��T6��2Qe*���l����.��!���r�m#5���+<��c:��ȵc�U�1���g'���B��rf�
+  [      ] proxy-request    GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/9039eb8a-e074-4477-9b63-97fcab4ecc63
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           te: trailers
+  [      ] proxy-request    GET    https://cinemaos.tech/player/1318447
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Connection: keep-alive
+           Upgrade-Insecure-Requests: 1
+           Sec-Fetch-Dest: document
+           Sec-Fetch-Mode: navigate
+           Sec-Fetch-Site: none
+           Sec-Fetch-User: ?1
+           Priority: u=0, i
+  [      ] proxy-response   GET    https://cinemaos.tech/player/1318447
+           Body    : <!DOCTYPE html><html id="__next_error__"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" as="script" fetchPriority="low" href="/_n
+  [      ] proxy-request    GET    https://cinemaos.tech/_next/static/media/36966cca54120369-s.p.woff2
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Referer: https://cinemaos.tech/player/1318447
+           Connection: keep-alive
+           Sec-Fetch-Dest: font
+           Sec-Fetch-Mode: cors
+           Sec-Fetch-Site: same-origin
+           Priority: u=2
+  [      ] proxy-response   GET    https://cinemaos.tech/_next/static/media/36966cca54120369-s.p.woff2
+  [js]     proxy-request    GET    https://cinemaos.tech/_next/static/chunks/main-app-d0d0f32c1f849445.js
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Referer: https://cinemaos.tech/player/1318447
+           Connection: keep-alive
+           Sec-Fetch-Dest: script
+           Sec-Fetch-Mode: no-cors
+           Sec-Fetch-Site: same-origin
+  [      ] proxy-request    GET    https://cinemaos.tech/_next/static/css/13748814dceb7d96.css
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: text/css,*/*;q=0.1
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Referer: https://cinemaos.tech/player/1318447
+           Connection: keep-alive
+           Sec-Fetch-Dest: style
+           Sec-Fetch-Mode: no-cors
+           Sec-Fetch-Site: same-origin
+           Priority: u=0
+  [      ] proxy-request    GET    https://cinemaos.tech/_next/static/css/eccf2229dbd1c0fb.css
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: text/css,*/*;q=0.1
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Referer: https://cinemaos.tech/player/1318447
+           Connection: keep-alive
+           Sec-Fetch-Dest: style
+           Sec-Fetch-Mode: no-cors
+           Sec-Fetch-Site: same-origin
+           Priority: u=0
+  [js]     proxy-request    GET    https://cinemaos.tech/_next/static/chunks/webpack-709472111e27f78e.js
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Referer: https://cinemaos.tech/player/1318447
+           Connection: keep-alive
+           Sec-Fetch-Dest: script
+           Sec-Fetch-Mode: no-cors
+           Sec-Fetch-Site: same-origin
+           Priority: u=4
+  [js]     proxy-request    GET    https://cinemaos.tech/_next/static/chunks/4bd1b696-ca8d38673d306ac5.js
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Referer: https://cinemaos.tech/player/1318447
+           Connection: keep-alive
+           Sec-Fetch-Dest: script
+           Sec-Fetch-Mode: no-cors
+           Sec-Fetch-Site: same-origin
+  [js]     proxy-response   GET    https://cinemaos.tech/_next/static/chunks/main-app-d0d0f32c1f849445.js
+           Body    : (self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[7358],{97783:(e,s,n)=>{Promise.resolve().then(n.t.bind(n,57033,23)),Promise.resolve().then(n.t.bind(n,14547,23)),Promise.resolve().then(n.t.bin
+  [      ] proxy-response   GET    https://cinemaos.tech/_next/static/css/13748814dceb7d96.css
+           Body    : @font-face{font-family:Space Grotesk;font-style:normal;font-weight:300 700;font-display:swap;src:url(/_next/static/media/e1aab0933260df4d-s.woff2) format("woff2");unicode-range:u+0102-0103,u+0110-0111
+  [js]     proxy-response   GET    https://cinemaos.tech/_next/static/chunks/webpack-709472111e27f78e.js
+           Body    : (()=>{"use strict";var e={},t={};function r(o){var n=t[o];if(void 0!==n)return n.exports;var a=t[o]={exports:{}},i=!0;try{e[o].call(a.exports,a,a.exports,r),i=!1}finally{i&&delete t[o]}return a.export
+  [js]     proxy-request    GET    https://cinemaos.tech/_next/static/chunks/1517-b65c951c1bd265bc.js
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Referer: https://cinemaos.tech/player/1318447
+           Connection: keep-alive
+           Sec-Fetch-Dest: script
+           Sec-Fetch-Mode: no-cors
+           Sec-Fetch-Site: same-origin
+  [      ] proxy-response   GET    https://cinemaos.tech/_next/static/css/eccf2229dbd1c0fb.css
+           Body    : *,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: 
+  [js]     proxy-response   GET    https://cinemaos.tech/_next/static/chunks/4bd1b696-ca8d38673d306ac5.js
+           Body    : "use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[8441],{59248:(e,n,t)=>{var r,l,a=t(87358),o=t(31507),i=t(12115),u=t(47650);function s(e){var n="https://react.dev/errors/"+e;if(1<
+  [      ] proxy-request    GET    https://cinemaos.tech/favicon.ico
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Referer: https://cinemaos.tech/player/1318447
+           Connection: keep-alive
+           Sec-Fetch-Dest: image
+           Sec-Fetch-Mode: no-cors
+           Sec-Fetch-Site: same-origin
+           Priority: u=6
+  [      ] proxy-response   GET    https://cinemaos.tech/favicon.ico
+  [js]     proxy-response   GET    https://cinemaos.tech/_next/static/chunks/1517-b65c951c1bd265bc.js
+           Body    : (self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[1517],{15851:(e,t)=>{"use strict";function r(){return""}Object.defineProperty(t,"__esModule",{value:!0}),Object.defineProperty(t,"getDeployment
+  [      ] proxy-response   GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/9039eb8a-e074-4477-9b63-97fcab4ecc63
+           Body    : a:1777511403:32:1470336
+͔L{���}Ҩ��I�F9�	5nQ���p�Hs�E�r���*�֓�9�@o?�rC��޺qPGl�4G�����.I͟?�����[V��a�c����O� ����k�MX�D��h�hg�#u�np��t���!�����9�ʝ�Wp^�1j�����n�A=�LJ���Z�����P�2��G�
+  [js]     proxy-request    GET    https://cinemaos.tech/_next/static/chunks/1181-f6ec003211356e7e.js
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Referer: https://cinemaos.tech/player/1318447
+           Connection: keep-alive
+           Sec-Fetch-Dest: script
+           Sec-Fetch-Mode: no-cors
+           Sec-Fetch-Site: same-origin
+  [js]     proxy-request    GET    https://cinemaos.tech/_next/static/chunks/2484-4d2a7c32acc3cd9f.js
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Referer: https://cinemaos.tech/player/1318447
+           Connection: keep-alive
+           Sec-Fetch-Dest: script
+           Sec-Fetch-Mode: no-cors
+           Sec-Fetch-Site: same-origin
+  [js]     proxy-request    GET    https://cinemaos.tech/_next/static/chunks/661-daf81c728210bdd4.js
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Referer: https://cinemaos.tech/player/1318447
+           Connection: keep-alive
+           Sec-Fetch-Dest: script
+           Sec-Fetch-Mode: no-cors
+           Sec-Fetch-Site: same-origin
+  [js]     proxy-request    GET    https://cinemaos.tech/_next/static/chunks/app/layout-a9085efd45a0a170.js
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Referer: https://cinemaos.tech/player/1318447
+           Connection: keep-alive
+           Sec-Fetch-Dest: script
+           Sec-Fetch-Mode: no-cors
+           Sec-Fetch-Site: same-origin
+  [      ] proxy-request    GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/f3f10b5d-846f-477e-96b2-738ab8840925
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           te: trailers
+  [js]     proxy-request    GET    https://cinemaos.tech/_next/static/chunks/app/(player)/layout-53da92191e596500.js
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Referer: https://cinemaos.tech/player/1318447
+           Connection: keep-alive
+           Sec-Fetch-Dest: script
+           Sec-Fetch-Mode: no-cors
+           Sec-Fetch-Site: same-origin
+  [js]     proxy-request    GET    https://cinemaos.tech/_next/static/chunks/app/(player)/player/%5Bid%5D/layout-63591e9236f80689.js
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Referer: https://cinemaos.tech/player/1318447
+           Connection: keep-alive
+           Sec-Fetch-Dest: script
+           Sec-Fetch-Mode: no-cors
+           Sec-Fetch-Site: same-origin
+  [      ] proxy-response   GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/f3f10b5d-846f-477e-96b2-738ab8840925
+           Body    : a:1777511403:32:5664
+!g���$;��KDnܚ�m��o�H�h�=Iq��?�a_-~�C}�C����p�9���l �Gq���/s�:Dz����U�b�mn�0��d:|xv���d��;�m#��P]��?��i��hTȡmH�T
+�3G�0�4��u����8/���4���.�I�IQ/�{�_�7/|��,L��
+  [      ] proxy-request    GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/9b99fb62-83e2-4206-870d-70ed3bce82c5
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           te: trailers
+  [      ] proxy-response   GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/9b99fb62-83e2-4206-870d-70ed3bce82c5
+           Body    : a:1777511403:32:1120
+]I$�]Ja(>+
+��B;/��9Z�
+�;`UI�9nH�}�a�Z��&�Uu�-�D���"�\]����J�����vy06�I��ty^I���W�A�tv���DE�k"��5\72�~�,�� ���"�Jr�}p@A�_�>���fG'P�������]���񩞎>a��_��4剞J�az�u�I
+  [      ] proxy-request    GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/9bda7395-4944-4322-8588-760c2e3cf96c
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           te: trailers
+  [js]     proxy-response   GET    https://cinemaos.tech/_next/static/chunks/app/(player)/layout-53da92191e596500.js
+           Body    : (self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[268],{87245:(e,l,s)=>{Promise.resolve().then(s.bind(s,24430))},24430:(e,l,s)=>{"use strict";s.r(l),s.d(l,{default:()=>r});var n=s(95155);functi
+  [js]     proxy-response   GET    https://cinemaos.tech/_next/static/chunks/2484-4d2a7c32acc3cd9f.js
+           Body    : "use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[2484],{92484:(e,t,i)=>{var n,a,o,r,s,c,l,d,p,u,h;function g(e,t,i,n){return new(i||(i=Promise))(function(a,o){function r(e){try{c(
+  [js]     proxy-response   GET    https://cinemaos.tech/_next/static/chunks/661-daf81c728210bdd4.js
+           Body    : (self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[661],{67401:(e,t,r)=>{"use strict";r.d(t,{A:()=>s});var n=r(12115);let a=e=>e.replace(/([a-z0-9])([A-Z])/g,"$1-$2").toLowerCase(),i=function(){
+  [js]     proxy-response   GET    https://cinemaos.tech/_next/static/chunks/1181-f6ec003211356e7e.js
+           Body    : "use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[1181],{43463:(e,r,o)=>{o.d(r,{$:()=>t});function t(){for(var e,r,o=0,t="",n=arguments.length;o<n;o++)(e=arguments[o])&&(r=function
+  [js]     proxy-request    GET    https://cinemaos.tech/_next/static/chunks/aaea2bcf-4b7d5c47edf9795e.js
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Referer: https://cinemaos.tech/player/1318447
+           Connection: keep-alive
+           Sec-Fetch-Dest: script
+           Sec-Fetch-Mode: no-cors
+           Sec-Fetch-Site: same-origin
+  [js]     proxy-request    GET    https://cinemaos.tech/_next/static/chunks/a4634e51-eaf6c3d6b6e58119.js
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Referer: https://cinemaos.tech/player/1318447
+           Connection: keep-alive
+           Sec-Fetch-Dest: script
+           Sec-Fetch-Mode: no-cors
+           Sec-Fetch-Site: same-origin
+  [js]     proxy-response   GET    https://cinemaos.tech/_next/static/chunks/app/(player)/player/%5Bid%5D/layout-63591e9236f80689.js
+           Body    : (self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[8594],{14101:(e,t,n)=>{Promise.resolve().then(n.bind(n,72940))},72940:(e,t,n)=>{"use strict";n.r(t),n.d(t,{default:()=>l});var r=n(95155),a=n(5
+  [js]     proxy-response   GET    https://cinemaos.tech/_next/static/chunks/app/layout-a9085efd45a0a170.js
+           Body    : (self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[7177],{96476:(e,t,n)=>{Promise.resolve().then(n.bind(n,14627)),Promise.resolve().then(n.bind(n,26679)),Promise.resolve().then(n.bind(n,35901)),
+  [js]     proxy-request    GET    https://cinemaos.tech/_next/static/chunks/9219-823ba16db21159e8.js
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Referer: https://cinemaos.tech/player/1318447
+           Connection: keep-alive
+           Sec-Fetch-Dest: script
+           Sec-Fetch-Mode: no-cors
+           Sec-Fetch-Site: same-origin
+  [js]     proxy-request    GET    https://cinemaos.tech/_next/static/chunks/5463-386931798cd2c3eb.js
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Referer: https://cinemaos.tech/player/1318447
+           Connection: keep-alive
+           Sec-Fetch-Dest: script
+           Sec-Fetch-Mode: no-cors
+           Sec-Fetch-Site: same-origin
+  [      ] proxy-response   GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/9bda7395-4944-4322-8588-760c2e3cf96c
+           Body    : a:1777511403:32:448
+G���[{�ܬ�?WK �s��}����Y٭���L]qҪ��ש7�S0���9��57�v��L ��5nﴉ'�Rr�ni����c�D���Z�İ�
+�z'���2�,�8���ai�Y��jx��;��@���5�2fے��(�ŨLq����Y�Mk��oS"9����h#����^Jk���h���	�E���
+  [js]     proxy-request    GET    https://cinemaos.tech/_next/static/chunks/9453-08e0dc08540a303a.js
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Referer: https://cinemaos.tech/player/1318447
+           Connection: keep-alive
+           Sec-Fetch-Dest: script
+           Sec-Fetch-Mode: no-cors
+           Sec-Fetch-Site: same-origin
+  [js]     proxy-request    GET    https://cinemaos.tech/_next/static/chunks/1386-e5251734b568f7de.js
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Referer: https://cinemaos.tech/player/1318447
+           Connection: keep-alive
+           Sec-Fetch-Dest: script
+           Sec-Fetch-Mode: no-cors
+           Sec-Fetch-Site: same-origin
+  [      ] proxy-request    GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/c15a95f3-b8d7-41ac-8be4-530fefc0ceb6
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           te: trailers
+  [      ] proxy-response   GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/c15a95f3-b8d7-41ac-8be4-530fefc0ceb6
+           Body    : a:1777511403:32:128
+�p�-�,��v��"���V�f_4եQ ��l@�,d�й�kx���A��`�U��Ցn/U�w�e@=��!`�xH�1c�ʝ����u��bz־���%����⓯J�"]�y�M0���=19YF
+  [      ] proxy-request    GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/bbb9a5ff-11d9-4780-b9b2-6ef4d64da140
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           te: trailers
+  [      ] proxy-response   GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/bbb9a5ff-11d9-4780-b9b2-6ef4d64da140
+           Body    : a:1777511403:32:256
+�-Z��a�F�sl��!(!p�<&#/�:<������-��a���)��q��)����P�˙.��nU�����wq5W�j����I�yc��BuD��u8�D=Dy���+f({1��`j�ZkO| 2l���h��YV[�A� a�ERNu�l�}Yݒ�0v%�����F��Zq�����R�q���Hq
+  [      ] proxy-request    GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/4f4d6310-5663-4b7e-a1e1-cd5340c9607c
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           te: trailers
+  [      ] proxy-response   GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/4f4d6310-5663-4b7e-a1e1-cd5340c9607c
+           Body    : a:1777511403:32:6880
+2��U4�����3���<r��Z��4�.WmN9��lE-���::X�A��D?�9�㈑�+�� j�и���h���W-��PT�����jP�4�=�~�_�X�P7S�\]���](�18�d���k�\�Ǎ%�=�qַF��{�/�.�thڎОQ�\�yg7 KI�YĜ��$-{Χw��B>�
+  [      ] proxy-request    GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/8fbc9d46-738d-4c9d-98d5-d1cec71f62d7
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           te: trailers
+  [      ] proxy-response   GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/8fbc9d46-738d-4c9d-98d5-d1cec71f62d7
+           Body    : a:1777511403:32:8608
+$�<,��XV��Q�	� Ut	Iō��ZM�W��t��e��}���"'����B�ܩ�е�<-����®��� 釩�J%��dJ�\¤�Poir:Y'I��������ܣ��Kڱf=]��;r�DZ �?Og޷�ﳋ���+�LM��e�����b6�b
+���P��_TAJ1w�9]Q��D
+  [      ] proxy-request    GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/1caba515-e142-4581-aee0-edf330117750
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           te: trailers
+  [js]     proxy-response   GET    https://cinemaos.tech/_next/static/chunks/5463-386931798cd2c3eb.js
+           Body    : (self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[5463],{60429:t=>{"use strict";var e,r="object"==typeof Reflect?Reflect:null,n=r&&"function"==typeof r.apply?r.apply:function(t,e,r){return Func
+  [js]     proxy-request    GET    https://cinemaos.tech/_next/static/chunks/6282-6ec9290c43848574.js
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Referer: https://cinemaos.tech/player/1318447
+           Connection: keep-alive
+           Sec-Fetch-Dest: script
+           Sec-Fetch-Mode: no-cors
+           Sec-Fetch-Site: same-origin
+  [js]     proxy-response   GET    https://cinemaos.tech/_next/static/chunks/9219-823ba16db21159e8.js
+           Body    : "use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[9219],{85087:(t,e,i)=>{i.d(e,{xQ:()=>r});var s=i(12115),n=i(39656);function r(t=!0){let e=(0,s.useContext)(n.t);if(null===e)return
+  [js]     proxy-response   GET    https://cinemaos.tech/_next/static/chunks/1386-e5251734b568f7de.js
+           Body    : "use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[1386,6469],{15716:(e,t,a)=>{a.d(t,{x:()=>S});var s=a(95155),n=a(12115),r=a(25683),o=a(99219),i=a(6452),l=a(99271),c=a(40767),d=a(6
+  [js]     proxy-request    GET    https://cinemaos.tech/_next/static/chunks/app/(player)/player/%5Bid%5D/page-8c5601c5dd0d8f86.js
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Referer: https://cinemaos.tech/player/1318447
+           Connection: keep-alive
+           Sec-Fetch-Dest: script
+           Sec-Fetch-Mode: no-cors
+           Sec-Fetch-Site: same-origin
+  [      ] proxy-response   GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/1caba515-e142-4581-aee0-edf330117750
+           Body    : a:1777511403:32:512
+��X!'��S|�W�?�0�I(��"��GP���8���n	-�ۙ���PW7�t�-uM*�E8�����Ҁ5�z�h�׾<�gv">Cz7���V�8K������n�\�Zfu�@�ڑ���WA>�͌��t�x�����ICrNVd�V�5Z�>�Kc�
+�3�3Z���ya����u���_�r��UC(m�
+  [      ] proxy-request    GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/e85bf0b5-fff4-4ad9-8070-354eeede5308
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           te: trailers
+  [      ] proxy-response   GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/e85bf0b5-fff4-4ad9-8070-354eeede5308
+           Body    : a:1777511403:32:928
+%5ԻӇ�%��2��]�/Da�͟Q7��#|c¬,
+�Y�g_�/�Y �i�Ы� �4��ލ&�֓^�#��ڦ�K�U���&������.+�46d���jsd�����d���>n�E�ޠ[�o��5��V��)b����#���腈��-8�3�W~x��k�@�-�"��&\y�{ oLQh��t\
+  [      ] proxy-request    GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/3982dfad-24e8-4ee8-96d2-5378f293d9f5
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           te: trailers
+  [js]     proxy-response   GET    https://cinemaos.tech/_next/static/chunks/9453-08e0dc08540a303a.js
+           Body    : (self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[9453],{97663:function(t){var e;e=function(){"use strict";function t(e){return(t="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?fun
+  [js]     proxy-response   GET    https://cinemaos.tech/_next/static/chunks/6282-6ec9290c43848574.js
+           Body    : (self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[6282],{49357:(e,t,r)=>{Promise.resolve().then(r.bind(r,95651))},95651:(e,t,r)=>{"use strict";r.d(t,{default:()=>C});var n=r(95155),a=r(58803),s
+  [js]     proxy-response   GET    https://cinemaos.tech/_next/static/chunks/app/(player)/player/%5Bid%5D/page-8c5601c5dd0d8f86.js
+           Body    : (self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[9297],{},_=>{var e=e=>_(_.s=e);_.O(0,[9268,9910,9219,5463,9453,1386,6282,8441,1517,7358],()=>e(49357)),_N_E=_.O()}]);
+  [      ] proxy-response   GET    https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/tracking-protection-lists/3982dfad-24e8-4ee8-96d2-5378f293d9f5
+           Body    : a:1776933854:32:1792
+�۟O%�*R�b2�Bz�s�(wf�!Z���UI��2��w�#(�t��~�	&a���-8Ƈ�-���ys�i�B����&�D������/A�a�舦n [#�֢�.��qQ0�ĊUc�`��7��^'�m�r��DSJ�L������س터w�5yM��˳���ݶ�r?'�b��=�<��<c�Z�
+  [js]     proxy-response   GET    https://cinemaos.tech/_next/static/chunks/aaea2bcf-4b7d5c47edf9795e.js
+           Body    : (self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[9268],{74496:(t,e,r)=>{var i=r(95714).Buffer,n=r(87358);!function(){var e,f,a,o,s,h,c,d={7160:function(t,e,r){e.bignum=r(711),e.define=r(495).d
+  [js]     proxy-response   GET    https://cinemaos.tech/_next/static/chunks/a4634e51-eaf6c3d6b6e58119.js
+           Body    : "use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[9910],{35610:(e,t,i)=>{let r;i.d(t,{Ay:()=>aZ});let s=Number.isFinite||function(e){return"number"==typeof e&&isFinite(e)},a=Number
+  [      ] proxy-request    GET    https://image.tmdb.org/t/p/w342/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           referer: https://cinemaos.tech/
+           sec-fetch-storage-access: none
+           sec-fetch-dest: image
+           sec-fetch-mode: no-cors
+           sec-fetch-site: cross-site
+           priority: u=5, i
+           te: trailers
+  [      ] proxy-request    GET    https://image.tmdb.org/t/p/w342/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           referer: https://cinemaos.tech/
+           sec-fetch-storage-access: none
+           sec-fetch-dest: image
+           sec-fetch-mode: no-cors
+           sec-fetch-site: cross-site
+           priority: u=5, i
+           te: trailers
+  [      ] proxy-response   GET    https://image.tmdb.org/t/p/w342/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg
+  [      ] proxy-request    GET    https://image.tmdb.org/t/p/original//oTE4lNs4PSG5iIWjqaTdCIFJ4Bs.jpg
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           referer: https://cinemaos.tech/
+           sec-fetch-storage-access: none
+           sec-fetch-dest: image
+           sec-fetch-mode: no-cors
+           sec-fetch-site: cross-site
+           priority: u=4, i
+           te: trailers
+  [api]    proxy-request    GET    https://cinemaos.tech/api/providerv4?type=movie&tmdbId=1318447&imdbId=tt16431404&t=Apex&ry=2026&secret=d4475c101f7236651d09c6ec4f52e1c84b1bfac087dd537aa0f2850d97224729&_rk=2549b22d9bf0d91847a2811baac98d0079e02dba592aea94
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Referer: https://cinemaos.tech/player/1318447
+           Connection: keep-alive
+           Sec-Fetch-Dest: empty
+           Sec-Fetch-Mode: cors
+           Sec-Fetch-Site: same-origin
+           Priority: u=4
+  [      ] proxy-response   GET    https://image.tmdb.org/t/p/original//oTE4lNs4PSG5iIWjqaTdCIFJ4Bs.jpg
+  [api]    proxy-request    GET    https://sub.vdrk.site/v1/movie/1318447
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           referer: https://cinemaos.tech/
+           origin: https://cinemaos.tech
+           sec-fetch-dest: empty
+           sec-fetch-mode: cors
+           sec-fetch-site: cross-site
+           priority: u=4
+           te: trailers
+  [api]    proxy-request    GET    https://api.theintrodb.org/v2/media?tmdb_id=1318447
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           referer: https://cinemaos.tech/
+           origin: https://cinemaos.tech
+           sec-fetch-dest: empty
+           sec-fetch-mode: cors
+           sec-fetch-site: cross-site
+           priority: u=4
+           te: trailers
+  [api]    proxy-response   GET    https://cinemaos.tech/api/providerv4?type=movie&tmdbId=1318447&imdbId=tt16431404&t=Apex&ry=2026&secret=d4475c101f7236651d09c6ec4f52e1c84b1bfac087dd537aa0f2850d97224729&_rk=2549b22d9bf0d91847a2811baac98d0079e02dba592aea94
+           Body    : {"data":{"encrypted":"dd32cf05b5659e931c99705d9198ced519dc9493aee504df506fabec10b086c08020175538b4a672b88ae23df763ae0d2f0d4f60abfcc5003d24cdc2b9a8246dab9f85a0dcd290eb19efcd527cc3299ae108a7239ecca1ba80
+  [api]    proxy-request    OPTIONS https://nyc.cloud.appwrite.io/v1/account
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           access-control-request-method: GET
+           access-control-request-headers: x-appwrite-project,x-appwrite-response-format,x-sdk-language,x-sdk-name,x-sdk-platform,x-sdk-version
+           referer: https://cinemaos.tech/
+           origin: https://cinemaos.tech
+           sec-fetch-storage-access: none
+           sec-fetch-dest: empty
+           sec-fetch-mode: cors
+           sec-fetch-site: cross-site
+           priority: u=4
+           te: trailers
+  [api]    proxy-response   GET    https://api.theintrodb.org/v2/media?tmdb_id=1318447
+           Body    : {"error":"media not found"}
+  [api]    proxy-response   OPTIONS https://nyc.cloud.appwrite.io/v1/account
+  [      ] proxy-request    GET    https://cinemaos.tech/apple-touch-icon.png
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Referer: https://cinemaos.tech/player/1318447
+           Connection: keep-alive
+           Sec-Fetch-Dest: image
+           Sec-Fetch-Mode: no-cors
+           Sec-Fetch-Site: same-origin
+           Priority: u=6
+  [      ] proxy-request    GET    https://cinemaos.tech/favicon-16x16.png
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Referer: https://cinemaos.tech/player/1318447
+           Connection: keep-alive
+           Sec-Fetch-Dest: image
+           Sec-Fetch-Mode: no-cors
+           Sec-Fetch-Site: same-origin
+           Priority: u=6
+  [api]    proxy-response   GET    https://sub.vdrk.site/v1/movie/1318447
+           Body    : [{"label":"English Hi3","file":"https://cache.vdrk.site/v1/vtt/movie/1318447/English Hi3.vtt"},{"label":"English","file":"https://cache.vdrk.site/v1/vtt/movie/1318447/English.vtt"},{"label":"English2"
+  [api]    proxy-request    GET    https://nyc.cloud.appwrite.io/v1/account
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           referer: https://cinemaos.tech/
+           x-sdk-name: Web
+           x-sdk-platform: client
+           x-sdk-language: web
+           x-sdk-version: 18.1.1
+           x-appwrite-response-format: 1.7.0
+           x-appwrite-project: 6842e78900156f5fd605
+           origin: https://cinemaos.tech
+           sec-fetch-storage-access: none
+           sec-fetch-dest: empty
+           sec-fetch-mode: cors
+           sec-fetch-site: cross-site
+           priority: u=4
+           te: trailers
+  [      ] proxy-response   GET    https://cinemaos.tech/apple-touch-icon.png
+  [      ] proxy-response   GET    https://cinemaos.tech/favicon-16x16.png
+  [api]    proxy-response   GET    https://nyc.cloud.appwrite.io/v1/account
+           Body    : {"message":"User (role: guests) missing scopes ([\"account\"])","code":401,"type":"general_unauthorized_scope","version":"1.9.5"}
+  [stream] proxy-request    GET    https://storrrrrrm.site/stream/d42f649481170d33/master.m3u8
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           referer: https://cinemaos.tech/
+           origin: https://cinemaos.tech
+           sec-fetch-dest: empty
+           sec-fetch-mode: cors
+           sec-fetch-site: cross-site
+           te: trailers
+  [stream] proxy-response   GET    https://storrrrrrm.site/stream/d42f649481170d33/master.m3u8
+           Body    : fMP4 box=M3U
+ size=591747156 | boxes=['M3U\n'] | hex=234558544d33550a234558542d582d53
+  [stream] proxy-request    GET    https://storrrrrrm.site/stream/d42f649481170d33/1080p.m3u8
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           referer: https://cinemaos.tech/
+           origin: https://cinemaos.tech
+           sec-fetch-dest: empty
+           sec-fetch-mode: cors
+           sec-fetch-site: cross-site
+           te: trailers
+  [stream] proxy-response   GET    https://storrrrrrm.site/stream/d42f649481170d33/1080p.m3u8
+           Body    : fMP4 box=M3U
+ size=591747156 | boxes=['M3U\n'] | hex=234558544d33550a234558542d582d54
+  [      ] proxy-request    GET    https://p16-sg.tiktokcdn.com/obj/tos-alisg-avt-0068/fd7b98d9970181cd42e38a237d0d2fce
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           referer: https://cinemaos.tech/
+           origin: https://cinemaos.tech
+           sec-fetch-dest: empty
+           sec-fetch-mode: cors
+           sec-fetch-site: cross-site
+           te: trailers
+  [      ] proxy-response   GET    https://p16-sg.tiktokcdn.com/obj/tos-alisg-avt-0068/fd7b98d9970181cd42e38a237d0d2fce
+  [      ] proxy-request    GET    https://cinemaos.tech/player/1318447
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Connection: keep-alive
+           Upgrade-Insecure-Requests: 1
+           Sec-Fetch-Dest: document
+           Sec-Fetch-Mode: navigate
+           Sec-Fetch-Site: none
+           Sec-Fetch-User: ?1
+           Priority: u=0, i
+  [      ] proxy-response   GET    https://cinemaos.tech/player/1318447
+           Body    : <!DOCTYPE html><html id="__next_error__"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" as="script" fetchPriority="low" href="/_n
+  [api]    proxy-request    GET    https://sub.vdrk.site/v1/movie/1318447
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           referer: https://cinemaos.tech/
+           origin: https://cinemaos.tech
+           sec-fetch-dest: empty
+           sec-fetch-mode: cors
+           sec-fetch-site: cross-site
+           if-none-match: W/"165-ahQngh+2GEleXS6h4nWHBYOiULU"
+           priority: u=4
+           te: trailers
+  [api]    proxy-request    GET    https://cinemaos.tech/api/providerv4?type=movie&tmdbId=1318447&imdbId=tt16431404&t=Apex&ry=2026&secret=d4475c101f7236651d09c6ec4f52e1c84b1bfac087dd537aa0f2850d97224729&_rk=2549b22d9bf0d91847a2811baac98d0079e02dba592aea94
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Referer: https://cinemaos.tech/player/1318447
+           Connection: keep-alive
+           Sec-Fetch-Dest: empty
+           Sec-Fetch-Mode: cors
+           Sec-Fetch-Site: same-origin
+           Priority: u=4
+  [api]    proxy-request    GET    https://api.theintrodb.org/v2/media?tmdb_id=1318447
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           referer: https://cinemaos.tech/
+           origin: https://cinemaos.tech
+           sec-fetch-dest: empty
+           sec-fetch-mode: cors
+           sec-fetch-site: cross-site
+           priority: u=4
+           te: trailers
+  [api]    proxy-request    GET    https://nyc.cloud.appwrite.io/v1/account
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           referer: https://cinemaos.tech/
+           x-sdk-name: Web
+           x-sdk-platform: client
+           x-sdk-language: web
+           x-sdk-version: 18.1.1
+           x-appwrite-response-format: 1.7.0
+           x-appwrite-project: 6842e78900156f5fd605
+           origin: https://cinemaos.tech
+           sec-fetch-storage-access: none
+           sec-fetch-dest: empty
+           sec-fetch-mode: cors
+           sec-fetch-site: cross-site
+           priority: u=4
+           te: trailers
+  [      ] proxy-request    GET    http://detectportal.firefox.com/canonical.html
+           Host: detectportal.firefox.com
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate
+           Cache-Control: no-cache
+           Pragma: no-cache
+           Connection: keep-alive
+  [      ] proxy-request    GET    http://detectportal.firefox.com/canonical.html
+           Host: detectportal.firefox.com
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate
+           Cache-Control: no-cache
+           Pragma: no-cache
+           Connection: keep-alive
+  [api]    proxy-response   GET    https://cinemaos.tech/api/providerv4?type=movie&tmdbId=1318447&imdbId=tt16431404&t=Apex&ry=2026&secret=d4475c101f7236651d09c6ec4f52e1c84b1bfac087dd537aa0f2850d97224729&_rk=2549b22d9bf0d91847a2811baac98d0079e02dba592aea94
+           Body    : {"data":{"encrypted":"82d90c02627d09f85ec39090ac5e6eb04984ef6c838af972426e61f085b9fccbf441174b68e730e2074d2f4846c806538d48775cd3d81ff655d46b0a1c51fa5fdb29b8e3335cc4b2cc11455759319a24aa074fc93b9bd7d612
+  [api]    proxy-response   GET    https://api.theintrodb.org/v2/media?tmdb_id=1318447
+           Body    : {"error":"media not found"}
+  [api]    proxy-response   GET    https://nyc.cloud.appwrite.io/v1/account
+           Body    : {"message":"User (role: guests) missing scopes ([\"account\"])","code":401,"type":"general_unauthorized_scope","version":"1.9.5"}
+  [api]    proxy-response   GET    https://sub.vdrk.site/v1/movie/1318447
+  [      ] proxy-request    GET    https://cinemaos.tech/player/1318447
+           Host: cinemaos.tech
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Connection: keep-alive
+           Sec-Fetch-Dest: empty
+           Sec-Fetch-Mode: no-cors
+           Sec-Fetch-Site: same-origin
+           Priority: u=4
+  [      ] proxy-response   CONNECT raw.githubusercontent.com:443
+  [      ] proxy-response   CONNECT ublockorigin.github.io:443
+  [api]    proxy-request    GET    https://hole.cert.pl/domains/v2/domains_ublock.txt
+           Host: hole.cert.pl
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate, br, zstd
+           Connection: keep-alive
+           Sec-Fetch-Dest: empty
+           Sec-Fetch-Mode: cors
+           Sec-Fetch-Site: same-origin
+  [      ] proxy-response   GET    https://cinemaos.tech/player/1318447
+           Body    : <!DOCTYPE html><html id="__next_error__"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" as="script" fetchPriority="low" href="/_n
+  [api]    proxy-response   GET    https://hole.cert.pl/domains/v2/domains_ublock.txt
+           Body    : ! Title: CERT.PL's Warning List
+! Version: 202605230130
+! Expires: 1 hours
+! Homepage: https://cert.pl/lista-ostrzezen/
+saveo-vip.ru.com
+swift-fresh.com
+colbygrey.shop
+ol-xpaczka.pacwazzlotts24.sbs
+at
+
+──────────────────────────────────────────────────────────────────────
+  INLINE SCRIPTS (24) — first 300 chars each
+──────────────────────────────────────────────────────────────────────
+
+  [1] (self.__next_f=self.__next_f||[]).push([0])
+
+  [2] self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:I[60766,[\"1181\",\"static/chunks/1181-f6ec003211356e7e.js\",\"2484\",\"static/chunks/2484-4d2a7c32acc3cd9f.js\",\"661\",\"static/chunks/661-daf81c728210bdd4.js\",\"7177\",\"static/chunks/app/layout-a9085efd45a0a170.js\"],\"GoogleAnalytics\"]\n3:I[359
+
+  [3] self.__next_f.push([1,"\":\"font/woff2\"}]\n:HL[\"/_next/static/css/13748814dceb7d96.css\",\"style\"]\n:HL[\"/_next/static/css/eccf2229dbd1c0fb.css\",\"style\"]\n"])
+
+  [4] self.__next_f.push([1,"0:{\"P\":null,\"b\":\"aiVdJ5R4kYMxFpY7TMxsB\",\"p\":\"\",\"c\":[\"\",\"player\",\"1318447%20\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"(player)\",{\"children\":[\"player\",{\"children\":[[\"id\",\"1318447%20\",\"d\"],{\"children\":[\"__PAGE__\",{}]}]}]}]},\"$undefined\",\"
+
+  [5] self.__next_f.push([1,"14:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"1\",{\"name\":\"theme-color\",\"media\":\"(prefers-color-scheme: light)\",\"content\":\"white\"}],[\"$\",\"meta\",\"2\",{\"name\":\"theme-color\",\"media\":
+
+  [6] self.__next_f.push([1,"16:I[95651,[\"9268\",\"static/chunks/aaea2bcf-4b7d5c47edf9795e.js\",\"9910\",\"static/chunks/a4634e51-eaf6c3d6b6e58119.js\",\"9219\",\"static/chunks/9219-823ba16db21159e8.js\",\"5463\",\"static/chunks/5463-386931798cd2c3eb.js\",\"9453\",\"static/chunks/9453-08e0dc08540a303a.js
+
+  [7] self.__next_f.push([1,"e:[\"$\",\"div\",null,{\"className\":\"flex h-screen w-screen items-center justify-center\",\"children\":[\"$\",\"$L16\",null,{\"tmdbId\":\"1318447%20\",\"contentType\":\"movie\",\"title\":\"Apex\",\"backdrop_poster\":\"https://image.tmdb.org/t/p/original//oTE4lNs4PSG5iIWjqaTd
+
+  [8] (self.__next_f=self.__next_f||[]).push([0])
+
+  [9] self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:I[60766,[\"1181\",\"static/chunks/1181-f6ec003211356e7e.js\",\"2484\",\"static/chunks/2484-4d2a7c32acc3cd9f.js\",\"661\",\"static/chunks/661-daf81c728210bdd4.js\",\"7177\",\"static/chunks/app/layout-a9085efd45a0a170.js\"],\"GoogleAnalytics\"]\n3:I[359
+
+  [10] self.__next_f.push([1,"\":\"font/woff2\"}]\n:HL[\"/_next/static/css/13748814dceb7d96.css\",\"style\"]\n:HL[\"/_next/static/css/eccf2229dbd1c0fb.css\",\"style\"]\n"])
+
+──────────────────────────────────────────────────────────────────────
+  TOKENS / KEYS / SECRETS (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  GRAPHQL ENDPOINTS (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  GRAPHQL QUERIES (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  POSTMESSAGE EVENTS (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  LOCALSTORAGE (0 keys)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  SESSIONSTORAGE (0 keys)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  META TAGS (5)
+──────────────────────────────────────────────────────────────────────
+  viewport = width=device-width, initial-scale=1
+  robots = noindex
+  description = Beautifully designed website where you can watch anime, drama, movies and read mangas for free. Built with Next.JS and shadcn/ui.
+  theme-color = white
+  theme-color = black
+
+──────────────────────────────────────────────────────────────────────
+  FORM ACTIONS (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  XHR RESPONSE BODIES (2)
+──────────────────────────────────────────────────────────────────────
+
+  URL    : https://storrrrrrm.site/stream/d42f649481170d33/master.m3u8
+  Status : 200  CT: application/vnd.apple.mpegurl
+  Body   : #EXTM3U
+#EXT-X-STREAM-INF:RESOLUTION=1280x720
+720p.m3u8
+#EXT-X-STREAM-INF:RESOLUTION=1920x1080
+1080p.m3u8
+
+
+  URL    : https://storrrrrrm.site/stream/d42f649481170d33/1080p.m3u8
+  Status : 200  CT: application/vnd.apple.mpegurl
+  Body   : #EXTM3U
+#EXT-X-TARGETDURATION:2
+#EXT-X-ALLOW-CACHE:YES
+#EXT-X-PLAYLIST-TYPE:VOD
+#EXT-X-VERSION:3
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTINF:2.000,
+https://p16-sg.tiktokcdn.com/obj/tos-alisg-avt-0068/fd7b98d9970181cd42e38a237d0d2fce
+#EXTINF:2.000,
+https://p16-sg.tiktokcdn.com/obj/tos-alisg-avt-0068/25b791ce9bb25338c48c341bcb28f0ab
+#EXTINF:2.000,
+https://p16-sg.tiktokcdn.com/obj/tos-alisg-avt-0068/4f252e5f21936807d478470b738d598d
+#EXTINF:2.000,
+https://p16-sg.tiktokcdn.com/obj/tos-alisg-avt-0068/177d5259d02b
+
+──────────────────────────────────────────────────────────────────────
+  FETCH RESPONSE BODIES (0)
+──────────────────────────────────────────────────────────────────────
+
+══════════════════════════════════════════════════════════════════════
+  AUTO-GENERATED DIRECT API CLIENT
+══════════════════════════════════════════════════════════════════════
+
+  # ── Save as direct_api_client.py and run: python direct_api_client.py
+  import requests, json
+  TARGET = "https://cinemaos.tech/player/1318447 "
+  session = requests.Session()
+  session.headers.update({
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0",
+      "Referer":    "https://cinemaos.tech/player/1318447",
+      "Origin":     "https://cinemaos.tech",
+  })
+
+  # ── Streams found ──
+  # https://storrrrrrm.site/stream/d42f649481170d33/master.m3u8
+  # https://storrrrrrm.site/stream/d42f649481170d33/1080p.m3u8
+  r = session.get('https://storrrrrrm.site/stream/d42f649481170d33/master.m3u8', timeout=15)
+  print(r.text[:500])
+
+══════════════════════════════════════════════════════════════════════
+  END OF REPORT
+══════════════════════════════════════════════════════════════════════

@@ -1,0 +1,44 @@
+JS FILES INDEX
+Target    : https://cinemaos.tech/player/1318447 
+Timestamp : 2026-05-23 08:15:02
+Total external: 5
+Total inline  : 7
+======================================================================
+
+EXTERNAL JS FILES:
+----------------------------------------
+  [0001] https://cinemaos.tech/_next/static/chunks/4bd1b696-ca8d38673d306ac5.js
+         → .\js_files\0001_cinemaos.tech_next_static_chunks_4bd1b696-ca8d38673d306ac5.js
+         size=167,096B  status=200
+
+  [0002] https://cinemaos.tech/_next/static/chunks/1517-b65c951c1bd265bc.js
+         → .\js_files\0002_cinemaos.tech_next_static_chunks_1517-b65c951c1bd265bc.js
+         size=200,832B  status=200
+
+  [0003] https://cinemaos.tech/_next/static/chunks/main-app-d0d0f32c1f849445.js
+         → .\js_files\0003_cinemaos.tech_next_static_chunks_main-app-d0d0f32c1f849445.js
+         size=476B  status=200
+
+  [0004] https://cinemaos.tech/_next/static/chunks/polyfills-42372ed130431b0a.js
+         → .\js_files\0004_cinemaos.tech_next_static_chunks_polyfills-42372ed130431b0a.js
+         size=112,541B  status=200
+
+  [0005] https://cinemaos.tech/_next/static/chunks/webpack-709472111e27f78e.js
+         → .\js_files\0005_cinemaos.tech_next_static_chunks_webpack-709472111e27f78e.js
+         size=3,892B  status=200
+
+
+INLINE SCRIPTS:
+----------------------------------------
+  [inline-0001] size=43  → .\js_files\inline_0001.js
+  [inline-0002] size=2,254  → .\js_files\inline_0002.js
+  [inline-0003] size=165  → .\js_files\inline_0003.js
+  [inline-0004] size=3,000  → .\js_files\inline_0004.js
+  [inline-0005] size=672  → .\js_files\inline_0005.js
+  [inline-0006] size=506  → .\js_files\inline_0006.js
+  [inline-0007] size=3,000  → .\js_files\inline_0007.js
+
+JS FROM PROXY FLOWS (browser-fetched, not in HTML):
+----------------------------------------
+
+TOTAL SAVED: 12 files

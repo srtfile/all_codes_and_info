@@ -1,0 +1,130 @@
+[
+  {
+    "index": 0,
+    "src": "https://acscdn.com/script/aclib.js",
+    "type": "text/javascript",
+    "players": [],
+    "streams": [],
+    "apis": [],
+    "tokens": [],
+    "embeds": [],
+    "status": 200,
+    "saved_as": "script_000_external.js"
+  },
+  {
+    "index": 1,
+    "src": "https://vidrock.ru/assets/index-Avrj6GbQ.js",
+    "type": "module",
+    "players": [
+      "hls.js",
+      "DPlayer"
+    ],
+    "streams": [],
+    "apis": [
+      "${Xl}/find/${r}?api_key=54e00466a09676df57ba51c4ca30b1a6&external_source=imdb_id",
+      "${Xl}/tv/${d}/season/${f}?api_key=${D0}",
+      "${ZN}/${e===",
+      "/API/LockManager/request",
+      "/api/broadcast",
+      "/embed/tv/${r}/${p}/${h}${v}",
+      "https://developer.mozilla.org/en-US/docs/Web/API/LockManager/request",
+      "https://s.vdrk.site/csub.html?id=${t}",
+      "https://s.vdrk.site/csubtv.html?id=${s}&s=${e}&e=${t}",
+      "https://stats.vidrock.ru/movie/${r}",
+      "https://stats.vidrock.ru/tv/${r}/${e}/${t}",
+      "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1"
+    ],
+    "tokens": [
+      "t.params.apikey",
+      "e.access_token",
+      "this.socket.accessTokenValue",
+      "this.supabaseKey",
+      "t.captchaToken",
+      "s.autoRefreshToken",
+      "access_token",
+      "verification.",
+      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRwbnd1ZXVrbmpwamlydWprY3hnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTU1Mjc2NjcsImV4cCI6MjA3MTEwMzY2N30.gHklHLfPjmufs4Lw9HH9oZyzB9YywbyCv5N6JW_pkAI",
+      "r.accessToken",
+      "d.accessToken",
+      "e.refresh_token",
+      "e.options.captchaToken",
+      "this._getAccessToken.bind",
+      "this.socket.apiKey",
+      "54e00466a09676df57ba51c4ca30b1a6"
+    ],
+    "embeds": [],
+    "status": 200,
+    "saved_as": "script_001_external.js"
+  },
+  {
+    "index": 2,
+    "src": "https://s10.histats.com/js15_as.js",
+    "type": "text/javascript",
+    "players": [],
+    "streams": [],
+    "apis": [],
+    "tokens": [],
+    "embeds": [],
+    "status": 200,
+    "saved_as": "script_002_external.js"
+  },
+  {
+    "index": 3,
+    "src": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1",
+    "type": "text/javascript",
+    "players": [],
+    "streams": [],
+    "apis": [],
+    "tokens": [],
+    "embeds": [],
+    "status": 200,
+    "saved_as": "script_003_external.js"
+  },
+  {
+    "index": 4,
+    "src": "https://vidrock.ru/sbx.js",
+    "type": "text/javascript",
+    "players": [],
+    "streams": [],
+    "apis": [],
+    "tokens": [],
+    "embeds": [],
+    "status": 200,
+    "saved_as": "script_004_external.js"
+  },
+  {
+    "index": 5,
+    "src": null,
+    "type": "text/javascript",
+    "players": [],
+    "streams": [],
+    "apis": [],
+    "tokens": [],
+    "embeds": [],
+    "saved_as": "script_005_inline.js"
+  },
+  {
+    "index": 6,
+    "src": "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447",
+    "type": "text/javascript",
+    "players": [],
+    "streams": [],
+    "apis": [],
+    "tokens": [],
+    "embeds": [],
+    "status": 200,
+    "saved_as": "script_006_external.js"
+  },
+  {
+    "index": 7,
+    "src": "https://hr.quasheenunhood.com/rsmxj0VAynp9/XGERm",
+    "type": "text/javascript",
+    "players": [],
+    "streams": [],
+    "apis": [],
+    "tokens": [],
+    "embeds": [],
+    "status": 200,
+    "saved_as": "script_007_external.js"
+  }
+]

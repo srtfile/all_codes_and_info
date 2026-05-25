@@ -1,0 +1,79 @@
+{
+  "target": "https://vidrock.ru/embed/movie/1318447",
+  "base": "https://vidrock.ru",
+  "tmdb_id": "1318447",
+  "endpoints_tried": [
+    {
+      "url": "https://vidrock.ru/api/providerv4",
+      "params": {
+        "tmdbId": "1318447",
+        "type": "movie",
+        "secret": "b7e0701f3c83c41be70bd067223e569a8845bf711eade5fef581f5c5e081c645",
+        "_rk": "2549b22d9bf0d91847a2811baac98d0079e02dba592aea94"
+      },
+      "status": 404
+    },
+    {
+      "url": "https://vidrock.ru/api/providerv4",
+      "params": {
+        "tmdbId": "1318447",
+        "type": "tv",
+        "secret": "b7e0701f3c83c41be70bd067223e569a8845bf711eade5fef581f5c5e081c645",
+        "_rk": "2549b22d9bf0d91847a2811baac98d0079e02dba592aea94"
+      },
+      "status": 404
+    },
+    {
+      "url": "https://vidrock.ru/api/providerv4/scrape",
+      "scraper": "alpha",
+      "status": 404
+    },
+    {
+      "url": "https://vidrock.ru/api/providerv4/scrape",
+      "scraper": "delta",
+      "status": 404
+    },
+    {
+      "url": "https://vidrock.ru/api/providerv4/scrape",
+      "scraper": "Pkaystream",
+      "status": 404
+    },
+    {
+      "url": "https://vidrock.ru/api/providerv4/scrape",
+      "scraper": "nexus4k",
+      "status": 404
+    },
+    {
+      "url": "https://vidrock.ru/api/providerv4/scrape",
+      "scraper": "cinemaos",
+      "status": 404
+    },
+    {
+      "url": "https://vidrock.ru/api/providerv4/scrape",
+      "scraper": "primary",
+      "status": 404
+    },
+    {
+      "url": "https://vidrock.ru/api/providerv4/scrape",
+      "scraper": "backup",
+      "status": 404
+    },
+    {
+      "url": "https://vidrock.ru/api/providerv4/scrape",
+      "scraper": "hd",
+      "status": 404
+    },
+    {
+      "url": "https://vidrock.ru/api/providerv4/scrape",
+      "scraper": "stream",
+      "status": 404
+    },
+    {
+      "url": "https://vidrock.ru/api/providerv4/scrape",
+      "scraper": "main",
+      "status": 404
+    }
+  ],
+  "stream_urls": [],
+  "decrypted_responses": []
+}

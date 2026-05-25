@@ -1,0 +1,8 @@
+{
+  "localStorage": {
+    "app_last_rejection": "{\"reason\":\"TypeError: can't access property \\\"length\\\", d.episodes is undefined\",\"timestamp\":1779537341212,\"url\":\"https://vidrock.ru/embed/movie/1318447\"}",
+    "last_health_check": "1779537407127",
+    "vidRockProgress": "[{\"id\":1318447,\"type\":\"movie\",\"title\":\"Apex\",\"poster_path\":\"/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg\",\"backdrop_path\":\"/oTE4lNs4PSG5iIWjqaTdCIFJ4Bs.jpg\",\"progress\":{\"watched\":0.133333,\"duration\":5725.333},\"last_updated\":1779537377737}]"
+  },
+  "sessionStorage": {}
+}

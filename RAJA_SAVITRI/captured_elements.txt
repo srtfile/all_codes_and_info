@@ -1,0 +1,108 @@
+Element Capturer — Firefox with uBlock Origin (Run #0)
+================================================================
+
+================================================================
+  First Click  |  Category: LINK
+================================================================
+  Timestamp    : 2026-05-03T13:24:31.117Z
+  Page Title   : Raja Shivaji (2026) Hindi PRE-HD 480p, 720p & 1080p | GDRive | MLWBD.COM
+  Page URL     : https://fojik.com/movie/raja-shivaji-2026/
+  Tag          : <a>
+  ID           : 
+  Class        : 
+  Visible Text : Download
+  Link HREF    : javascript:document.getElementById('113240').submit();
+  Attributes   : data-wpel-link="internal"  href="javascript:document.getElementById('113240').submit();"
+  HTML Element : <a href="javascript:document.getElementById('113240').submit();" data-wpel-link="internal"></a>
+  XPath        : /html[1]/body[1]/div[1]/div[2]/div[3]/div[2]/div[6]/div[2]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/a[1]
+  Full XPath   : /html[1]/body[1]/div[1]/div[2]/div[3]/div[2]/div[6]/div[2]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/a[1]
+  Screenshot   : C:\Users\AC\Desktop\RAJA_SAVITRI\screenshots\click_0001_1777814671.png
+================================================================
+
+================================================================
+  Second Click  |  Category: BUTTON
+================================================================
+  Timestamp    : 2026-05-03T13:24:34.157Z
+  Page Title   : 
+  Page URL     : https://sharelink-1.shop/dld.php?i=d1BtTkZ3TDRKcmxNQjAvNWFMRGQ3ZkZOWHd2SFRxSjBEd01KWTNZN1RhT2haaGFxdk8xVDhldC9YcG02TTZvaGttR2J6YTRqUDFPYWFobnI0OHRNMTUvQUJnMG1ob3k2cUhnWFJuY2RpNnV4bGFJQ2xYWXhKWkR2RlBlSGJOOGREU24zRHZKNFhvMit3ZEY0OVc3REphYlZyblhNUGhMYzREZSt2S3ZxWFJDWiszVDBFNS9jSldmREFwUnFpaGxZY21tSkc5aDlrLzB2VmQ5dU9iTzVBVWVVOTBBQ1NJNTk3RDJ0MG4vcnE3WURraDFwUER6WTQ3M0hMS2U5b2VoRW5CcGh4eGtNTjlWTWtVRmdQbHduSE9KQjVkQnpYRkdHanYxNzkvdTUyd0w0YlF2YnFOaU9UYTRxa0NsRFM3UE5LdVU1V0x0Zm0yT0tiRkttSVA5Sk1nPT0=
+  Tag          : <button>
+  ID           : 
+  Class        : myButton
+  Visible Text : Download
+  Attributes   : class="myButton"  type="submit"
+  HTML Element : <button type="submit" class="myButton"></button>
+  XPath        : //button[contains(@class,"myButton")]
+  Full XPath   : /html[1]/body[1]/center[1]/form[1]/button[1]
+  Screenshot   : C:\Users\AC\Desktop\RAJA_SAVITRI\screenshots\click_0002_1777814674.png
+================================================================
+
+================================================================
+  Third Click  |  Category: LINK
+================================================================
+  Timestamp    : 2026-05-03T13:24:36.379Z
+  Page Title   : 
+  Page URL     : https://freethemesy.com/dld.php
+  Tag          : <a>
+  ID           : maindownload
+  Class        : button butt
+  Visible Text : Download
+  Link HREF    : javascript:void(0)
+  Attributes   : class="button butt"  href="javascript:void(0)"  id="maindownload"  rel="noreferrer noopener"  style="display: inline-flex;"
+  HTML Element : <a href="javascript:void(0)" rel="noreferrer noopener" id="maindownload" class="button butt" style="display: inline-flex;"></a>
+  XPath        : //*[@id="maindownload"]
+  Full XPath   : /html[1]/body[1]/div[2]/span[1]/a[1]
+  Screenshot   : C:\Users\AC\Desktop\RAJA_SAVITRI\screenshots\click_0003_1777814676.png
+================================================================
+
+================================================================
+  Fourth Click  |  Category: LINK
+================================================================
+  Timestamp    : 2026-05-03T13:24:44.202Z
+  Page Title   : Raja Shivaji (2026) Hindi PRE-HD
+  Page URL     : https://technews24.site/links/Qmt3T0kzNmMwQUdDREZJZlQxS0YvZEFGcUpReE1zTzJOend4cGE5TXl0MWJtYjhjOTBhRWVVc1ZqcW1VYUpYMg==
+  Tag          : <a>
+  ID           : 
+  Class        : 
+  Visible Text : GDrive
+  Link HREF    : https://en.technews24.site/go.php?i=bUFQdjhvaEpYWVJFSWl1Q2dDK2E0WjBrRDdVUkprcVZpbkd5cGQvUWVaSDRhb2ZoY3pOYWRST2R3V1Z5QkkvVm1ZRkF0ZFZVNkNiejFLQTQ2K1VGM0pyS1ZlMU11TEI2NU1ZNXFJbW1MZGY3N0JieThubDlkeGpGelVqN0RPM2FPY3VUZzhxYWt4M0wrWTg3bEF3TWNS&hash=a3AyQUZKYTdEWDBzZDBGVVdNT1VFbWhhb2hCNUhjQzYrSzJzNGJ5VUQ4cnViSkI2bWpjWDlobjJmOStoMnVwOFdTeDNMdEtERWdXQ3ViRWhqSFBCZGN3Q2QvWElrM2NFMUttam9rQTY0VEpjMk0rTHMxb1dZTmY1TWVxdlZTa1ZSL0lhWTBLQWhMR1ROQUlYQytiazA9
+  Attributes   : href="https://en.technews24.site/go.php?i=bUFQdjhvaEpYWVJFSWl1Q2dDK2E0WjBrRDdVUkprcVZpbkd5cGQvUWVaSDRhb2ZoY3pOYWRST2R3V1Z5QkkvVm1ZRkF0ZFZVNkNiejFLQTQ2K1VGM0pyS1ZlMU11TEI2NU1ZNXFJbW1MZGY3N0JieThubDlkeGpGelVqN0RPM2FPY3VUZzhxYWt4M0wrWTg3bEF3TWNS&hash=a3AyQUZKYTdEWDBzZDBGVVdNT1VFbWhhb2hCNUhjQzYrSzJzNGJ5VUQ4cnViSkI2bWpjWDlobjJmOStoMnVwOFdTeDNMdEtERWdXQ3ViRWhqSFBCZGN3Q2QvWElrM2NFMUttam9rQTY0VEpjMk0rTHMxb1dZTmY1TWVxdlZTa1ZSL0lhWTBLQWhMR1ROQUlYQytiazA9"  target="_blank"
+  HTML Element : <a target="_blank" href="https://en.technews24.site/go.php?i=bUFQdjhvaEpYWVJFSWl1Q2dDK2E0WjBrRDdVUkprcVZpbkd5cGQvUWVaSDRhb2ZoY3pOYWRST2R3V1Z5QkkvVm1ZRkF0ZFZVNkNiejFLQTQ2K1VGM0pyS1ZlMU11TEI2NU1ZNXFJbW1MZGY3N0JieThubDlkeGpGelVqN0RPM2FPY3VUZzhxYWt4M0wrWTg3bEF3TWNS&amp;hash=a3AyQUZKYTdEWDBzZDBGVVdNT1VFbWhhb2hCNUhjQzYrSzJzNGJ5VUQ4cnViSkI2bWpjWDlobjJmOStoMnVwOFdTeDNMdEtERWdXQ3ViRWhqSFBCZGN3Q2QvWElrM2NFMUttam9rQTY0VEpjMk0rTHMxb1dZTmY1TWVxdlZTa1ZSL0lhWTBLQWhMR1ROQUlYQytiazA9"></a>
+  XPath        : /html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/article[1]/div[2]/div[1]/p[5]/strong[1]/a[1]
+  Full XPath   : /html[1]/body[1]/div[3]/div[1]/div[1]/main[1]/article[1]/div[2]/div[1]/p[5]/strong[1]/a[1]
+  Screenshot   : C:\Users\AC\Desktop\RAJA_SAVITRI\screenshots\click_0004_1777814684.png
+================================================================
+
+================================================================
+  Fifth Click  |  Category: LINK
+================================================================
+  Timestamp    : 2026-05-03T13:24:47.110Z
+  Page Title   : READWEB
+  Page URL     : https://sharelink-3.shop/blog/
+  Tag          : <span>
+  ID           : 
+  Class        : button__text
+  Visible Text : DOWNLOAD LINK
+  Link HREF    : javascript:void(0)
+  Attributes   : class="button__text"
+  HTML Element : <span class="button__text"></span>
+  XPath        : //span[contains(@class,"button__text")]
+  Full XPath   : /html[1]/body[1]/div[2]/a[1]/span[1]
+  Screenshot   : C:\Users\AC\Desktop\RAJA_SAVITRI\screenshots\click_0005_1777814687.png
+================================================================
+
+================================================================
+  Sixth Click  |  Category: BUTTON
+================================================================
+  Timestamp    : 2026-05-03T13:24:50.547Z
+  Page Title   : CDN | Fojik
+  Page URL     : https://cdn.cdn-hub.xyz/url?photo=NmQ2QTFnK0F5UVhZcTlmWTZNQ3RVb29vOG5LM2xRbDB0a3ZSZXFCMGlocUh3clNFK3ErNnhkWnRLb1cvYzN6ZlZhUEhKd2dRTW9SalVUNFRZOGk0SE5zS3Z3TFRzcXZPdWl3SitsNmh6ems9
+  Tag          : <button>
+  ID           : openBtn
+  Class        : btn btn-download
+  Visible Text : Download Now
+  Attributes   : class="btn btn-download"  id="openBtn"
+  HTML Element : <button id="openBtn" class="btn btn-download"></button>
+  XPath        : //*[@id="openBtn"]
+  Full XPath   : /html[1]/body[1]/main[1]/div[1]/button[1]
+  Screenshot   : C:\Users\AC\Desktop\RAJA_SAVITRI\screenshots\click_0006_1777814690.png
+================================================================

@@ -1,0 +1,18 @@
+{
+  "charset": "UTF-8",
+  "links": [
+    "https://vidrock.ru/",
+    "https://adexchangerapid.com/ad/visit.php?al=1"
+  ],
+  "metas": {
+    "?": "/vidrock.png",
+    "author": "vidrock",
+    "description": "video streaming api",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "title": "vidrock",
+  "url": "https://vidrock.ru/embed/movie/1318447",
+  "cookies": [],
+  "captured_at": "2026-05-23T17:56:47.618370",
+  "target_url": "https://vidrock.ru/embed/movie/1318447"
+}

@@ -1,0 +1,596 @@
+
+══════════════════════════════════════════════════════════════════════
+  NETWORK INTELLIGENCE REPORT v4.0 — Firefox Edition
+══════════════════════════════════════════════════════════════════════
+  Target    : https://cinemaos.tech/player/1318447 
+  Timestamp : 2026-05-23 08:15:02
+  Title     : 
+  UserAgent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+
+──────────────────────────────────────────────────────────────────────
+  STREAMS — M3U8 / HLS / DASH (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  PROVIDER API CALLS — with tokens (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  DECRYPTED API PAYLOADS (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  INTERCEPTED CRYPTO KEYS (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  STREAM URLS FROM DECRYPTED DATA (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  CONSOLE LOGS (0 entries)
+──────────────────────────────────────────────────────────────────────
+  Breakdown: {}
+
+
+──────────────────────────────────────────────────────────────────────
+  BROWSER ERRORS / WARNINGS (2 entries)
+──────────────────────────────────────────────────────────────────────
+  [ns-error] NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]","message":null,"code":null,"errno":null}
+  [cert-issue] certificate errors will be ignored for this session
+
+──────────────────────────────────────────────────────────────────────
+  NETWORK TIMING — PerformanceResourceTiming (0 entries)
+──────────────────────────────────────────────────────────────────────
+
+  Resource Timing (top 50 by duration):
+
+──────────────────────────────────────────────────────────────────────
+  PROXY NETWORK TIMING (0 entries)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  TLS / CERTIFICATE INFO (0 domains)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  WEBSOCKET FRAMES — mitmproxy (0 frames)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  BINARY MEDIA SEGMENTS (3 captured)
+──────────────────────────────────────────────────────────────────────
+  URL  : https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozill
+  Type : binary/octet-stream  Size: 5303B
+  Info : fMP4 box=-BEG size=757935405 | boxes=['-BEG'] | hex=2d2d2d2d2d424547494e204345525449
+
+  URL  : https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozill
+  Type : binary/octet-stream  Size: 5307B
+  Info : fMP4 box=-BEG size=757935405 | boxes=['-BEG'] | hex=2d2d2d2d2d424547494e204345525449
+
+  URL  : https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozill
+  Type : binary/octet-stream  Size: 5307B
+  Info : fMP4 box=-BEG size=757935405 | boxes=['-BEG'] | hex=2d2d2d2d2d424547494e204345525449
+
+
+──────────────────────────────────────────────────────────────────────
+  INDEXEDDB (0 stores)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  CACHE API ENTRIES (0 entries)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  DOM SNAPSHOT (0 page(s))
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  COMPUTED STYLES — media/player elements (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  PLAYLIST ANALYSIS (0 parsed)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  RAW PROXY FLOWS — mitmproxy (16 total)
+──────────────────────────────────────────────────────────────────────
+  Requests : 8
+  Responses: 8
+
+
+  ── content-signature-2.cdn.mozilla.net (6 flows) ──
+  → GET https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-05-27-11-40-34.chain
+  → GET https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-06-16-11-43-46.chain
+  ← 200 https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-06-16-11-43-46.chain  [binary/octet-stream]  5303B
+    body: fMP4 box=-BEG size=757935405 | boxes=['-BEG'] | hex=2d2d2d2d2d424547494e204345525449
+  ← 200 https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-05-27-11-40-34.chain  [binary/octet-stream]  5307B
+    body: fMP4 box=-BEG size=757935405 | boxes=['-BEG'] | hex=2d2d2d2d2d424547494e204345525449
+  → GET https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-05-27-11-40-34.chain
+  ← 200 https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-05-27-11-40-34.chain  [binary/octet-stream]  5307B
+    body: fMP4 box=-BEG size=757935405 | boxes=['-BEG'] | hex=2d2d2d2d2d424547494e204345525449
+
+  ── detectportal.firefox.com (4 flows) ──
+  → GET http://detectportal.firefox.com/canonical.html
+  ← 200 http://detectportal.firefox.com/canonical.html  [text/html]  90B
+    body: <meta http-equiv="refresh" content="0;url=https://support.mozilla.org/kb/captive-portal"/>
+  → GET http://detectportal.firefox.com/canonical.html
+  ← 200 http://detectportal.firefox.com/canonical.html  [text/html]  90B
+    body: <meta http-equiv="refresh" content="0;url=https://support.mozilla.org/kb/captive-portal"/>
+
+  ── raw.githubusercontent.com (4 flows) ──
+  → GET https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/swefilter/patches/2026.5.21.234.patch
+  → GET https://raw.githubusercontent.com/dimisa-RUAdList/RUAdListCDN/main/patches/2026.5.22.916.patch
+  ← 404 https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/swefilter/patches/2026.5.21.234.patch  [text/plain; charset=utf-8]  14B
+    body: 404: Not Found
+  ← 200 https://raw.githubusercontent.com/dimisa-RUAdList/RUAdListCDN/main/patches/2026.5.22.916.patch  [text/plain; charset=utf-8]  392B
+    body: diff name:ruadlist lines:16 checksum:e0247d2a9a
+d4 2
+a5 2
+! Last modified: Fri, 22 May 2026 20:01:59 +0000
+! Diff-Path: ../patches/2026.5.22.1201.patch#ruadlist
+a15081 1
+myshows.me##.Home__ad
+d15094 1
+a20953 1
+myshows.me##div[class^="OnlineLink"]
+d23742 1
+a23742 1
+ya.ru##section[style*="tlon-items-count:"]
+d28487 1
+d28489 3
+a28491 1
+ya.ru##html[class*="document_extra-content"] aside + div
+
+
+  ── ublockorigin.pages.dev (2 flows) ──
+  → GET https://ublockorigin.pages.dev/patches/2026.5.22.1202.patch
+  ← 200 https://ublockorigin.pages.dev/patches/2026.5.22.1202.patch  [text/html; charset=utf-8]  2159B
+    body: <!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<title></title>
+</head>
+
+<body>
+<h1>uAssetsCDN</h1>
+<p>CDN content mirroring uAssets.</p>
+<p>This site is used as a <a href="https://en.wikipedia.org/wiki/Content_delivery_network">Content Delivery Network</a> for <a href="https://github.com/uBlockOrigin/uAsset
+
+──────────────────────────────────────────────────────────────────────
+  DRM DETECTION (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  MEDIASOURCE / MSE EVENTS (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  BLOB URLS (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  WASM MODULES (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  RUNTIME DEOBFUSCATION (0 events)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  SERVICE WORKERS (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  WEBSOCKET MESSAGES (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  SIGNED URL INTELLIGENCE (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  CSP POLICIES (4)
+──────────────────────────────────────────────────────────────────────
+  URL: https://cinemaos.tech/player/1318447 
+  full: frame-ancestors *
+  URL: https://cinemaos.tech/v8zOcynvSd6IW3FzZrvst2HJ53s.jpg\
+  full: frame-ancestors *
+  URL: https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/swefilter/
+    default-src: 'none'
+  full: default-src 'none'; style-src 'unsafe-inline'; sandbox
+  URL: https://raw.githubusercontent.com/dimisa-RUAdList/RUAdListCDN/main/patches/2026.
+    default-src: 'none'
+  full: default-src 'none'; style-src 'unsafe-inline'; sandbox
+
+──────────────────────────────────────────────────────────────────────
+  CORS HEADERS (3)
+──────────────────────────────────────────────────────────────────────
+  https://ublockorigin.pages.dev/patches/2026.5.22.1202.patch  allow_origin=*
+  https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/swefilter/  allow_origin=*
+  https://raw.githubusercontent.com/dimisa-RUAdList/RUAdListCDN/main/patches/2026.  allow_origin=*
+
+──────────────────────────────────────────────────────────────────────
+  SUBTITLE / TRACK URLS (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  FRAMEWORK STATE (React/Vue/Redux)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  API ENDPOINTS (2)
+──────────────────────────────────────────────────────────────────────
+  https://cinemaos.tech/v8zOcynvSd6IW3FzZrvst2HJ53s.jpg\
+  responseURL
+
+──────────────────────────────────────────────────────────────────────
+  API ENDPOINTS FROM JS FILES (1)
+──────────────────────────────────────────────────────────────────────
+  JS: https://cinemaos.tech/_next/static/chunks/polyfills-42372ed130431b0a.js
+  EP: responseURL
+
+
+──────────────────────────────────────────────────────────────────────
+  WEBSOCKET URLS (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  COOKIES (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  SERVER SET-COOKIE DETAILS (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  IFRAMES (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  EXTERNAL JS FILES (5) — saved to js_files/ folder
+──────────────────────────────────────────────────────────────────────
+  https://cinemaos.tech/_next/static/chunks/4bd1b696-ca8d38673d306ac5.js
+  https://cinemaos.tech/_next/static/chunks/1517-b65c951c1bd265bc.js
+  https://cinemaos.tech/_next/static/chunks/main-app-d0d0f32c1f849445.js
+  https://cinemaos.tech/_next/static/chunks/polyfills-42372ed130431b0a.js
+  https://cinemaos.tech/_next/static/chunks/webpack-709472111e27f78e.js
+
+──────────────────────────────────────────────────────────────────────
+  RESPONSE HEADERS
+──────────────────────────────────────────────────────────────────────
+
+  URL: https://cinemaos.tech/player/1318447 
+    Server: nginx/1.24.0 (Ubuntu)
+    Date: Sat, 23 May 2026 02:15:23 GMT
+    Content-Type: text/html; charset=utf-8
+    Transfer-Encoding: chunked
+    Connection: keep-alive
+    X-Content-Type-Options: nosniff, nosniff
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Referrer-Policy: strict-origin-when-cross-origin
+    Permissions-Policy: camera=(), microphone=(), geolocation=()
+    Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch, Accept-Encoding
+    link: </_next/static/media/36966cca54120369-s.p.woff2>; rel=preload; as="font"; crossorigin=""; type="font/woff2", </_next/static/css/13748814dceb7d96.css>; rel=preload; as="style", </_next/static/css/eccf2229dbd1c0fb.css>; rel=preload; as="style"
+    X-Powered-By: Next.js
+    Cache-Control: private, no-cache, no-store, max-age=0, must-revalidate
+    Content-Encoding: gzip
+    X-Frame-Options: ALLOWALL
+    Content-Security-Policy: frame-ancestors *
+
+  URL: http://detectportal.firefox.com/canonical.html
+    Server: nginx
+    Content-Length: 90
+    Via: 1.1 google
+    Date: Fri, 22 May 2026 18:04:03 GMT
+    Age: 29518
+    Content-Type: text/html
+    Cache-Control: public,must-revalidate,max-age=0,s-maxage=3600
+
+  URL: https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-06-16-11-43-46.chain
+    x-amz-id-2: qySEyy2UiWxnCxUWjTmRBEKhmiNw8YWuBMn6Dsi8/YDUyl3wFLIaHqwgbXvFGwLrAXZWT7UTBpw=
+    x-amz-request-id: 6W6CBN330EWWA91G
+    x-amz-server-side-encryption: AES256
+    content-disposition: attachment
+    accept-ranges: bytes
+    content-length: 5303
+    server: AmazonS3
+    via: 1.1 google
+    date: Sat, 23 May 2026 01:31:26 GMT
+    age: 2670
+    last-modified: Mon, 27 Apr 2026 11:43:47 GMT
+    etag: "f5b6a695755c500093e9cc6bba4e6bd6"
+    content-type: binary/octet-stream
+    cache-control: public,max-age=3600
+    alt-svc: clear
+
+  URL: https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-05-27-11-40-34.chain
+    x-amz-id-2: XtUcPfOz2BbDb487tcaofteUixSu6rGMx+MdQh7fkgtmRDPiMHBb6vJixkspoDhBNFCS5aOwsXo=
+    x-amz-request-id: 7XK4V8M8CFKAM8SS
+    x-amz-server-side-encryption: AES256
+    content-disposition: attachment
+    accept-ranges: bytes
+    content-length: 5307
+    server: AmazonS3
+    via: 1.1 google
+    date: Sat, 23 May 2026 01:38:14 GMT
+    age: 2263
+    last-modified: Tue, 07 Apr 2026 11:40:35 GMT
+    etag: "59adf4d80becc24371002c95a5e0165c"
+    content-type: binary/octet-stream
+    cache-control: public,max-age=3600
+    alt-svc: clear
+
+  URL: https://ublockorigin.pages.dev/patches/2026.5.22.1202.patch
+    date: Sat, 23 May 2026 02:16:02 GMT
+    content-type: text/html; charset=utf-8
+    access-control-allow-origin: *
+    cache-control: public, max-age=0, must-revalidate
+    nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+    referrer-policy: strict-origin-when-cross-origin
+    x-content-type-options: nosniff
+    report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=cQkEF3K%2BFBr58ujda1saZdr9HVbD%2FGWV5zcYGj6qUeMjkQPiXcDmvZ3cISq6nFwlodCjlTRySBEnqdh4h5A%2Bhr79DaMU%2FJMg28sJxFdObxv9j%2FAh5lMmxLE%2BH0rvuZyomiRvC7vZFj92"}]}
+    content-encoding: br
+    server: cloudflare
+    cf-ray: a0008e665b44d4ed-DAC
+    alt-svc: h3=":443"; ma=86400
+
+  URL: https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/swefilter/patches/2026.5.21.234.patch
+    content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+    strict-transport-security: max-age=31536000
+    x-content-type-options: nosniff
+    x-frame-options: deny
+    x-xss-protection: 1; mode=block
+    content-type: text/plain; charset=utf-8
+    x-github-request-id: 75D0:2D3788:24402E:56A972:6A110DA7
+    accept-ranges: bytes
+    date: Sat, 23 May 2026 02:16:02 GMT
+    via: 1.1 varnish
+    x-served-by: cache-bom-vanm7210049-BOM
+    x-cache: HIT
+    x-cache-hits: 1
+    x-timer: S1779502562.439245,VS0,VE1
+    vary: Authorization,Accept-Encoding
+    access-control-allow-origin: *
+    cross-origin-resource-policy: cross-origin
+    x-fastly-request-id: b5ac6bd4530d68dcaddfc753d4d0938c3435fe9d
+    expires: Sat, 23 May 2026 02:21:02 GMT
+    source-age: 57
+    content-length: 14
+
+  URL: https://raw.githubusercontent.com/dimisa-RUAdList/RUAdListCDN/main/patches/2026.5.22.916.patch
+    cache-control: max-age=300
+    content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+    content-type: text/plain; charset=utf-8
+    etag: W/"81906d17ea7b6813a2c95618e158e69a4f9c02ccf0473f9f7a4406ef51141f79"
+    strict-transport-security: max-age=31536000
+    x-content-type-options: nosniff
+    x-frame-options: deny
+    x-xss-protection: 1; mode=block
+    x-github-request-id: F82E:2B0E71:215459:4AD5F1:6A10B982
+    content-encoding: gzip
+    accept-ranges: bytes
+    date: Sat, 23 May 2026 02:16:02 GMT
+    via: 1.1 varnish
+    x-served-by: cache-bom-vanm7210052-BOM
+    x-cache: HIT
+    x-cache-hits: 0
+    x-timer: S1779502562.468294,VS0,VE1
+    vary: Authorization,Accept-Encoding
+    access-control-allow-origin: *
+    cross-origin-resource-policy: cross-origin
+    x-fastly-request-id: 01e6e97d2cd105cd1f7ab25d47e6db6d06be0079
+    expires: Sat, 23 May 2026 02:21:02 GMT
+    source-age: 222
+    content-length: 296
+
+──────────────────────────────────────────────────────────────────────
+  REDIRECT CHAIN (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  ALL INTERCEPTED REQUESTS (16)
+──────────────────────────────────────────────────────────────────────
+  [      ] proxy-request    GET    http://detectportal.firefox.com/canonical.html
+           Host: detectportal.firefox.com
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate
+           Cache-Control: no-cache
+           Pragma: no-cache
+           Connection: keep-alive
+  [      ] proxy-response   GET    http://detectportal.firefox.com/canonical.html
+           Body    : <meta http-equiv="refresh" content="0;url=https://support.mozilla.org/kb/captive-portal"/>
+  [      ] proxy-request    GET    https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-05-27-11-40-34.chain
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           te: trailers
+  [      ] proxy-request    GET    https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-06-16-11-43-46.chain
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           te: trailers
+  [      ] proxy-response   GET    https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-06-16-11-43-46.chain
+           Body    : fMP4 box=-BEG size=757935405 | boxes=['-BEG'] | hex=2d2d2d2d2d424547494e204345525449
+  [      ] proxy-response   GET    https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-05-27-11-40-34.chain
+           Body    : fMP4 box=-BEG size=757935405 | boxes=['-BEG'] | hex=2d2d2d2d2d424547494e204345525449
+  [      ] proxy-request    GET    https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-05-27-11-40-34.chain
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           te: trailers
+  [      ] proxy-response   GET    https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-05-27-11-40-34.chain
+           Body    : fMP4 box=-BEG size=757935405 | boxes=['-BEG'] | hex=2d2d2d2d2d424547494e204345525449
+  [      ] proxy-request    GET    http://detectportal.firefox.com/canonical.html
+           Host: detectportal.firefox.com
+           User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           Accept: */*
+           Accept-Language: en-US,en;q=0.9
+           Accept-Encoding: gzip, deflate
+           Cache-Control: no-cache
+           Pragma: no-cache
+           Connection: keep-alive
+  [      ] proxy-response   GET    http://detectportal.firefox.com/canonical.html
+           Body    : <meta http-equiv="refresh" content="0;url=https://support.mozilla.org/kb/captive-portal"/>
+  [      ] proxy-request    GET    https://ublockorigin.pages.dev/patches/2026.5.22.1202.patch
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           sec-fetch-dest: empty
+           sec-fetch-mode: cors
+           sec-fetch-site: same-origin
+           priority: u=4
+           te: trailers
+  [      ] proxy-response   GET    https://ublockorigin.pages.dev/patches/2026.5.22.1202.patch
+           Body    : <!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<title></title>
+</head>
+
+<body>
+<h1>uAssetsCDN</h1>
+<p>CDN co
+  [      ] proxy-request    GET    https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/swefilter/patches/2026.5.21.234.patch
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           sec-fetch-dest: empty
+           sec-fetch-mode: cors
+           sec-fetch-site: same-origin
+           priority: u=4
+           te: trailers
+  [      ] proxy-request    GET    https://raw.githubusercontent.com/dimisa-RUAdList/RUAdListCDN/main/patches/2026.5.22.916.patch
+           user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+           accept: */*
+           accept-language: en-US,en;q=0.9
+           accept-encoding: gzip, deflate, br, zstd
+           sec-fetch-dest: empty
+           sec-fetch-mode: cors
+           sec-fetch-site: same-origin
+           priority: u=4
+           te: trailers
+  [      ] proxy-response   GET    https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/swefilter/patches/2026.5.21.234.patch
+           Body    : 404: Not Found
+  [      ] proxy-response   GET    https://raw.githubusercontent.com/dimisa-RUAdList/RUAdListCDN/main/patches/2026.5.22.916.patch
+           Body    : diff name:ruadlist lines:16 checksum:e0247d2a9a
+d4 2
+a5 2
+! Last modified: Fri, 22 May 2026 20:01:59 +0000
+! Diff-Path: ../patches/2026.5.22.1201.patch#ruadlist
+a15081 1
+myshows.me##.Home__ad
+d15094 1
+
+──────────────────────────────────────────────────────────────────────
+  INLINE SCRIPTS (7) — first 300 chars each
+──────────────────────────────────────────────────────────────────────
+
+  [1] (self.__next_f=self.__next_f||[]).push([0])
+
+  [2] self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:I[60766,[\"1181\",\"static/chunks/1181-f6ec003211356e7e.js\",\"2484\",\"static/chunks/2484-4d2a7c32acc3cd9f.js\",\"661\",\"static/chunks/661-daf81c728210bdd4.js\",\"7177\",\"static/chunks/app/layout-a9085efd45a0a170.js\"],\"GoogleAnalytics\"]\n3:I[359
+
+  [3] self.__next_f.push([1,"\":\"font/woff2\"}]\n:HL[\"/_next/static/css/13748814dceb7d96.css\",\"style\"]\n:HL[\"/_next/static/css/eccf2229dbd1c0fb.css\",\"style\"]\n"])
+
+  [4] self.__next_f.push([1,"0:{\"P\":null,\"b\":\"aiVdJ5R4kYMxFpY7TMxsB\",\"p\":\"\",\"c\":[\"\",\"player\",\"1318447%20\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"(player)\",{\"children\":[\"player\",{\"children\":[[\"id\",\"1318447%20\",\"d\"],{\"children\":[\"__PAGE__\",{}]}]}]}]},\"$undefined\",\"
+
+  [5] self.__next_f.push([1,"14:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"1\",{\"name\":\"theme-color\",\"media\":\"(prefers-color-scheme: light)\",\"content\":\"white\"}],[\"$\",\"meta\",\"2\",{\"name\":\"theme-color\",\"media\":
+
+  [6] self.__next_f.push([1,"16:I[95651,[\"9268\",\"static/chunks/aaea2bcf-4b7d5c47edf9795e.js\",\"9910\",\"static/chunks/a4634e51-eaf6c3d6b6e58119.js\",\"9219\",\"static/chunks/9219-823ba16db21159e8.js\",\"5463\",\"static/chunks/5463-386931798cd2c3eb.js\",\"9453\",\"static/chunks/9453-08e0dc08540a303a.js
+
+  [7] self.__next_f.push([1,"e:[\"$\",\"div\",null,{\"className\":\"flex h-screen w-screen items-center justify-center\",\"children\":[\"$\",\"$L16\",null,{\"tmdbId\":\"1318447%20\",\"contentType\":\"movie\",\"title\":\"Apex\",\"backdrop_poster\":\"https://image.tmdb.org/t/p/original//oTE4lNs4PSG5iIWjqaTd
+
+──────────────────────────────────────────────────────────────────────
+  TOKENS / KEYS / SECRETS (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  GRAPHQL ENDPOINTS (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  GRAPHQL QUERIES (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  POSTMESSAGE EVENTS (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  LOCALSTORAGE (0 keys)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  SESSIONSTORAGE (0 keys)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  META TAGS (6)
+──────────────────────────────────────────────────────────────────────
+  viewport = width=device-width, initial-scale=1
+  robots = noindex
+  description = Beautifully designed website where you can watch anime, drama, movies and read mangas for free. Built with Next.JS and shadcn/ui.
+  theme-color = white
+  theme-color = black
+  viewport = width=device-width, initial-scale=1, minimum-scale=1
+
+──────────────────────────────────────────────────────────────────────
+  FORM ACTIONS (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  XHR RESPONSE BODIES (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  FETCH RESPONSE BODIES (0)
+──────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────
+  ERRORS (1)
+──────────────────────────────────────────────────────────────────────
+  ⚠ WebDriver: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:169:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:355:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:56:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:357:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:156:19
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+
+══════════════════════════════════════════════════════════════════════
+  AUTO-GENERATED DIRECT API CLIENT
+══════════════════════════════════════════════════════════════════════
+
+  # ── Save as direct_api_client.py and run: python direct_api_client.py
+  import requests, json
+  TARGET = "https://cinemaos.tech/player/1318447 "
+  session = requests.Session()
+  session.headers.update({
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0",
+  })
+
+  # ── API endpoints ──
+  # https://cinemaos.tech/v8zOcynvSd6IW3FzZrvst2HJ53s.jpg\
+  # responseURL
+  r = session.get('https://cinemaos.tech/v8zOcynvSd6IW3FzZrvst2HJ53s.jpg\', timeout=15)
+  try: print(json.dumps(r.json(), indent=2))
+  except: print(r.text[:500])
+
+══════════════════════════════════════════════════════════════════════
+  END OF REPORT
+══════════════════════════════════════════════════════════════════════
