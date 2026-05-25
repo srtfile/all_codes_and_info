@@ -1,0 +1,468 @@
+"""
+yflix.to / 1movies embed + m3u8 extractor
+-----------------------------------------
+Pipeline (per smy778/EncDecEndpoints samples):
+
+  watch URL
+    -> scrape content_id (data-id on #movie-rating)
+    -> enc(content_id) -> /ajax/episodes/list   -> episodes HTML -> parse-html -> episodes dict
+    -> pick season/episode -> eid
+    -> enc(eid)         -> /ajax/links/list     -> servers HTML  -> parse-html -> servers dict
+    -> pick server type ("default") + server_id -> lid
+    -> enc(lid)         -> /ajax/links/view     -> encrypted blob
+    -> POST /api/dec-movies-flix                -> embed url (e.g. https://rapidairmax.site/e/<id>?sub.list=...)
+
+  Embed -> source (m3u8) resolution:
+    -> replace /e/  with /media/  -> GET -> encrypted blob
+    -> POST /api/dec-rapid  (rapidshare / rapidairmax style hosts)
+    -> POST /api/dec-mega   (megaup style hosts)  [fallback]
+
+Usage:
+    python yflix_extractor.py "https://yflix.to/watch/terminator-2-judgment-day.93pyl"
+
+Or programmatically:
+    from yflix_extractor import extract
+    data = extract("https://yflix.to/watch/terminator-2-judgment-day.93pyl",
+                   season="1", episode="1", server_type="default", server_index="1")
+    print(data["embed_url"])
+    print(data["sources"])   # decrypted JSON containing the m3u8 url(s)
+"""
+
+import re
+import sys
+import json
+import argparse
+import requests
+from urllib.parse import urlparse, unquote
+
+# ---------------------------------------------------------------------------
+# Constants
+# ---------------------------------------------------------------------------
+
+ENC_DEC_API = "https://enc-dec.app/api"
+
+DEFAULT_UA = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+)
+
+# yflix.to and 1movies.bz share the same backend. The watch URL's host tells
+# us which ajax base to call (avoids cross-site redirects / cookie issues).
+SUPPORTED_HOSTS = {
+    "yflix.to":      "https://yflix.to",
+    "www.yflix.to":  "https://yflix.to",
+    "1movies.bz":    "https://1movies.bz",
+    "www.1movies.bz":"https://1movies.bz",
+    "solarmovie.fi": "https://solarmovie.fi",
+    "www.solarmovie.fi": "https://solarmovie.fi",
+}
+
+
+# ---------------------------------------------------------------------------
+# HTTP helpers
+# ---------------------------------------------------------------------------
+
+class FlixError(RuntimeError):
+    pass
+
+
+def _headers(referer, ajax=True):
+    h = {
+        "User-Agent": DEFAULT_UA,
+        "Referer": referer,
+        "Accept": "application/json, text/plain, */*" if ajax else
+                  "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    }
+    if ajax:
+        h["X-Requested-With"] = "XMLHttpRequest"
+    return h
+
+
+def _get_json(url, headers, timeout=30):
+    r = requests.get(url, headers=headers, timeout=timeout)
+    r.raise_for_status()
+    try:
+        return r.json()
+    except ValueError:
+        raise FlixError(f"Non-JSON response from {url}: {r.text[:200]}")
+
+
+def _post_json(url, payload, timeout=30):
+    r = requests.post(url, json=payload, timeout=timeout,
+                      headers={"User-Agent": DEFAULT_UA, "Accept": "application/json"})
+    r.raise_for_status()
+    try:
+        return r.json()
+    except ValueError:
+        raise FlixError(f"Non-JSON response from {url}: {r.text[:200]}")
+
+
+def _api_result(data, where):
+    """Unwrap enc-dec.app envelope {status, result, error?}."""
+    if not isinstance(data, dict):
+        raise FlixError(f"{where}: unexpected payload: {data!r}")
+    if data.get("status") != 200:
+        raise FlixError(f"{where}: status={data.get('status')} error={data.get('error')}")
+    return data["result"]
+
+
+# ---------------------------------------------------------------------------
+# yflix-specific calls
+# ---------------------------------------------------------------------------
+
+def enc_flix(text):
+    """Encrypt any id (content_id / eid / lid) for yflix/1movies."""
+    return _api_result(
+        _get_json(f"{ENC_DEC_API}/enc-movies-flix?text={text}", headers={"User-Agent": DEFAULT_UA}),
+        "enc-movies-flix",
+    )
+
+
+def dec_flix(text):
+    """Decrypt /ajax/links/view result -> {url: embed_url}."""
+    return _api_result(_post_json(f"{ENC_DEC_API}/dec-movies-flix", {"text": text}),
+                       "dec-movies-flix")
+
+
+def parse_html(html):
+    """Convert episodes/servers HTML into the structured dict the API exposes."""
+    return _api_result(_post_json(f"{ENC_DEC_API}/parse-html", {"text": html}),
+                       "parse-html")
+
+
+def get_content_id(watch_url):
+    """Scrape the page's data-id (content/movie id) from #movie-rating."""
+    host = urlparse(watch_url).netloc.lower()
+    if host not in SUPPORTED_HOSTS:
+        raise FlixError(f"Unsupported host: {host}. Expected one of {list(SUPPORTED_HOSTS)}")
+    base = SUPPORTED_HOSTS[host]
+
+    html = requests.get(
+        watch_url, headers=_headers(base + "/", ajax=False), timeout=30
+    ).text
+
+    # Page evolved over time -- try a few known selectors.
+    patterns = [
+        # newer layout: itemprop="aggregateRating" ... data-id="..."
+        r'itemprop="aggregateRating"[^>]*data-id="([^"]+)"',
+        r'data-id="([^"]+)"[^>]*itemprop="aggregateRating"',
+        # original layout from sample script
+        r'id="movie-rating"[^>]*data-id="([^"]+)"',
+        r'data-id="([^"]+)"[^>]*id="movie-rating"',
+        # bookmark widget (also carries the content id, and is data-live="true")
+        r'class="[^"]*user-bookmark[^"]*"[^>]*data-id="([^"]+)"[^>]*data-live="true"',
+        r'data-id="([^"]+)"[^>]*data-live="true"',
+    ]
+    for pat in patterns:
+        m = re.search(pat, html)
+        if m:
+            return base, m.group(1)
+    raise FlixError("Could not find content_id (data-id) in page HTML")
+
+
+def list_episodes(base, content_id):
+    enc = enc_flix(content_id)
+    resp = _get_json(
+        f"{base}/ajax/episodes/list?id={content_id}&_={enc}",
+        headers=_headers(base + "/"),
+    )
+    return parse_html(resp["result"])
+
+
+def list_servers(base, eid):
+    enc = enc_flix(eid)
+    resp = _get_json(
+        f"{base}/ajax/links/list?eid={eid}&_={enc}",
+        headers=_headers(base + "/"),
+    )
+    return parse_html(resp["result"])
+
+
+def _unwrap_iframe(url, base):
+    """
+    yflix sometimes returns /iframe/<token> instead of a direct provider URL.
+    The /iframe/ page embeds the real provider in an inner <iframe src="...">.
+    Follow it (recursively) until we reach a host with /e/ in its path.
+    """
+    seen = set()
+    cur = url
+    while cur and "/iframe/" in cur and cur not in seen:
+        seen.add(cur)
+        r = requests.get(cur, headers=_headers(base + "/", ajax=False), timeout=30)
+        m = re.search(r'<iframe[^>]+src="([^"]+)"', r.text, re.IGNORECASE)
+        if not m:
+            break
+        cur = m.group(1)
+    return cur
+
+
+def get_embed_url(base, lid):
+    """Returns the embed url for a given server lid (e.g. rapidshareee.site/e/...)."""
+    enc = enc_flix(lid)
+    resp = _get_json(
+        f"{base}/ajax/links/view?id={lid}&_={enc}",
+        headers=_headers(base + "/"),
+    )
+    decrypted = dec_flix(resp["result"])
+    url = decrypted.get("url") if isinstance(decrypted, dict) else decrypted
+    if url and "/iframe/" in url:
+        url = _unwrap_iframe(url, base)
+    return url, decrypted
+
+
+# ---------------------------------------------------------------------------
+# Embed -> source resolution (rapidshare / megaup)
+# ---------------------------------------------------------------------------
+
+def resolve_embed(embed_url):
+    """
+    Given an embed url like https://<host>/e/<id>?sub.list=...
+    Fetch /media/<id>, decrypt with /api/dec-rapid (preferred) or /api/dec-mega
+    and return the parsed JSON (which contains .sources[*].file -> m3u8).
+    """
+    if "/e/" not in embed_url:
+        raise FlixError(f"Embed url does not contain '/e/': {embed_url}")
+
+    referer = embed_url.split("/e/")[0] + "/"
+    media_url = embed_url.replace("/e/", "/media/")
+
+    headers = {
+        "User-Agent": DEFAULT_UA,
+        "Referer": referer,
+        "Accept": "application/json, text/plain, */*",
+    }
+    raw = _get_json(media_url, headers=headers)
+    encrypted = raw.get("result")
+    if not encrypted:
+        raise FlixError(f"No 'result' field in media response: {raw}")
+
+    # Choose decryptor by host. rapidshare/rapidairmax/etc -> dec-rapid.
+    # megaup -> dec-mega. Fall back to the other if the first fails.
+    host = urlparse(embed_url).netloc.lower()
+    if "mega" in host:
+        order = ["dec-mega", "dec-rapid"]
+    else:
+        order = ["dec-rapid", "dec-mega"]
+
+    last_err = None
+    for path in order:
+        try:
+            data = _post_json(f"{ENC_DEC_API}/{path}",
+                              {"text": encrypted, "agent": DEFAULT_UA})
+            result = _api_result(data, path)
+            return {
+                "decryptor": path,
+                "referer": referer,
+                "media_url": media_url,
+                "sources": result,
+            }
+        except FlixError as e:
+            last_err = e
+            continue
+    raise FlixError(f"All decryptors failed for {host}: {last_err}")
+
+
+# ---------------------------------------------------------------------------
+# Top-level orchestrator
+# ---------------------------------------------------------------------------
+
+def extract(watch_url,
+            season="1", episode="1",
+            server_type="default", server_index="1",
+            all_servers=False):
+    """
+    End-to-end extraction.
+
+    For movies, yflix exposes a single virtual episode at season "1", episode "1".
+
+    Returns:
+        {
+            "content_id": str,
+            "eid":        str,
+            "servers":    {<type>: {<idx>: {"lid": ..., "title": ...}}},
+            "picked":     {"type": ..., "index": ..., "lid": ..., "title": ...},
+            "embed_url":  str,
+            "embed_raw":  dict,        # full decrypt-movies-flix result
+            "sources":    {...},       # decrypted m3u8 payload (when resolved)
+            "all":        [...]        # optional: every server resolved (when all_servers=True)
+        }
+    """
+    base, content_id = get_content_id(watch_url)
+    episodes = list_episodes(base, content_id)
+
+    if season not in episodes:
+        raise FlixError(f"Season {season!r} not found. Available: {list(episodes.keys())}")
+    if episode not in episodes[season]:
+        raise FlixError(
+            f"Episode {episode!r} not found in season {season!r}. "
+            f"Available: {list(episodes[season].keys())}"
+        )
+
+    eid = episodes[season][episode]["eid"]
+    servers = list_servers(base, eid)
+
+    out = {
+        "content_id": content_id,
+        "base": base,
+        "eid": eid,
+        "episode_title": episodes[season][episode].get("title"),
+        "servers": servers,
+    }
+
+    if all_servers:
+        out["all"] = []
+        for stype, smap in servers.items():
+            for sidx, sinfo in smap.items():
+                lid = sinfo["lid"]
+                try:
+                    embed_url, embed_raw = get_embed_url(base, lid)
+                    sources = None
+                    src_err = None
+                    try:
+                        sources = resolve_embed(embed_url)
+                    except Exception as e:
+                        src_err = str(e)
+                    out["all"].append({
+                        "type": stype,
+                        "index": sidx,
+                        "title": sinfo.get("title"),
+                        "lid": lid,
+                        "embed_url": embed_url,
+                        "embed_raw": embed_raw,
+                        "sources": sources,
+                        "source_error": src_err,
+                    })
+                except Exception as e:
+                    out["all"].append({
+                        "type": stype, "index": sidx, "lid": lid,
+                        "title": sinfo.get("title"),
+                        "error": str(e),
+                    })
+        return out
+
+    # Single-server path
+    if server_type not in servers:
+        # Auto-pick first available type if "default" not present
+        if server_type == "default" and servers:
+            server_type = next(iter(servers))
+        else:
+            raise FlixError(
+                f"Server type {server_type!r} not found. Available: {list(servers.keys())}"
+            )
+    if server_index not in servers[server_type]:
+        server_index = next(iter(servers[server_type]))
+
+    sinfo = servers[server_type][server_index]
+    lid = sinfo["lid"]
+    embed_url, embed_raw = get_embed_url(base, lid)
+
+    out["picked"] = {
+        "type": server_type,
+        "index": server_index,
+        "title": sinfo.get("title"),
+        "lid": lid,
+    }
+    out["embed_url"] = embed_url
+    out["embed_raw"] = embed_raw
+
+    try:
+        out["sources"] = resolve_embed(embed_url)
+    except Exception as e:
+        out["sources"] = None
+        out["source_error"] = str(e)
+
+    return out
+
+
+# ---------------------------------------------------------------------------
+# Convenience: pull m3u8 url(s) out of the decrypted sources blob
+# ---------------------------------------------------------------------------
+
+def find_m3u8s(sources_blob):
+    """Walk any nested dict/list and collect .m3u8 urls + raw 'file' entries."""
+    found = []
+    def walk(node):
+        if isinstance(node, dict):
+            for k, v in node.items():
+                if isinstance(v, str) and (".m3u8" in v or "/master" in v):
+                    found.append({"key": k, "url": v})
+                walk(v)
+        elif isinstance(node, list):
+            for it in node:
+                walk(it)
+    walk(sources_blob)
+    return found
+
+
+# ---------------------------------------------------------------------------
+# CLI
+# ---------------------------------------------------------------------------
+
+def main():
+    p = argparse.ArgumentParser(
+        description="Extract embed url + m3u8 from a yflix.to / 1movies watch link"
+    )
+    p.add_argument("url", nargs="?", default=None,
+                   help="watch URL, e.g. https://yflix.to/watch/... "
+                        "(if omitted, the script will prompt for it)")
+    p.add_argument("--season", default="1")
+    p.add_argument("--episode", default="1")
+    p.add_argument("--server-type", default="default")
+    p.add_argument("--server-index", default="1")
+    p.add_argument("--all", action="store_true", default=True,
+                   help="(default) Resolve every available server")
+    p.add_argument("--single", action="store_true",
+                   help="Resolve only the single server picked by --server-index")
+    p.add_argument("--json", action="store_true",
+                   help="Print the full result as JSON")
+    args = p.parse_args()
+
+    url = args.url
+    if not url:
+        try:
+            url = input("Enter yflix/1movies watch URL: ").strip()
+        except EOFError:
+            url = ""
+        if not url:
+            p.error("a watch URL is required")
+
+    data = extract(
+        url,
+        season=args.season, episode=args.episode,
+        server_type=args.server_type, server_index=args.server_index,
+        all_servers=not args.single,
+    )
+
+    if args.json:
+        print(json.dumps(data, indent=2, ensure_ascii=False))
+        return
+
+    print(f"content_id : {data['content_id']}")
+    print(f"eid        : {data['eid']}  ({data.get('episode_title')})")
+    print(f"servers    : {json.dumps(data['servers'], ensure_ascii=False)}")
+    if not args.single:
+        for s in data["all"]:
+            print("-" * 60)
+            print(f"  {s.get('type')}/{s.get('index')}  {s.get('title')}  lid={s.get('lid')}")
+            print(f"  embed: {s.get('embed_url')}")
+            if s.get("sources"):
+                for m in find_m3u8s(s["sources"]):
+                    print(f"  m3u8:  {m['url']}")
+            elif s.get("source_error"):
+                print(f"  source_error: {s['source_error']}")
+            elif s.get("error"):
+                print(f"  error: {s['error']}")
+    else:
+        print(f"picked     : {data['picked']}")
+        print(f"embed_url  : {data['embed_url']}")
+        if data.get("sources"):
+            print(f"decryptor  : {data['sources']['decryptor']}")
+            print(f"referer    : {data['sources']['referer']}")
+            for m in find_m3u8s(data["sources"]["sources"]):
+                print(f"m3u8       : {m['url']}")
+        elif data.get("source_error"):
+            print(f"source_error: {data['source_error']}")
+
+
+if __name__ == "__main__":
+    main()
